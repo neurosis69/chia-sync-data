@@ -1,0 +1,10 @@
+HOSTNAME,SCENARIO,TESTCASE,START_RUN,LOG_INITIATE_SYNC,LOG_START_SYNC,LOG_DUST_START_SYNC,LOG_DUST_STOP_SYNC,SQLITE_DB_SIZE_BYTES,DESCRIPTION
+plotter1,DUSTSTORM1,AUTOTEST31,2022-01-02T15:10:01,2022-01-02T15:10:10,2022-01-02T15:11:15,2022-01-02T15:11:38,2022-01-02T15:49:24,22397583360,"Only full blocks height + peak index; increase coin_records lru cache * 100, cache_spill=false"
+plotter1,DUSTSTORM1,AUTOTEST41,2022-01-02T15:49:40,2022-01-02T15:49:50,2022-01-02T15:52:57,2022-01-02T15:53:18,2022-01-02T16:30:04,22397059072,"Only full blocks height + peak index; increase coin_records lru cache * 100, locking_mode=exclusive"
+plotter1,DUSTSTORM1,AUTOTEST41,2022-01-02T16:30:19,2022-01-02T16:30:30,2022-01-02T16:31:51,2022-01-02T16:32:14,2022-01-02T17:09:10,22397583360,"Only full blocks height + peak index; increase coin_records lru cache * 100, locking_mode=exclusive"
+plotter1,DUSTSTORM1,AUTOTEST42,2022-01-02T17:09:28,2022-01-02T17:09:37,2022-01-02T17:10:52,2022-01-02T17:11:16,2022-01-02T17:48:12,22397583360,"Only full blocks height + peak index; increase coin_records lru cache * 100, journal_mode=OFF"
+plotter1,DUSTSTORM1,AUTOTEST42,2022-01-02T17:48:27,2022-01-02T17:48:37,2022-01-02T17:50:08,2022-01-02T17:50:55,2022-01-02T18:29:53,22398107648,"Only full blocks height + peak index; increase coin_records lru cache * 100, journal_mode=OFF"
+plotter1,DUSTSTORM1,AUTOTEST43,2022-01-02T18:30:11,2022-01-02T18:30:20,2022-01-02T18:31:59,2022-01-02T18:32:30,2022-01-02T19:12:34,22397583360,"Only full blocks height + peak index; increase coin_records lru cache * 100, synchronous=OFF"
+plotter1,DUSTSTORM1,AUTOTEST43,2022-01-02T19:12:51,2022-01-02T19:13:00,2022-01-02T19:14:56,2022-01-02T19:15:29,2022-01-02T19:55:17,22398107648,"Only full blocks height + peak index; increase coin_records lru cache * 100, synchronous=OFF"
+plotter1,DUSTSTORM1,AUTOTEST44,2022-01-02T19:55:32,2022-01-02T19:55:42,2022-01-02T19:56:57,2022-01-02T19:57:20,2022-01-02T20:37:07,22397583360,"Only full blocks height + peak index; increase coin_records lru cache * 100, uncommited=true"
+plotter1,DUSTSTORM1,AUTOTEST44,2022-01-02T20:37:24,2022-01-02T20:37:34

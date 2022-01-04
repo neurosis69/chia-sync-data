@@ -1,0 +1,10 @@
+2021-12-31T11:32:31.886 daemon chia.daemon.server         : INFO     Starting Daemon Server
+2021-12-31T11:32:31.887 daemon chia.daemon.server         : INFO     Waiting Daemon WebSocketServer closure
+2021-12-31T11:32:40.916 full_node full_node               : INFO     got signal 2
+2021-12-31T11:32:40.916 full_node full_node               : INFO     Cancelling reconnect task
+2021-12-31T11:32:40.916 full_node full_node               : INFO     Closing connections
+2021-12-31T11:32:40.916 daemon chia.daemon.server         : INFO     sending term signal to chia_full_node
+2021-12-31T11:32:40.916 full_node full_node               : INFO     got signal 15
+2021-12-31T11:32:46.422 daemon chia.daemon.server         : INFO     process chia_full_node returned 120
+2021-12-31T11:32:46.423 daemon chia.daemon.server         : INFO     chia daemon exiting in 5 seconds
+2021-12-31T11:32:46.423 daemon chia.daemon.server         : INFO     Daemon WebSocketServer closed
