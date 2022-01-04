@@ -14,4 +14,3 @@ plotter1,DUSTSTORM1,AUTOTEST36,2022-01-02T08:35:03,2022-01-02T08:35:13,2022-01-0
 plotter1,DUSTSTORM1,AUTOTEST36,2022-01-02T09:14:10,2022-01-02T09:14:20,2022-01-02T09:15:34,2022-01-02T09:16:15,2022-01-02T09:52:45,22397583360,"Only full blocks height + peak index; locking_mode=exclusive, cache_spill=false, synchronous=OFF, journal_mode=off, increase coin_records lru cache * 100"
 plotter1,DUSTSTORM1,AUTOTEST7,2022-01-02T09:53:01,2022-01-02T09:53:10,2022-01-02T09:54:29,2022-01-02T09:55:01,2022-01-02T10:31:46,22397583360,"Only full blocks height + peak index; increase coin_records lru cache * 100"
 plotter1,DUSTSTORM1,AUTOTEST7,2022-01-02T10:32:01,2022-01-02T10:32:11,2022-01-02T10:33:21,2022-01-02T10:33:42,2022-01-02T11:10:33,22398107648,"Only full blocks height + peak index; increase coin_records lru cache * 100"
-plotter1,DUSTSTORM1,AUTOTEST7,2022-01-02T11:10:48
