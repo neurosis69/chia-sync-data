@@ -1,0 +1,2 @@
+# hostname,interval,timestamp,kbmemfree,kbavail,kbmemused,%memused,kbbuffers,kbcached,kbcommit,%commit,kbactive,kbinact,kbdirty
+plotter1,60,2022-01-02 23:57:02,127731780,128940420,1202224,0.91,167492,1098228,4025024,1.53,333888,1664016,152

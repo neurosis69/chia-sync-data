@@ -1,0 +1,2 @@
+HOSTNAME,SCENARIO,TESTCASE,START_RUN,LOG_INITIATE_SYNC,LOG_START_SYNC,LOG_DUST_START_SYNC,LOG_DUST_STOP_SYNC,SQLITE_DB_SIZE_BYTES,DESCRIPTION
+plotter1,TRANSACTION_START,AUTOTEST40,2022-01-02T23:49:18,2022-01-02T23:49:23,2022-01-02T23:51:03,2022-01-02T23:51:55,2022-01-02T23:55:53,1497890816,"Only full blocks height + peak index, locking_mode=exclusive, synchronous=OFF, cache_spill=false, journal_mode=off, uncommited=true, increase coin_records lru cache * 100"
