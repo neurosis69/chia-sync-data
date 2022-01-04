@@ -1,0 +1,3 @@
+# hostname,interval,timestamp,IFACE,rxpck/s,txpck/s,rxkB/s,txkB/s,rxcmp/s,txcmp/s,rxmcst/s,%ifutil
+plotter1,60,2022-01-02 23:57:02,lo,10.63,10.63,4.97,4.97,0.00,0.00,0.00,0.00
+plotter1,60,2022-01-02 23:57:02,enp6s0,732.20,1133.63,366.17,1453.58,0.00,0.00,0.40,0.48
