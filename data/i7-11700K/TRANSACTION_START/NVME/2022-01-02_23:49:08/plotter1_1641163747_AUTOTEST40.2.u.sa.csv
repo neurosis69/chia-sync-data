@@ -1,2 +1,0 @@
-# hostname,interval,timestamp,CPU,%user,%nice,%system,%iowait,%steal,%idle
-plotter1,60,2022-01-02 23:57:02,-1,3.92,0.00,0.40,8.28,0.00,87.40

@@ -1,1 +1,1 @@
-# hostname;interval;timestamp;CPU;MHz
+# hostname,interval,timestamp,CPU,MHz

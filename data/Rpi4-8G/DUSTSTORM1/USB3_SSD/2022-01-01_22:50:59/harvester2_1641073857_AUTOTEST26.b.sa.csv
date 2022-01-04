@@ -1,1 +1,1 @@
-# hostname;interval;timestamp;tps;rtps;wtps;dtps;bread/s;bwrtn/s;bdscd/s
+# hostname,interval,timestamp,tps,rtps,wtps,dtps,bread/s,bwrtn/s,bdscd/s

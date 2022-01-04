@@ -1,2 +1,0 @@
-# hostname,interval,timestamp,tps,rtps,wtps,dtps,bread/s,bwrtn/s,bdscd/s
-plotter1,60,2022-01-02 23:57:02,404.33,369.32,34.87,0.15,77586.17,46492.40,48778.13

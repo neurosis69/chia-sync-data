@@ -1,1 +1,1 @@
-# hostname;interval;timestamp;CPU;%user;%nice;%system;%iowait;%steal;%idle
+# hostname,interval,timestamp,CPU,%user,%nice,%system,%iowait,%steal,%idle
