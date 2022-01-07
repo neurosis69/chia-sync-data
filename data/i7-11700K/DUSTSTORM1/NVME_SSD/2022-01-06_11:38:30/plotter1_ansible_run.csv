@@ -1,0 +1,6 @@
+HOSTNAME,SCENARIO,TESTCASE,START_RUN,LOG_INITIATE_SYNC,LOG_START_SYNC,LOG_DUST_START_SYNC,LOG_DUST_STOP_SYNC,SQLITE_DB_SIZE_BYTES,DESCRIPTION
+plotter1,DUSTSTORM1,AUTOTEST45,2022-01-06T11:38:41,2022-01-06T11:38:58,2022-01-06T11:40:04,2022-01-06T11:40:56,2022-01-06T12:18:40,22397059072,"Only full blocks height + peak index; locking_mode=exclusive, synchronous=OFF, journal_mode=off, increase coin_records lru cache * 100, cache_spill=false, uncommited=true, max blockchain consensus threads"
+plotter1,DUSTSTORM1,AUTOTEST1,2022-01-06T12:18:54,2022-01-06T12:19:12,2022-01-06T12:21:43,2022-01-06T12:22:09,2022-01-06T13:02:08,27697086464,"No Changes from branch"
+plotter1,DUSTSTORM1,AUTOTEST3,2022-01-06T13:02:14,2022-01-06T13:02:34,2022-01-06T13:03:49,2022-01-06T13:04:17,2022-01-06T13:43:39,22397583360,"From Block Store, only use fullblocks height and peak index; Drop all coin store indexes"
+plotter1,DUSTSTORM1,AUTOTEST5,2022-01-06T13:43:46,2022-01-06T13:44:05,2022-01-06T13:45:32,2022-01-06T13:45:59,2022-01-06T14:30:02,22397583360,"Only full blocks height + peak index; plus max num workers for block chain consensus"
+plotter1,DUSTSTORM1,AUTOTEST7,2022-01-06T14:30:10,2022-01-06T14:30:28,2022-01-06T14:32:35,2022-01-06T14:33:14,2022-01-06T15:14:07,22397059072,"Only full blocks height + peak index; increase coin_records lru cache * 100"
