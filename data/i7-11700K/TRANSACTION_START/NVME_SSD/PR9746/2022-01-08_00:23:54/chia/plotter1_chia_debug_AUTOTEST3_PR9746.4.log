@@ -1,0 +1,246 @@
+2022-01-08T00:45:32.117 daemon chia.daemon.server         : INFO     Starting Daemon Server
+2022-01-08T00:45:32.119 daemon chia.daemon.server         : INFO     Waiting Daemon WebSocketServer closure
+2022-01-08T00:45:35.777 full_node chia.full_node.full_node: INFO     Initializing blockchain from disk
+2022-01-08T00:45:35.779 full_node chia.consensus.blockchain: INFO     Started 14 processes for block validation
+2022-01-08T00:45:36.239 full_node chia.full_node.full_node: INFO     Blockchain initialized to peak 3e4445a4babfdda6181372ddccab3cb753f4a0d063d6e7e7d8b133ad657e3397 height 223648, time taken: 0s
+2022-01-08T00:45:36.247 full_node chia.full_node.full_node: INFO     🌱 Updated peak to height 223648, weight 6015782, hh 3e4445a4babfdda6181372ddccab3cb753f4a0d063d6e7e7d8b133ad657e3397, forked at 223647, rh: b72f8fdcbad088613054c8d2f0570e6a8a9150d20e801efc1c85f3060161039b, total iters: 727425344078, overflow: False, deficit: 12, difficulty: 112, sub slot iters: 110624768, Generator size: No tx, Generator ref list size: No tx
+2022-01-08T00:45:36.321 full_node full_node_server        : INFO     Started listening on port: 8444
+2022-01-08T00:45:36.321 full_node full_node               : INFO     Started full_node service on network_id: mainnet
+2022-01-08T00:45:36.339 daemon chia.daemon.server         : INFO     Register service {'service': 'chia_full_node'}
+2022-01-08T00:45:36.340 daemon chia.daemon.server         : INFO     registered for service chia_full_node
+2022-01-08T00:45:36.340 daemon chia.daemon.server         : INFO     {'success': True}
+2022-01-08T00:45:40.440 full_node full_node_server        : INFO     Connected with full_node {'host': '69.6.69.79', 'port': 8444}
+2022-01-08T00:45:40.441 full_node full_node_server        : INFO     Connection closed: 69.6.69.79, node id: 6193f80d0c4ff76503878e797104040735ee2d67aebff98dfc62579441d90ced
+2022-01-08T00:45:40.442 full_node chia.full_node.full_node: INFO     peer disconnected {'host': '69.6.69.79', 'port': 8444}
+2022-01-08T00:45:40.520 full_node full_node_server        : INFO     Connected with full_node {'host': '47.198.84.90', 'port': 8444}
+2022-01-08T00:45:40.521 full_node full_node_server        : INFO     Connection closed: 47.198.84.90, node id: d6c05d96b359cadc53a4d4482ad3a09644288918761b7d3a0048d7806db95f64
+2022-01-08T00:45:40.522 full_node chia.full_node.full_node: INFO     peer disconnected {'host': '47.198.84.90', 'port': 8444}
+2022-01-08T00:45:41.265 full_node full_node_server        : INFO     Cannot connect to host 2406:e001:1:6700:d8cf:da3a:4f7d:7db3:8444 ssl:<ssl.SSLContext object at 0x7f8eb186c4c0> [Network is unreachable]
+2022-01-08T00:45:41.506 full_node full_node_server        : INFO     Connected with full_node {'host': '180.221.54.54', 'port': 8444}
+2022-01-08T00:45:41.506 full_node full_node_server        : INFO     Connection closed: 180.221.54.54, node id: e75da6205660599f57c78c38da0e2c099de705fc36891cfaf5f5aace0fa224d8
+2022-01-08T00:45:41.507 full_node chia.full_node.full_node: INFO     peer disconnected {'host': '180.221.54.54', 'port': 8444}
+2022-01-08T00:45:42.319 full_node full_node_server        : INFO     Cannot connect to host 2600:1700:38e0:5010:682b:f036:5a05:e5ef:8444 ssl:<ssl.SSLContext object at 0x7f8eb269cc40> [Network is unreachable]
+2022-01-08T00:45:43.060 full_node full_node_server        : INFO     Cannot connect to host 217.138.211.67:8444 ssl:<ssl.SSLContext object at 0x7f8ea57173c0> [Connect call failed ('217.138.211.67', 8444)]
+2022-01-08T00:45:44.727 full_node full_node_server        : INFO     Connected with full_node {'host': '45.113.32.136', 'port': 8444}
+2022-01-08T00:45:44.728 full_node full_node_server        : INFO     Connection closed: 45.113.32.136, node id: 0fa4b27a818bb30534d2f4c17fad949aa3bcf092855a23ae27e93b4402ec19c4
+2022-01-08T00:45:44.728 full_node chia.full_node.full_node: INFO     peer disconnected {'host': '45.113.32.136', 'port': 8444}
+2022-01-08T00:45:45.279 full_node full_node_server        : INFO     Connected with full_node {'host': '61.220.72.190', 'port': 8444}
+2022-01-08T00:45:45.280 full_node full_node_server        : INFO     Connection closed: 61.220.72.190, node id: 73b92a03bfb6acaf93bc95abecb092a563fc3d2d44140f7893898cf39c4017ec
+2022-01-08T00:45:45.281 full_node chia.full_node.full_node: INFO     peer disconnected {'host': '61.220.72.190', 'port': 8444}
+2022-01-08T00:45:45.628 full_node full_node_server        : INFO     Cannot connect to host 204.15.86.218:8444 ssl:<ssl.SSLContext object at 0x7f8e9e0bea40> [Connect call failed ('204.15.86.218', 8444)]
+2022-01-08T00:45:45.654 full_node full_node_server        : INFO     Connected with full_node {'host': '202.186.118.181', 'port': 8444}
+2022-01-08T00:45:45.661 full_node full_node_server        : INFO     Connection closed: 202.186.118.181, node id: c5492dee3f56fcd3f94e5498f47cc267140bf2e0c2ea19b731c3832243eb40bd
+2022-01-08T00:45:45.661 full_node chia.full_node.full_node: INFO     peer disconnected {'host': '202.186.118.181', 'port': 8444}
+2022-01-08T00:45:45.854 full_node full_node_server        : INFO     Cannot connect to host 95.90.248.188:8444 ssl:<ssl.SSLContext object at 0x7f8ea7641ec0> [Connect call failed ('95.90.248.188', 8444)]
+2022-01-08T00:45:46.045 full_node full_node_server        : INFO     Cannot connect to host 134.196.90.11:8444 ssl:<ssl.SSLContext object at 0x7f8e9e0be240> [Connect call failed ('134.196.90.11', 8444)]
+2022-01-08T00:45:46.469 full_node full_node_server        : INFO     Connected with full_node {'host': '46.33.136.2', 'port': 8444}
+2022-01-08T00:45:46.484 full_node full_node_server        : INFO     Connection closed: 46.33.136.2, node id: e1301d6e656ec7aeca336cfc45c2e520a1ed96ffeb36dd6fc65facc024a79e53
+2022-01-08T00:45:46.484 full_node chia.full_node.full_node: INFO     peer disconnected {'host': '46.33.136.2', 'port': 8444}
+2022-01-08T00:45:46.923 full_node full_node_server        : INFO     Cannot connect to host 188.108.17.127:8444 ssl:<ssl.SSLContext object at 0x7f8e9e0be240> [Connect call failed ('188.108.17.127', 8444)]
+2022-01-08T00:45:47.163 full_node full_node_server        : INFO     Connected with full_node {'host': '66.147.239.55', 'port': 8444}
+2022-01-08T00:45:47.165 full_node full_node_server        : INFO     Connection closed: 66.147.239.55, node id: 6b319497f114125c80279cd441334f8b467b3750f35b92c06ca843402c354504
+2022-01-08T00:45:47.165 full_node chia.full_node.full_node: INFO     peer disconnected {'host': '66.147.239.55', 'port': 8444}
+2022-01-08T00:45:48.178 full_node full_node_server        : INFO     Cannot connect to host 119.135.84.93:8444 ssl:<ssl.SSLContext object at 0x7f8ea7641640> [Connect call failed ('119.135.84.93', 8444)]
+2022-01-08T00:45:48.959 full_node full_node_server        : INFO     Connected with full_node {'host': '158.174.147.156', 'port': 8444}
+2022-01-08T00:45:48.961 full_node full_node_server        : INFO     Connection closed: 158.174.147.156, node id: 70a66fb73b16f4174d0654d98fe4ab3d7d6777a1897b5f447c7e540f3c7973d2
+2022-01-08T00:45:48.962 full_node chia.full_node.full_node: INFO     peer disconnected {'host': '158.174.147.156', 'port': 8444}
+2022-01-08T00:45:49.348 full_node full_node_server        : INFO     Cannot connect to host 240f:a1:85e8:1:76d4:35ff:fee9:1ced:8444 ssl:<ssl.SSLContext object at 0x7f8ea4d60ec0> [Network is unreachable]
+2022-01-08T00:45:49.965 full_node full_node_server        : INFO     Cannot connect to host 114.97.240.122:8444 ssl:<ssl.SSLContext object at 0x7f8eb2710b40> [Connect call failed ('114.97.240.122', 8444)]
+2022-01-08T00:45:50.256 full_node full_node_server        : INFO     Cannot connect to host 73.118.180.216:8444 ssl:<ssl.SSLContext object at 0x7f8eb27108c0> [Connect call failed ('73.118.180.216', 8444)]
+2022-01-08T00:45:50.558 full_node full_node_server        : INFO     Cannot connect to host 104.136.86.226:8444 ssl:<ssl.SSLContext object at 0x7f8eb27104c0> [Connect call failed ('104.136.86.226', 8444)]
+2022-01-08T00:45:51.562 full_node full_node_server        : INFO     Connected with full_node {'host': '66.165.15.90', 'port': 8444}
+2022-01-08T00:45:51.563 full_node full_node_server        : INFO     Connection closed: 66.165.15.90, node id: 718d6ff5680c0f3bcc09002c102f674554c81b6702601112ff617b7616a788a3
+2022-01-08T00:45:51.564 full_node chia.full_node.full_node: INFO     peer disconnected {'host': '66.165.15.90', 'port': 8444}
+2022-01-08T00:45:51.730 full_node full_node_server        : INFO     Connected with full_node {'host': '85.31.112.23', 'port': 8444}
+2022-01-08T00:45:51.731 full_node full_node_server        : INFO     Connection closed: 85.31.112.23, node id: 4f1815b0136e4aed5dba371262a4cda1671472c4cc8c2dc9e80688f65f03cc2c
+2022-01-08T00:45:51.732 full_node chia.full_node.full_node: INFO     peer disconnected {'host': '85.31.112.23', 'port': 8444}
+2022-01-08T00:45:52.325 full_node full_node_server        : INFO     Connected with full_node {'host': '162.252.241.54', 'port': 8444}
+2022-01-08T00:45:52.328 full_node full_node_server        : INFO     Connection closed: 162.252.241.54, node id: 735c0b30b693b0cc15bae33a2966bd763129f5a77100ff77e33a33eb867294fb
+2022-01-08T00:45:52.328 full_node chia.full_node.full_node: INFO     peer disconnected {'host': '162.252.241.54', 'port': 8444}
+2022-01-08T00:45:53.257 full_node full_node_server        : INFO     Cannot connect to host 90.250.8.112:8444 ssl:<ssl.SSLContext object at 0x7f8ea70240c0> [Connect call failed ('90.250.8.112', 8444)]
+2022-01-08T00:45:54.097 full_node full_node_server        : INFO     Connected with full_node {'host': '123.254.19.79', 'port': 8444}
+2022-01-08T00:45:54.098 full_node full_node_server        : INFO     Connection closed: 123.254.19.79, node id: df89db9ef88d771ef205932f1eba124fce36652fc90b6a9921b5636b710e8335
+2022-01-08T00:45:54.099 full_node chia.full_node.full_node: INFO     peer disconnected {'host': '123.254.19.79', 'port': 8444}
+2022-01-08T00:45:55.645 full_node full_node_server        : INFO     Connected with full_node {'host': '89.73.143.76', 'port': 8444}
+2022-01-08T00:45:55.651 full_node full_node_server        : INFO     Connection closed: 89.73.143.76, node id: bb67fe286084ca32d4105b9a0e15774c604b2baf48710018e6d50e5508acb906
+2022-01-08T00:45:55.651 full_node chia.full_node.full_node: INFO     peer disconnected {'host': '89.73.143.76', 'port': 8444}
+2022-01-08T00:45:55.821 full_node full_node_server        : INFO     Cannot connect to host 223.171.79.26:8444 ssl:<ssl.SSLContext object at 0x7f8eb27106c0> [Connect call failed ('223.171.79.26', 8444)]
+2022-01-08T00:45:56.484 full_node full_node_server        : INFO     Cannot connect to host 95.70.159.114:8444 ssl:<ssl.SSLContext object at 0x7f8eb26d5640> [Connect call failed ('95.70.159.114', 8444)]
+2022-01-08T00:45:56.996 full_node full_node_server        : INFO     Cannot connect to host 88.135.51.67:8444 ssl:<ssl.SSLContext object at 0x7f8eb269cbc0> [Connect call failed ('88.135.51.67', 8444)]
+2022-01-08T00:45:57.500 full_node full_node_server        : INFO     Cannot connect to host 190.112.79.251:8444 ssl:<ssl.SSLContext object at 0x7f8eb269c8c0> [Connect call failed ('190.112.79.251', 8444)]
+2022-01-08T00:45:57.671 full_node chia.rpc.rpc_server     : WARNING  Error while handling message: Traceback (most recent call last):
+  File "/home/chia/chia-blockchain/chia/rpc/rpc_server.py", line 83, in inner
+    res_object = await f(request_data)
+  File "/home/chia/chia-blockchain/chia/rpc/rpc_server.py", line 166, in open_connection
+    raise ValueError("Start client failed, or server is not set")
+ValueError: Start client failed, or server is not set
+
+2022-01-08T00:45:58.066 full_node full_node_server        : INFO     Connected with full_node {'host': '217.14.165.138', 'port': 8444}
+2022-01-08T00:45:58.066 full_node full_node_server        : INFO     Connection closed: 217.14.165.138, node id: 6f0f7ac84b060e0ee850e0161c668db081d0d0ac1c6148c797047c2192d79013
+2022-01-08T00:45:58.066 full_node chia.full_node.full_node: INFO     peer disconnected {'host': '217.14.165.138', 'port': 8444}
+2022-01-08T00:45:59.257 full_node full_node_server        : INFO     Cannot connect to host 2003:fd:5f0e:f801:49e2:2847:e2c0:60e2:8444 ssl:<ssl.SSLContext object at 0x7f8e9d9ff4c0> [Network is unreachable]
+2022-01-08T00:46:00.472 full_node full_node_server        : INFO     Connected with full_node {'host': '89.65.152.75', 'port': 8444}
+2022-01-08T00:46:00.473 full_node full_node_server        : INFO     Connection closed: 89.65.152.75, node id: ba1f7413e7f48d14888431b0733e19f0f422ff7f57058f9ab6f9527946d96afb
+2022-01-08T00:46:00.473 full_node chia.full_node.full_node: INFO     peer disconnected {'host': '89.65.152.75', 'port': 8444}
+2022-01-08T00:46:00.647 full_node full_node_server        : INFO     Cannot connect to host 111.2.115.100:8444 ssl:<ssl.SSLContext object at 0x7f8ea4d608c0> [Connect call failed ('111.2.115.100', 8444)]
+2022-01-08T00:46:01.288 full_node full_node_server        : INFO     Connected with full_node {'host': '144.126.156.174', 'port': 8444}
+2022-01-08T00:46:01.297 full_node full_node_server        : INFO     Connection closed: 144.126.156.174, node id: 7338223a4105521fb910cff6899c7617ea9674d3f32ead3ef4cc6cc7b640449d
+2022-01-08T00:46:01.297 full_node chia.full_node.full_node: INFO     peer disconnected {'host': '144.126.156.174', 'port': 8444}
+2022-01-08T00:46:01.356 full_node full_node_server        : INFO     Connected with full_node {'host': '2.81.90.52', 'port': 8444}
+2022-01-08T00:46:01.358 full_node full_node_server        : INFO     Connection closed: 2.81.90.52, node id: e1c311dc4578efbb93adfc16f2f73c91c604d4914518fc6b48d02bea1ebcdd93
+2022-01-08T00:46:01.359 full_node chia.full_node.full_node: INFO     peer disconnected {'host': '2.81.90.52', 'port': 8444}
+2022-01-08T00:46:01.430 full_node full_node_server        : INFO     Cannot connect to host 185.171.71.14:8444 ssl:<ssl.SSLContext object at 0x7f8e9d9ff9c0> [Connect call failed ('185.171.71.14', 8444)]
+2022-01-08T00:46:01.766 full_node full_node_server        : INFO     Cannot connect to host 195.210.60.236:8444 ssl:<ssl.SSLContext object at 0x7f8ea6f2b240> [Connect call failed ('195.210.60.236', 8444)]
+2022-01-08T00:46:03.389 full_node full_node_server        : INFO     Connected with full_node {'host': '155.4.69.117', 'port': 8444}
+2022-01-08T00:46:03.392 full_node full_node_server        : INFO     Connection closed: 155.4.69.117, node id: c0e0c3f7b2e2481ccc73898512e1b9bc9d2b7526782f4c373b284ee676feedfa
+2022-01-08T00:46:03.393 full_node chia.full_node.full_node: INFO     peer disconnected {'host': '155.4.69.117', 'port': 8444}
+2022-01-08T00:46:04.511 full_node full_node_server        : INFO     Connected with full_node {'host': '173.231.10.246', 'port': 8444}
+2022-01-08T00:46:04.512 full_node full_node_server        : INFO     Connection closed: 173.231.10.246, node id: 729df00cb796ede4d1d15e594ab10686030515160f38274892ee077b493c9cc9
+2022-01-08T00:46:04.512 full_node chia.full_node.full_node: INFO     peer disconnected {'host': '173.231.10.246', 'port': 8444}
+2022-01-08T00:46:04.561 full_node full_node_server        : INFO     Connected with full_node {'host': '68.79.38.134', 'port': 8444}
+2022-01-08T00:46:04.562 full_node full_node_server        : INFO     Connection closed: 68.79.38.134, node id: 2717390338fd8e7e18876d9f6f82d1c0895979b7b4bfc82fe8e40d630c3c6815
+2022-01-08T00:46:04.562 full_node chia.full_node.full_node: INFO     peer disconnected {'host': '68.79.38.134', 'port': 8444}
+2022-01-08T00:46:05.280 full_node full_node_server        : INFO     Connected with full_node {'host': '67.247.236.126', 'port': 8444}
+2022-01-08T00:46:05.282 full_node full_node_server        : INFO     Connection closed: 67.247.236.126, node id: b1f1d92ee32e721f6fa63fe6bd54cbf49d633e55d9b992177e9ac307a2c341d9
+2022-01-08T00:46:05.282 full_node chia.full_node.full_node: INFO     peer disconnected {'host': '67.247.236.126', 'port': 8444}
+2022-01-08T00:46:05.521 full_node full_node_server        : INFO     Connected with full_node {'host': '37.230.208.39', 'port': 8444}
+2022-01-08T00:46:05.523 full_node full_node_server        : INFO     Connection closed: 37.230.208.39, node id: 0f1426fa9221f5f7aa4d48ee257e096e4b59876bd62577b8e2189abdee113341
+2022-01-08T00:46:05.523 full_node chia.full_node.full_node: INFO     peer disconnected {'host': '37.230.208.39', 'port': 8444}
+2022-01-08T00:46:05.667 full_node full_node_server        : INFO     Connected with full_node {'host': '107.4.129.118', 'port': 8444}
+2022-01-08T00:46:05.667 full_node full_node_server        : INFO     Connection closed: 107.4.129.118, node id: 48891740a45eef6a294ccd9889b46eb3543398c210d75af777c27c294f1e4d7d
+2022-01-08T00:46:05.668 full_node chia.full_node.full_node: INFO     peer disconnected {'host': '107.4.129.118', 'port': 8444}
+2022-01-08T00:46:05.879 full_node full_node_server        : INFO     Connected with full_node {'host': '72.89.72.232', 'port': 8444}
+2022-01-08T00:46:05.879 full_node full_node_server        : INFO     Connection closed: 72.89.72.232, node id: fc0645ddc60a496765b93b88a7138298dcbb7a3b66421adea259b5374ed70729
+2022-01-08T00:46:05.880 full_node chia.full_node.full_node: INFO     peer disconnected {'host': '72.89.72.232', 'port': 8444}
+2022-01-08T00:46:07.668 full_node full_node_server        : INFO     Connected with full_node {'host': '2.81.173.38', 'port': 8444}
+2022-01-08T00:46:07.670 full_node full_node_server        : INFO     Connection closed: 2.81.173.38, node id: 9b283a95783de9cc373c855d4723ac6eeddc2308680dd4980b94de75018d1244
+2022-01-08T00:46:07.670 full_node chia.full_node.full_node: INFO     peer disconnected {'host': '2.81.173.38', 'port': 8444}
+2022-01-08T00:46:08.301 full_node full_node_server        : INFO     Connected with full_node {'host': '113.255.232.233', 'port': 8444}
+2022-01-08T00:46:08.302 full_node full_node_server        : INFO     Connection closed: 113.255.232.233, node id: 9bb6d855f55e4258f4df435ca057b12106b8bf2fc1be0e5cbfe3df83d9e5d869
+2022-01-08T00:46:08.302 full_node chia.full_node.full_node: INFO     peer disconnected {'host': '113.255.232.233', 'port': 8444}
+2022-01-08T00:46:08.670 full_node chia.rpc.rpc_server     : WARNING  Error while handling message: Traceback (most recent call last):
+  File "/home/chia/chia-blockchain/chia/rpc/rpc_server.py", line 83, in inner
+    res_object = await f(request_data)
+  File "/home/chia/chia-blockchain/chia/rpc/rpc_server.py", line 166, in open_connection
+    raise ValueError("Start client failed, or server is not set")
+ValueError: Start client failed, or server is not set
+
+2022-01-08T00:46:09.285 full_node full_node_server        : INFO     Connected with full_node {'host': '121.183.227.174', 'port': 8444}
+2022-01-08T00:46:09.289 full_node full_node_server        : INFO     Connection closed: 121.183.227.174, node id: 6db6df5b17991b6dfb45f435fbcd3d16333f5777c7af7b5008c68e27203622bd
+2022-01-08T00:46:09.289 full_node chia.full_node.full_node: INFO     peer disconnected {'host': '121.183.227.174', 'port': 8444}
+2022-01-08T00:46:09.389 full_node full_node_server        : INFO     Connected with full_node {'host': '144.126.156.165', 'port': 8444}
+2022-01-08T00:46:09.405 full_node full_node_server        : INFO     Connection closed: 144.126.156.165, node id: f73aff9e82a9073c0ab23b921e16fc5367c5d045ea87bfb88c63747d27262107
+2022-01-08T00:46:09.405 full_node chia.full_node.full_node: INFO     peer disconnected {'host': '144.126.156.165', 'port': 8444}
+2022-01-08T00:46:09.469 full_node full_node_server        : INFO     Cannot connect to host 2409:8a28:e23:7690:3c26:5994:32e9:831a:8444 ssl:<ssl.SSLContext object at 0x7f8e9d9ff2c0> [Network is unreachable]
+2022-01-08T00:46:10.404 full_node full_node_server        : INFO     Connected with full_node {'host': '78.203.125.90', 'port': 8444}
+2022-01-08T00:46:10.406 full_node full_node_server        : INFO     Connection closed: 78.203.125.90, node id: c6ca0eee6ebb49f7b7ad167a7e1cb609621d546295ef55486f956485e60e83e9
+2022-01-08T00:46:10.407 full_node chia.full_node.full_node: INFO     peer disconnected {'host': '78.203.125.90', 'port': 8444}
+2022-01-08T00:46:10.553 full_node full_node_server        : INFO     Cannot connect to host 188.175.239.227:8444 ssl:<ssl.SSLContext object at 0x7f8ea5717440> [Connect call failed ('188.175.239.227', 8444)]
+2022-01-08T00:46:11.655 full_node full_node_server        : INFO     Connected with full_node {'host': '5.140.168.178', 'port': 8444}
+2022-01-08T00:46:11.659 full_node full_node_server        : INFO     Connection closed: 5.140.168.178, node id: 1e2be9094aa2407404c5af9bd9f87a46754a8a162c8b71dc6814a0292aca3e93
+2022-01-08T00:46:11.659 full_node chia.full_node.full_node: INFO     peer disconnected {'host': '5.140.168.178', 'port': 8444}
+2022-01-08T00:46:12.843 full_node full_node_server        : INFO     Connected with full_node {'host': '51.195.145.141', 'port': 8444}
+2022-01-08T00:46:12.843 full_node full_node_server        : INFO     Connection closed: 51.195.145.141, node id: f73c505cf74771c55882f968d03b4c697570d3b60ebd2bbe112394119e0c4eff
+2022-01-08T00:46:12.844 full_node chia.full_node.full_node: INFO     peer disconnected {'host': '51.195.145.141', 'port': 8444}
+2022-01-08T00:46:13.253 full_node full_node_server        : INFO     Connected with full_node {'host': '5.56.242.33', 'port': 8444}
+2022-01-08T00:46:13.257 full_node full_node_server        : INFO     Connection closed: 5.56.242.33, node id: d58afe1ba5eba74e761ef52a1aba0d57e0f4e0759ec965676bf5a7dc90f6e3bc
+2022-01-08T00:46:13.258 full_node chia.full_node.full_node: INFO     peer disconnected {'host': '5.56.242.33', 'port': 8444}
+2022-01-08T00:46:13.695 full_node full_node_server        : INFO     Connected with full_node {'host': '82.155.82.167', 'port': 8444}
+2022-01-08T00:46:13.695 full_node full_node_server        : INFO     Connection closed: 82.155.82.167, node id: 139e6f3abaace52957a1a9eb713622f11ac9cc1c33a677432dea163773e553c5
+2022-01-08T00:46:13.695 full_node chia.full_node.full_node: INFO     peer disconnected {'host': '82.155.82.167', 'port': 8444}
+2022-01-08T00:46:14.335 full_node full_node_server        : INFO     Connected with full_node {'host': '46.10.206.32', 'port': 8444}
+2022-01-08T00:46:14.336 full_node full_node_server        : INFO     Connection closed: 46.10.206.32, node id: a9aeb0146fc9dd0a2f20226f8445884eff3b719106003d8510a49ce66c5af269
+2022-01-08T00:46:14.336 full_node chia.full_node.full_node: INFO     peer disconnected {'host': '46.10.206.32', 'port': 8444}
+2022-01-08T00:46:15.208 full_node full_node_server        : INFO     Connected with full_node {'host': '218.214.117.68', 'port': 8444}
+2022-01-08T00:46:15.212 full_node full_node_server        : INFO     Connection closed: 218.214.117.68, node id: ed8e77432261cdb66ba47b8d70364881448e39c11411964757518a345b97132c
+2022-01-08T00:46:15.212 full_node chia.full_node.full_node: INFO     peer disconnected {'host': '218.214.117.68', 'port': 8444}
+2022-01-08T00:46:16.793 full_node full_node_server        : INFO     Connected with full_node {'host': '60.61.116.220', 'port': 8444}
+2022-01-08T00:46:16.794 full_node full_node_server        : INFO     Connection closed: 60.61.116.220, node id: 19821ba3b60d68d32816cb6d26bb3f00a58b39e00a091a2123d7299763c0afcd
+2022-01-08T00:46:16.794 full_node chia.full_node.full_node: INFO     peer disconnected {'host': '60.61.116.220', 'port': 8444}
+2022-01-08T00:46:17.376 full_node full_node_server        : INFO     Connected with full_node {'host': '75.80.53.147', 'port': 8444}
+2022-01-08T00:46:17.378 full_node chia.full_node.full_node: INFO     Starting to perform sync.
+2022-01-08T00:46:17.378 full_node chia.full_node.full_node: INFO     Waiting to receive peaks from peers.
+2022-01-08T00:46:17.417 full_node full_node_server        : INFO     Cannot connect to host 73.15.70.67:8444 ssl:<ssl.SSLContext object at 0x7f8ea57174c0> [Connect call failed ('73.15.70.67', 8444)]
+2022-01-08T00:46:17.857 full_node full_node_server        : INFO     Cannot connect to host 116.235.35.133:8444 ssl:<ssl.SSLContext object at 0x7f8e9d0103c0> [Connect call failed ('116.235.35.133', 8444)]
+2022-01-08T00:46:18.400 full_node full_node_server        : INFO     Connected with full_node {'host': '68.98.143.87', 'port': 8444}
+2022-01-08T00:46:18.415 full_node full_node_server        : INFO     Connection closed: 68.98.143.87, node id: c6bc2a4d6e2991ce81871ab40c9cd94846681cb10c5a097f600a53445fc83a92
+2022-01-08T00:46:18.415 full_node chia.full_node.full_node: INFO     peer disconnected {'host': '68.98.143.87', 'port': 8444}
+2022-01-08T00:46:19.670 full_node chia.rpc.rpc_server     : WARNING  Error while handling message: Traceback (most recent call last):
+  File "/home/chia/chia-blockchain/chia/rpc/rpc_server.py", line 83, in inner
+    res_object = await f(request_data)
+  File "/home/chia/chia-blockchain/chia/rpc/rpc_server.py", line 166, in open_connection
+    raise ValueError("Start client failed, or server is not set")
+ValueError: Start client failed, or server is not set
+
+2022-01-08T00:46:20.777 full_node full_node_server        : INFO     Cannot connect to host 185.212.202.123:8444 ssl:<ssl.SSLContext object at 0x7f8ea4d60140> [Connect call failed ('185.212.202.123', 8444)]
+2022-01-08T00:46:20.931 full_node full_node_server        : INFO     Connected with full_node {'host': '75.164.0.115', 'port': 8444}
+2022-01-08T00:46:22.079 full_node full_node_server        : INFO     Connected with full_node {'host': '93.12.235.239', 'port': 8444}
+2022-01-08T00:46:22.093 full_node full_node_server        : INFO     Connection closed: 93.12.235.239, node id: 3c52548c66acd741a37954617e3f653b40184ff320399c5edf798513e222ff0a
+2022-01-08T00:46:22.093 full_node chia.full_node.full_node: INFO     peer disconnected {'host': '93.12.235.239', 'port': 8444}
+2022-01-08T00:46:22.914 full_node full_node_server        : INFO     Connected with full_node {'host': '111.113.144.238', 'port': 8444}
+2022-01-08T00:46:23.006 full_node chia.full_node.full_node: INFO     Collected a total of 3 peaks.
+2022-01-08T00:46:23.006 full_node chia.full_node.full_node: INFO     Selected peak 1390754, ed6f3d479e6d2db0056967430cc800d7780391f4c32471f6779ab17189d5189b
+2022-01-08T00:46:23.451 full_node chia.full_node.full_node: INFO     Total of 2 peers with peak 1390754
+2022-01-08T00:46:23.451 full_node chia.full_node.full_node: INFO     Requesting weight proof from peer 75.164.0.115 up to height 1390754
+2022-01-08T00:46:25.166 full_node full_node_server        : INFO     Cannot connect to host 188.192.43.158:8444 ssl:<ssl.SSLContext object at 0x7f8e9d9ffd40> [Connect call failed ('188.192.43.158', 8444)]
+2022-01-08T00:46:33.670 full_node chia.rpc.rpc_server     : WARNING  Error while handling message: Traceback (most recent call last):
+  File "/home/chia/chia-blockchain/chia/rpc/rpc_server.py", line 83, in inner
+    res_object = await f(request_data)
+  File "/home/chia/chia-blockchain/chia/rpc/rpc_server.py", line 166, in open_connection
+    raise ValueError("Start client failed, or server is not set")
+ValueError: Start client failed, or server is not set
+
+2022-01-08T00:46:34.731 full_node full_node               : INFO     got signal 2
+2022-01-08T00:46:34.731 full_node full_node               : INFO     Cancelling reconnect task
+2022-01-08T00:46:34.731 full_node full_node               : INFO     Closing connections
+2022-01-08T00:46:34.731 daemon chia.daemon.server         : INFO     sending term signal to chia_full_node
+2022-01-08T00:46:34.731 full_node full_node               : INFO     got signal 15
+2022-01-08T00:46:34.731 full_node full_node               : INFO     Calling service stop callback
+2022-01-08T00:46:34.732 full_node full_node               : INFO     Closing RPC server
+2022-01-08T00:46:34.732 full_node full_node               : INFO     Waiting for socket to be closed (if opened)
+2022-01-08T00:46:34.732 full_node full_node               : INFO     Waiting for ChiaServer to be closed
+2022-01-08T00:46:34.934 full_node full_node_server        : INFO     Connection closed: 75.80.53.147, node id: 462da4dc71da567713fc9d16408c2d50dd697399595365488e47c8d2b114052b
+2022-01-08T00:46:34.935 full_node chia.full_node.full_node: INFO     peer disconnected {'host': '75.80.53.147', 'port': 8444}
+2022-01-08T00:46:35.878 full_node full_node_server        : INFO     Connected with full_node {'host': '110.175.247.214', 'port': 8444}
+2022-01-08T00:46:37.716 full_node full_node_server        : INFO     Connection closed: 75.164.0.115, node id: d93bf5aab2fe4b25c9478b0ad7c3ff3c3a44a87368264b4ddd78876fd3f3595c
+2022-01-08T00:46:37.716 full_node chia.full_node.full_node: INFO     peer disconnected {'host': '75.164.0.115', 'port': 8444}
+2022-01-08T00:46:37.718 full_node chia.full_node.full_node: ERROR    Error with syncing: <class 'RuntimeError'>Traceback (most recent call last):
+  File "/home/chia/chia-blockchain/chia/full_node/full_node.py", line 812, in _sync
+    raise RuntimeError(f"Weight proof did not arrive in time from peer: {weight_proof_peer.peer_host}")
+RuntimeError: Weight proof did not arrive in time from peer: 75.164.0.115
+
+2022-01-08T00:46:37.953 full_node full_node_server        : INFO     Connection closed: 111.113.144.238, node id: 218b5337b8975908cca71a78da0cdddec029ffbdc63b7ae393c8ca8476e08bfe
+2022-01-08T00:46:37.954 full_node chia.full_node.full_node: INFO     peer disconnected {'host': '111.113.144.238', 'port': 8444}
+2022-01-08T00:46:37.954 full_node full_node               : INFO     Waiting for RPC server
+2022-01-08T00:46:37.954 full_node full_node               : INFO     Closed RPC server
+2022-01-08T00:46:37.954 full_node full_node               : INFO     Waiting for service _await_closed callback
+2022-01-08T00:46:38.003 full_node full_node               : INFO     Service full_node at port 8444 fully closed
+2022-01-08T00:46:38.247 full_node asyncio                 : ERROR    Unclosed client session
+client_session: <aiohttp.client.ClientSession object at 0x7f8e97fe8700>
+2022-01-08T00:46:38.247 full_node asyncio                 : ERROR    Fatal error on SSL transport
+protocol: <asyncio.sslproto.SSLProtocol object at 0x7f8e97fe8bb0>
+transport: <_SelectorSocketTransport closing fd=35>
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.9/asyncio/selector_events.py", line 918, in write
+    n = self._sock.send(data)
+OSError: [Errno 9] Bad file descriptor
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.9/asyncio/sslproto.py", line 684, in _process_write_backlog
+    self._transport.write(chunk)
+  File "/usr/local/lib/python3.9/asyncio/selector_events.py", line 924, in write
+    self._fatal_error(exc, 'Fatal write error on socket transport')
+  File "/usr/local/lib/python3.9/asyncio/selector_events.py", line 719, in _fatal_error
+    self._force_close(exc)
+  File "/usr/local/lib/python3.9/asyncio/selector_events.py", line 731, in _force_close
+    self._loop.call_soon(self._call_connection_lost, exc)
+  File "/usr/local/lib/python3.9/asyncio/base_events.py", line 746, in call_soon
+    self._check_closed()
+  File "/usr/local/lib/python3.9/asyncio/base_events.py", line 510, in _check_closed
+    raise RuntimeError('Event loop is closed')
+RuntimeError: Event loop is closed
+2022-01-08T00:46:38.737 daemon chia.daemon.server         : INFO     process chia_full_node returned 0
+2022-01-08T00:46:38.737 daemon chia.daemon.server         : INFO     chia daemon exiting in 5 seconds
+2022-01-08T00:46:38.737 daemon chia.daemon.server         : INFO     Daemon WebSocketServer closed

@@ -1,0 +1,6 @@
+# hostname,interval,timestamp,FILESYSTEM,MBfsfree,MBfsused,%fsused,%ufsused,Ifree,Iused,%Iused
+plotter1,60,2022-01-08 01:10:17,/dev/mapper/vg_raid-raid0,1153803,1706404,59.66,59.66,586056108,340,0.00
+plotter1,60,2022-01-08 01:11:17,/dev/mapper/vg_raid-raid0,1153798,1706409,59.66,59.66,586056108,340,0.00
+plotter1,60,2022-01-08 01:12:17,/dev/mapper/vg_raid-raid0,1153784,1706423,59.66,59.66,586056108,340,0.00
+plotter1,60,2022-01-08 01:13:17,/dev/mapper/vg_raid-raid0,1153761,1706446,59.66,59.66,586056108,340,0.00
+plotter1,60,2022-01-08 01:14:17,/dev/mapper/vg_raid-raid0,1153737,1706470,59.66,59.66,586056108,340,0.00
