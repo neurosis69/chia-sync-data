@@ -1,0 +1,839 @@
+2022-01-08T00:08:39.403 daemon chia.daemon.server         : INFO     Starting Daemon Server
+2022-01-08T00:08:39.407 daemon chia.daemon.server         : INFO     Waiting Daemon WebSocketServer closure
+2022-01-08T00:08:45.986 full_node chia.full_node.full_node: INFO     Initializing blockchain from disk
+2022-01-08T00:08:45.992 full_node chia.consensus.blockchain: INFO     Started 4 processes for block validation
+2022-01-08T00:08:52.826 full_node chia.full_node.full_node: INFO     Blockchain initialized to peak 3e4445a4babfdda6181372ddccab3cb753f4a0d063d6e7e7d8b133ad657e3397 height 223648, time taken: 6s
+2022-01-08T00:08:52.901 full_node chia.full_node.full_node: INFO     🌱 Updated peak to height 223648, weight 6015782, hh 3e4445a4babfdda6181372ddccab3cb753f4a0d063d6e7e7d8b133ad657e3397, forked at 223647, rh: b72f8fdcbad088613054c8d2f0570e6a8a9150d20e801efc1c85f3060161039b, total iters: 727425344078, overflow: False, deficit: 12, difficulty: 112, sub slot iters: 110624768, Generator size: No tx, Generator ref list size: No tx
+2022-01-08T00:08:53.631 full_node full_node_server        : INFO     Started listening on port: 8444
+2022-01-08T00:08:53.633 full_node full_node               : INFO     Started full_node service on network_id: mainnet
+2022-01-08T00:08:53.690 daemon chia.daemon.server         : INFO     Register service {'service': 'chia_full_node'}
+2022-01-08T00:08:53.694 daemon chia.daemon.server         : INFO     registered for service chia_full_node
+2022-01-08T00:08:53.695 daemon chia.daemon.server         : INFO     {'success': True}
+2022-01-08T00:11:11.477 full_node full_node_server        : WARNING  Was not able to get peername from 192.168.1.163 - closing connection
+2022-01-08T00:11:21.056 full_node full_node_server        : INFO     Connected with full_node {'host': '85.184.191.203', 'port': 8444}
+2022-01-08T00:11:21.064 full_node full_node_server        : INFO     Connection closed: 85.184.191.203, node id: 6592d98a599e417d07fc9b7be8090c33a862e81c3a650522339e15492a5581c9
+2022-01-08T00:11:21.066 full_node chia.full_node.full_node: INFO     peer disconnected {'host': '85.184.191.203', 'port': 8444}
+2022-01-08T00:11:21.084 full_node full_node_server        : INFO     Connected with full_node {'host': '195.174.209.122', 'port': 8444}
+2022-01-08T00:11:21.089 full_node full_node_server        : INFO     Connection closed: 195.174.209.122, node id: c39da3d94523050509c1b9d26177be7a6b90706b9bcdaeb3b23a30eacf73b59a
+2022-01-08T00:11:21.090 full_node chia.full_node.full_node: INFO     peer disconnected {'host': '195.174.209.122', 'port': 8444}
+2022-01-08T00:11:21.231 full_node full_node_server        : INFO     Connected with full_node {'host': '37.140.44.30', 'port': 8444}
+2022-01-08T00:11:21.365 full_node chia.full_node.full_node: INFO     Starting to perform sync.
+2022-01-08T00:11:21.366 full_node chia.full_node.full_node: INFO     Waiting to receive peaks from peers.
+2022-01-08T00:11:21.992 full_node full_node_server        : INFO     Connected with full_node {'host': '220.233.80.163', 'port': 8444}
+2022-01-08T00:11:22.006 full_node full_node_server        : INFO     Connection closed: 220.233.80.163, node id: d3404eabc6c043d721ce5bf41db8d496eee82c9bf87a926e5f0d1037fa66a3dd
+2022-01-08T00:11:22.007 full_node chia.full_node.full_node: INFO     peer disconnected {'host': '220.233.80.163', 'port': 8444}
+2022-01-08T00:11:22.169 full_node full_node_server        : INFO     Connected with full_node {'host': '60.38.77.45', 'port': 8444}
+2022-01-08T00:11:22.174 full_node full_node_server        : INFO     Connection closed: 60.38.77.45, node id: 4110cc8372f84b758bf0f623f201fdcccfe811e9e27d7789bb6f3bbf6c387dc4
+2022-01-08T00:11:22.176 full_node chia.full_node.full_node: INFO     peer disconnected {'host': '60.38.77.45', 'port': 8444}
+2022-01-08T00:11:22.289 full_node full_node_server        : INFO     Connected with full_node {'host': '73.124.95.110', 'port': 8444}
+2022-01-08T00:11:22.298 full_node full_node_server        : INFO     Connection closed: 73.124.95.110, node id: b179696894d2d5e58d9f31f202a90e600c6ebcc321e6b141dc0a8e47709d610d
+2022-01-08T00:11:22.299 full_node chia.full_node.full_node: INFO     peer disconnected {'host': '73.124.95.110', 'port': 8444}
+2022-01-08T00:11:23.670 full_node full_node_server        : INFO     Connected with full_node {'host': '202.213.129.30', 'port': 8444}
+2022-01-08T00:11:23.678 full_node full_node_server        : INFO     Connection closed: 202.213.129.30, node id: 6f1c92fa07f44b0a144b1dfa22bbc062f0fb331ddec50f4da4ad654216bef0e9
+2022-01-08T00:11:23.680 full_node chia.full_node.full_node: INFO     peer disconnected {'host': '202.213.129.30', 'port': 8444}
+2022-01-08T00:11:24.774 full_node full_node_server        : INFO     Connected with full_node {'host': '106.107.250.38', 'port': 8444}
+2022-01-08T00:11:24.780 full_node full_node_server        : INFO     Connection closed: 106.107.250.38, node id: 71c3f0be2e3ac712cd6f87867173b49fb7c7ede2d08ec15017c283338a681dd8
+2022-01-08T00:11:24.782 full_node chia.full_node.full_node: INFO     peer disconnected {'host': '106.107.250.38', 'port': 8444}
+2022-01-08T00:11:25.072 full_node full_node_server        : INFO     Connected with full_node {'host': '75.100.13.21', 'port': 8444}
+2022-01-08T00:11:25.077 full_node full_node_server        : INFO     Connection closed: 75.100.13.21, node id: 47ab2580cbfd6fa8bcdc106c2a1cde4291b1e51ee0beae76391c2d88505fbe7b
+2022-01-08T00:11:25.079 full_node chia.full_node.full_node: INFO     peer disconnected {'host': '75.100.13.21', 'port': 8444}
+2022-01-08T00:11:25.839 full_node full_node_server        : INFO     Connected with full_node {'host': '47.216.143.95', 'port': 8444}
+2022-01-08T00:11:25.845 full_node full_node_server        : INFO     Connection closed: 47.216.143.95, node id: fede7398f9542c78a94f73d0f84288a0d672773722841d769092e6174b8be133
+2022-01-08T00:11:25.847 full_node chia.full_node.full_node: INFO     peer disconnected {'host': '47.216.143.95', 'port': 8444}
+2022-01-08T00:11:27.241 full_node full_node_server        : INFO     Connected with full_node {'host': '203.189.123.205', 'port': 8444}
+2022-01-08T00:11:27.250 full_node full_node_server        : INFO     Connection closed: 203.189.123.205, node id: 555950abc21832564e7eedd592468809926b4bc433dcf06e2650efa2a57853a9
+2022-01-08T00:11:27.251 full_node chia.full_node.full_node: INFO     peer disconnected {'host': '203.189.123.205', 'port': 8444}
+2022-01-08T00:11:31.160 full_node full_node_server        : INFO     Connected with full_node {'host': '72.43.163.204', 'port': 8444}
+2022-01-08T00:11:31.168 full_node full_node_server        : INFO     Connection closed: 72.43.163.204, node id: 980b0b500e0c8aa0f33b43ce1647c018b54614ef8b47ca3c6f72e92d3efaca1d
+2022-01-08T00:11:31.169 full_node chia.full_node.full_node: INFO     peer disconnected {'host': '72.43.163.204', 'port': 8444}
+2022-01-08T00:11:33.780 full_node full_node_server        : INFO     Connected with full_node {'host': '223.18.254.91', 'port': 8444}
+2022-01-08T00:11:33.788 full_node full_node_server        : INFO     Connection closed: 223.18.254.91, node id: 963002d982b1d7b04213f0d6bc8e2f01cde892161d0623d910dacfd3b6c66e26
+2022-01-08T00:11:33.789 full_node chia.full_node.full_node: INFO     peer disconnected {'host': '223.18.254.91', 'port': 8444}
+2022-01-08T00:11:37.338 full_node full_node_server        : INFO     Cannot connect to host 122.231.190.231:8444 ssl:<ssl.SSLContext object at 0xffffb69cbbc0> [Connect call failed ('122.231.190.231', 8444)]
+2022-01-08T00:11:37.853 full_node full_node_server        : INFO     Connected with full_node {'host': '49.176.164.121', 'port': 8444}
+2022-01-08T00:11:38.106 full_node full_node_server        : INFO     Connected with full_node {'host': '157.193.140.25', 'port': 8444}
+2022-01-08T00:11:38.115 full_node full_node_server        : INFO     Connection closed: 157.193.140.25, node id: e2771317a295412644d7c05cc59874b0ab53224081cba9ee050bdddff4f135cf
+2022-01-08T00:11:38.116 full_node chia.full_node.full_node: INFO     peer disconnected {'host': '157.193.140.25', 'port': 8444}
+2022-01-08T00:11:40.359 full_node full_node_server        : INFO     Connected with full_node {'host': '119.202.42.199', 'port': 8444}
+2022-01-08T00:11:40.365 full_node full_node_server        : INFO     Connection closed: 119.202.42.199, node id: 111d491a81960fe9b3ed815f8ea3c1959a68b2a59cd6ec0fb9697bbd2a117824
+2022-01-08T00:11:40.367 full_node chia.full_node.full_node: INFO     peer disconnected {'host': '119.202.42.199', 'port': 8444}
+2022-01-08T00:11:40.863 full_node full_node_server        : INFO     Connected with full_node {'host': '87.92.114.248', 'port': 8444}
+2022-01-08T00:11:40.871 full_node full_node_server        : INFO     Connection closed: 87.92.114.248, node id: 28e0923505adf3eb20584b0b2124f9df8ef923ee4063ea5c4aa6b4d23365baa7
+2022-01-08T00:11:40.873 full_node chia.full_node.full_node: INFO     peer disconnected {'host': '87.92.114.248', 'port': 8444}
+2022-01-08T00:11:42.059 full_node full_node_server        : INFO     Cannot connect to host 46.242.11.24:8444 ssl:<ssl.SSLContext object at 0xffffb69cbec0> [Connect call failed ('46.242.11.24', 8444)]
+2022-01-08T00:11:44.619 full_node full_node_server        : INFO     Connected with full_node {'host': '74.132.132.141', 'port': 8444}
+2022-01-08T00:11:44.633 full_node full_node_server        : INFO     Connection closed: 74.132.132.141, node id: 8fa7994b24e419840c5fa875a19ed4f1c1eb53721859ba87e6973b258cbe2b4c
+2022-01-08T00:11:44.634 full_node chia.full_node.full_node: INFO     peer disconnected {'host': '74.132.132.141', 'port': 8444}
+2022-01-08T00:11:45.354 full_node full_node_server        : INFO     Connected with full_node {'host': '86.101.112.20', 'port': 8444}
+2022-01-08T00:11:45.363 full_node full_node_server        : INFO     Connection closed: 86.101.112.20, node id: 08316f661d8d9fe8724b6b4affaa1a3c4c7387cd39b7801a1df2a4ca2655ec9d
+2022-01-08T00:11:45.365 full_node chia.full_node.full_node: INFO     peer disconnected {'host': '86.101.112.20', 'port': 8444}
+2022-01-08T00:11:47.736 full_node full_node_server        : INFO     Connected with full_node {'host': '173.14.8.45', 'port': 8444}
+2022-01-08T00:11:47.743 full_node full_node_server        : INFO     Connection closed: 173.14.8.45, node id: 014c6d515a15f31508fef67f990fd4bbc97d5691ed1ce95c89e95c04cb00c9cb
+2022-01-08T00:11:47.744 full_node chia.full_node.full_node: INFO     peer disconnected {'host': '173.14.8.45', 'port': 8444}
+2022-01-08T00:11:49.265 full_node full_node_server        : INFO     Connected with full_node {'host': '59.126.19.58', 'port': 8444}
+2022-01-08T00:11:49.273 full_node full_node_server        : INFO     Connection closed: 59.126.19.58, node id: 3bbaea5d00964b098fecd8676f7b76ac599959b05a51167ab68dde75518cf8c5
+2022-01-08T00:11:49.275 full_node chia.full_node.full_node: INFO     peer disconnected {'host': '59.126.19.58', 'port': 8444}
+2022-01-08T00:11:51.808 full_node full_node_server        : INFO     Connected with full_node {'host': '5.2.211.182', 'port': 8444}
+2022-01-08T00:11:51.814 full_node full_node_server        : INFO     Connection closed: 5.2.211.182, node id: d4c2d6a6a5707a3ef564ec2c507c4a55b86c298230547ae4ab3fc20b17f724c7
+2022-01-08T00:11:51.815 full_node chia.full_node.full_node: INFO     peer disconnected {'host': '5.2.211.182', 'port': 8444}
+2022-01-08T00:11:53.138 full_node full_node_server        : INFO     Connected with full_node {'host': '128.69.179.190', 'port': 8444}
+2022-01-08T00:11:53.147 full_node full_node_server        : INFO     Connection closed: 128.69.179.190, node id: ea882b04726b1fd8605c4577cdbb4a0e0fc2594f281a70f0d058b8560d316cbf
+2022-01-08T00:11:53.148 full_node chia.full_node.full_node: INFO     peer disconnected {'host': '128.69.179.190', 'port': 8444}
+2022-01-08T00:11:54.340 full_node chia.full_node.full_node: INFO     Collected a total of 2 peaks.
+2022-01-08T00:11:54.341 full_node chia.full_node.full_node: INFO     Selected peak 1390632, e735965ab7014dad29d5e55403d82748d650eb415c761e00ef307ce81034f7a2
+2022-01-08T00:11:54.415 full_node full_node_server        : INFO     Cannot connect to host 168.0.210.41:8444 ssl:<ssl.SSLContext object at 0xffffa80e14c0> [Connect call failed ('168.0.210.41', 8444)]
+2022-01-08T00:11:55.069 full_node chia.full_node.full_node: INFO     Total of 2 peers with peak 1390632
+2022-01-08T00:11:55.070 full_node chia.full_node.full_node: INFO     Requesting weight proof from peer 49.176.164.121 up to height 1390632
+2022-01-08T00:11:57.144 full_node full_node_server        : INFO     Connected with full_node {'host': '217.178.104.41', 'port': 8444}
+2022-01-08T00:11:57.151 full_node full_node_server        : INFO     Connection closed: 217.178.104.41, node id: 721fa5c42571527e95a8e7e4e5704de69660ea6c7a38770cfc26e17b7e4f5430
+2022-01-08T00:11:57.153 full_node chia.full_node.full_node: INFO     peer disconnected {'host': '217.178.104.41', 'port': 8444}
+2022-01-08T00:11:58.220 full_node full_node_server        : INFO     Connected with full_node {'host': '73.83.156.47', 'port': 8444}
+2022-01-08T00:11:58.358 full_node full_node_server        : INFO     Connection closed: 73.83.156.47, node id: c0523a2c5e4d62e30f5ed7d78e5c194694d98c3f3f2498cebfe81c6f44c6030c
+2022-01-08T00:11:58.359 full_node chia.full_node.full_node: INFO     peer disconnected {'host': '73.83.156.47', 'port': 8444}
+2022-01-08T00:12:01.474 full_node full_node_server        : INFO     Connected with full_node {'host': '176.193.242.216', 'port': 8444}
+2022-01-08T00:12:01.480 full_node full_node_server        : INFO     Connection closed: 176.193.242.216, node id: 97ada31e01ab5c512d95334f464a48ca459b11d292c777efca0f43f1faf21966
+2022-01-08T00:12:01.482 full_node chia.full_node.full_node: INFO     peer disconnected {'host': '176.193.242.216', 'port': 8444}
+2022-01-08T00:12:04.755 full_node full_node_server        : INFO     Connected with full_node {'host': '109.197.162.240', 'port': 8444}
+2022-01-08T00:12:04.762 full_node full_node_server        : INFO     Connection closed: 109.197.162.240, node id: 6fb879f5552688e2eae3b077f3c5ee5f96f9de65faf7332b11f55c23cebbf061
+2022-01-08T00:12:04.764 full_node chia.full_node.full_node: INFO     peer disconnected {'host': '109.197.162.240', 'port': 8444}
+2022-01-08T00:12:07.538 full_node full_node_server        : INFO     Connected with full_node {'host': '193.168.242.112', 'port': 8444}
+2022-01-08T00:12:07.544 full_node full_node_server        : INFO     Connection closed: 193.168.242.112, node id: 863bf554269a660a5a26892efd9346e68fca0408a1b4a413f912d99d838343d7
+2022-01-08T00:12:07.546 full_node chia.full_node.full_node: INFO     peer disconnected {'host': '193.168.242.112', 'port': 8444}
+2022-01-08T00:12:12.058 full_node full_node_server        : INFO     Connected with full_node {'host': '213.109.239.214', 'port': 8444}
+2022-01-08T00:12:12.171 full_node full_node_server        : INFO     Connection closed: 213.109.239.214, node id: b7f83d5141d91d0d4d3a7d4c51e03cdbe2c34631116c6b3edf927fd9ea931bd6
+2022-01-08T00:12:12.172 full_node chia.full_node.full_node: INFO     peer disconnected {'host': '213.109.239.214', 'port': 8444}
+2022-01-08T00:12:14.101 full_node full_node_server        : INFO     Cannot connect to host 58.47.50.5:8444 ssl:<ssl.SSLContext object at 0xffffaf131240> [Connect call failed ('58.47.50.5', 8444)]
+2022-01-08T00:12:16.532 full_node full_node_server        : INFO     Connected with full_node {'host': '81.198.221.67', 'port': 8444}
+2022-01-08T00:12:16.541 full_node full_node_server        : INFO     Connection closed: 81.198.221.67, node id: 6104192db5c32052f2467187e2ba1cfb7adce5926ba340a839504c4fb1feb294
+2022-01-08T00:12:16.543 full_node chia.full_node.full_node: INFO     peer disconnected {'host': '81.198.221.67', 'port': 8444}
+2022-01-08T00:12:30.155 full_node chia.full_node.weight_proof: INFO     validate weight proof peak height 1390632
+2022-01-08T00:12:30.498 full_node chia.full_node.weight_proof: INFO     validating 3621 sub epochs
+2022-01-08T00:12:33.021 full_node full_node_server        : INFO     Cannot connect to host 120.219.72.72:8444 ssl:<ssl.SSLContext object at 0xffffaf131dc0> [Connect call failed ('120.219.72.72', 8444)]
+2022-01-08T00:12:33.247 full_node full_node_server        : INFO     Connected with full_node {'host': '47.46.84.244', 'port': 8444}
+2022-01-08T00:12:33.256 full_node full_node_server        : INFO     Connection closed: 47.46.84.244, node id: b1115b962c104ae74a7604a228270e747500acadc2bbe98badf1e206e8010a16
+2022-01-08T00:12:33.258 full_node chia.full_node.full_node: INFO     peer disconnected {'host': '47.46.84.244', 'port': 8444}
+2022-01-08T00:12:34.050 full_node full_node_server        : INFO     Connected with full_node {'host': '109.167.69.28', 'port': 8444}
+2022-01-08T00:12:34.055 full_node full_node_server        : INFO     Connection closed: 109.167.69.28, node id: c496b09835bc4dd7238136042e446f80312d449038d07222b17ee09f702ada9e
+2022-01-08T00:12:34.057 full_node chia.full_node.full_node: INFO     peer disconnected {'host': '109.167.69.28', 'port': 8444}
+2022-01-08T00:12:36.942 full_node full_node_server        : INFO     Connected with full_node {'host': '83.148.67.229', 'port': 8444}
+2022-01-08T00:12:36.971 full_node full_node_server        : INFO     Connection closed: 83.148.67.229, node id: 4a9489eaa160f65dc7f76249df85ab891ecaeaa187edaa4d1f1ac3ecd7cba738
+2022-01-08T00:12:36.973 full_node chia.full_node.full_node: INFO     peer disconnected {'host': '83.148.67.229', 'port': 8444}
+2022-01-08T00:12:39.156 full_node full_node_server        : INFO     Connected with full_node {'host': '113.50.67.2', 'port': 8444}
+2022-01-08T00:12:39.161 full_node full_node_server        : INFO     Connection closed: 113.50.67.2, node id: 643881545cfc71b4118fe2410af15d07ec44e70aa0904da95ea9a6b3c8694063
+2022-01-08T00:12:39.163 full_node chia.full_node.full_node: INFO     peer disconnected {'host': '113.50.67.2', 'port': 8444}
+2022-01-08T00:12:42.063 full_node full_node_server        : INFO     Connected with full_node {'host': '107.11.227.182', 'port': 8444}
+2022-01-08T00:12:42.191 full_node full_node_server        : INFO     Connection closed: 107.11.227.182, node id: f39ce1284cb9d8388699a44c1dd8c728c6c00af07d7ec3656056925f62771987
+2022-01-08T00:12:42.193 full_node chia.full_node.full_node: INFO     peer disconnected {'host': '107.11.227.182', 'port': 8444}
+2022-01-08T00:12:43.354 full_node full_node_server        : INFO     Connected with full_node {'host': '195.154.207.67', 'port': 8444}
+2022-01-08T00:12:43.428 full_node full_node_server        : INFO     Connection closed: 195.154.207.67, node id: 4f60c2d460b47c60b810deb333e0637a550d8dd79dc17bf4c386d2490ec78227
+2022-01-08T00:12:43.430 full_node chia.full_node.full_node: INFO     peer disconnected {'host': '195.154.207.67', 'port': 8444}
+2022-01-08T00:12:45.188 full_node full_node_server        : INFO     Cannot connect to host 123.174.248.38:8444 ssl:<ssl.SSLContext object at 0xffffb62a2cc0> [Connect call failed ('123.174.248.38', 8444)]
+2022-01-08T00:12:48.681 full_node full_node_server        : INFO     Connected with full_node {'host': '148.75.27.58', 'port': 8444}
+2022-01-08T00:12:48.805 full_node full_node_server        : INFO     Connection closed: 148.75.27.58, node id: f892dbcbc45c801b1d300ac7017df3660b85bd44dae3f2db01fb92d93adece75
+2022-01-08T00:12:48.807 full_node chia.full_node.full_node: INFO     peer disconnected {'host': '148.75.27.58', 'port': 8444}
+2022-01-08T00:12:50.476 full_node full_node_server        : INFO     Connected with full_node {'host': '136.24.34.237', 'port': 8444}
+2022-01-08T00:12:50.481 full_node full_node_server        : INFO     Connection closed: 136.24.34.237, node id: 387941e4f330d9be574c17c99d100eab8c76ffd4ad703c58af528153443c2033
+2022-01-08T00:12:50.482 full_node chia.full_node.full_node: INFO     peer disconnected {'host': '136.24.34.237', 'port': 8444}
+2022-01-08T00:12:53.398 full_node full_node_server        : INFO     Connected with full_node {'host': '137.186.103.15', 'port': 8444}
+2022-01-08T00:12:53.403 full_node full_node_server        : INFO     Connection closed: 137.186.103.15, node id: d4b6ba5cced674151934309435be99da99dc9d7be691a60e970df57bf9159e37
+2022-01-08T00:12:53.404 full_node chia.full_node.full_node: INFO     peer disconnected {'host': '137.186.103.15', 'port': 8444}
+2022-01-08T00:12:57.592 full_node full_node_server        : INFO     Connected with full_node {'host': '108.197.235.139', 'port': 8444}
+2022-01-08T00:12:57.601 full_node full_node_server        : INFO     Connection closed: 108.197.235.139, node id: 2254a339642de51b882599df4a56b39c384bf39519f1651123a2e33a47f4bdaa
+2022-01-08T00:12:57.603 full_node chia.full_node.full_node: INFO     peer disconnected {'host': '108.197.235.139', 'port': 8444}
+2022-01-08T00:12:57.623 full_node full_node_server        : INFO     Cannot connect to host 109.196.114.19:8444 ssl:<ssl.SSLContext object at 0xffffa26a96c0> [Connect call failed ('109.196.114.19', 8444)]
+2022-01-08T00:12:58.931 full_node full_node_server        : INFO     Connected with full_node {'host': '93.125.49.134', 'port': 8444}
+2022-01-08T00:12:58.936 full_node full_node_server        : INFO     Connection closed: 93.125.49.134, node id: a95fbc11caaed97b585bec0b09d570c654f2c0f6d3d75c2f17ac22c3118f393c
+2022-01-08T00:12:58.938 full_node chia.full_node.full_node: INFO     peer disconnected {'host': '93.125.49.134', 'port': 8444}
+2022-01-08T00:13:01.052 full_node full_node_server        : INFO     Connected with full_node {'host': '54.190.139.152', 'port': 8444}
+2022-01-08T00:13:01.057 full_node full_node_server        : INFO     Connection closed: 54.190.139.152, node id: 4a3490869e26a8dd46cd5991fdc07f0d05328ba4524f616823f5060ba2535d63
+2022-01-08T00:13:01.058 full_node chia.full_node.full_node: INFO     peer disconnected {'host': '54.190.139.152', 'port': 8444}
+2022-01-08T00:13:01.898 full_node full_node_server        : INFO     Connected with full_node {'host': '178.223.105.238', 'port': 8444}
+2022-01-08T00:13:06.312 full_node full_node_server        : INFO     Connected with full_node {'host': '178.130.33.3', 'port': 8444}
+2022-01-08T00:13:06.318 full_node full_node_server        : INFO     Connection closed: 178.130.33.3, node id: eb4c06d4023da155fb1b4fd4d100e3fcf6349dc6cc0592ef84f49eac17020d7c
+2022-01-08T00:13:06.319 full_node chia.full_node.full_node: INFO     peer disconnected {'host': '178.130.33.3', 'port': 8444}
+2022-01-08T00:13:08.466 full_node full_node_server        : INFO     Connected with full_node {'host': '185.119.116.140', 'port': 8444}
+2022-01-08T00:13:08.472 full_node full_node_server        : INFO     Connection closed: 185.119.116.140, node id: ff0fd42c61002485b0ffc53bdf4427cefa2f77d946d914fb030a43dc3923d9c2
+2022-01-08T00:13:08.473 full_node chia.full_node.full_node: INFO     peer disconnected {'host': '185.119.116.140', 'port': 8444}
+2022-01-08T00:13:10.894 full_node full_node_server        : INFO     Connected with full_node {'host': '81.107.206.37', 'port': 8444}
+2022-01-08T00:13:13.832 full_node full_node_server        : INFO     Connected with full_node {'host': '132.147.87.36', 'port': 8444}
+2022-01-08T00:13:13.837 full_node full_node_server        : INFO     Connection closed: 132.147.87.36, node id: cefe30eaa06d4a3889457fd10d725cee06d88d52f772e1918757bdda5e471198
+2022-01-08T00:13:13.839 full_node chia.full_node.full_node: INFO     peer disconnected {'host': '132.147.87.36', 'port': 8444}
+2022-01-08T00:13:19.691 full_node full_node_server        : INFO     Connected with full_node {'host': '82.7.48.244', 'port': 8444}
+2022-01-08T00:13:19.822 full_node full_node_server        : INFO     Connection closed: 82.7.48.244, node id: 49bf753ac165db8badf0018d19e6431c2df4e58eb10a2891184448d83fb10270
+2022-01-08T00:13:19.823 full_node chia.full_node.full_node: INFO     peer disconnected {'host': '82.7.48.244', 'port': 8444}
+2022-01-08T00:13:22.211 full_node full_node_server        : INFO     Cannot connect to host 86.62.173.38:8444 ssl:<ssl.SSLContext object at 0xffffb74ac0c0> [Connect call failed ('86.62.173.38', 8444)]
+2022-01-08T00:13:25.486 full_node full_node_server        : INFO     Connected with full_node {'host': '161.97.94.190', 'port': 8444}
+2022-01-08T00:13:25.493 full_node full_node_server        : INFO     Connection closed: 161.97.94.190, node id: 957e69b18411a2f49d8d75a3f1e056b0bbe1627de7755c7537e2aef24c79c4d9
+2022-01-08T00:13:25.494 full_node chia.full_node.full_node: INFO     peer disconnected {'host': '161.97.94.190', 'port': 8444}
+2022-01-08T00:13:32.233 full_node full_node_server        : INFO     Connected with full_node {'host': '114.230.222.6', 'port': 8444}
+2022-01-08T00:13:32.240 full_node full_node_server        : INFO     Connection closed: 114.230.222.6, node id: 602b39601836db7561c643eb436676eef2f4387d79e807c3f5aa5d5718a1e1a1
+2022-01-08T00:13:32.242 full_node chia.full_node.full_node: INFO     peer disconnected {'host': '114.230.222.6', 'port': 8444}
+2022-01-08T00:13:34.801 full_node full_node_server        : INFO     Connected with full_node {'host': '100.7.123.15', 'port': 8444}
+2022-01-08T00:13:34.806 full_node full_node_server        : INFO     Connection closed: 100.7.123.15, node id: 6687e546a754890492b8f540c99803a2fb935e7666345418e4daa9a046bd88d9
+2022-01-08T00:13:34.808 full_node chia.full_node.full_node: INFO     peer disconnected {'host': '100.7.123.15', 'port': 8444}
+2022-01-08T00:13:37.175 full_node full_node_server        : INFO     Cannot connect to host 2003:dc:1f04:4800:a5b4:25ec:786d:985d:8444 ssl:<ssl.SSLContext object at 0xffffb42adb40> [Network is unreachable]
+2022-01-08T00:13:40.934 full_node full_node_server        : INFO     Connected with full_node {'host': '66.147.239.152', 'port': 8444}
+2022-01-08T00:13:40.941 full_node full_node_server        : INFO     Connection closed: 66.147.239.152, node id: 330f5d50a46371e7a33da72873c88cf8bc8bdaa1c505d16379554bec1ce44d7d
+2022-01-08T00:13:40.942 full_node chia.full_node.full_node: INFO     peer disconnected {'host': '66.147.239.152', 'port': 8444}
+2022-01-08T00:13:50.215 full_node full_node_server        : INFO     Connected with full_node {'host': '68.185.173.12', 'port': 8444}
+2022-01-08T00:13:50.221 full_node full_node_server        : INFO     Connection closed: 68.185.173.12, node id: 588098cd47e65d7b0944c7471753b7423b054b27cb3d8aa9d33468563fd43d31
+2022-01-08T00:13:50.222 full_node chia.full_node.full_node: INFO     peer disconnected {'host': '68.185.173.12', 'port': 8444}
+2022-01-08T00:13:51.927 full_node chia.full_node.full_node: INFO     Re-checked peers: total of 2 peers with peak 1390632
+2022-01-08T00:13:54.232 full_node chia.full_node.full_node: INFO     Start syncing from fork point at 222722 up to 1390632
+2022-01-08T00:13:55.284 full_node full_node_server        : INFO     Connected with full_node {'host': '112.68.58.195', 'port': 8444}
+2022-01-08T00:13:55.292 full_node full_node_server        : INFO     Connection closed: 112.68.58.195, node id: c368540268b59ec212a847756e1b25f51ece97c706a7082fb7381921f38f08f5
+2022-01-08T00:13:55.294 full_node chia.full_node.full_node: INFO     peer disconnected {'host': '112.68.58.195', 'port': 8444}
+2022-01-08T00:14:00.243 full_node full_node_server        : INFO     Connected with full_node {'host': '202.124.104.131', 'port': 8444}
+2022-01-08T00:14:00.257 full_node full_node_server        : INFO     Connection closed: 202.124.104.131, node id: a1db34cf51732135b8e7c7de2a36046cfcbf1c2555adcb1fbff28ec1c3cab60f
+2022-01-08T00:14:00.259 full_node chia.full_node.full_node: INFO     peer disconnected {'host': '202.124.104.131', 'port': 8444}
+2022-01-08T00:14:02.278 full_node chia.full_node.full_node: INFO     AUTOTEST3_PR9746 Added blocks 223648 to 223680
+2022-01-08T00:14:05.857 full_node full_node_server        : INFO     Connected with full_node {'host': '98.149.75.141', 'port': 8444}
+2022-01-08T00:14:05.867 full_node full_node_server        : INFO     Connection closed: 98.149.75.141, node id: 9abe545281032523f87729ef088a0677ae2eff67bbb0ba7eced4ac74e093375c
+2022-01-08T00:14:05.878 full_node chia.full_node.full_node: INFO     peer disconnected {'host': '98.149.75.141', 'port': 8444}
+2022-01-08T00:14:08.109 full_node full_node_server        : INFO     Connected with full_node {'host': '94.181.133.248', 'port': 8444}
+2022-01-08T00:14:08.118 full_node full_node_server        : INFO     Connection closed: 94.181.133.248, node id: 5a59440745bd869d3f23435852ae56ffeb28d0673a9475a5194eb00908271de4
+2022-01-08T00:14:08.119 full_node chia.full_node.full_node: INFO     peer disconnected {'host': '94.181.133.248', 'port': 8444}
+2022-01-08T00:14:09.374 full_node chia.full_node.full_node: INFO     AUTOTEST3_PR9746 Added blocks 223680 to 223712
+2022-01-08T00:14:11.307 full_node full_node_server        : INFO     Connected with full_node {'host': '209.6.224.29', 'port': 8444}
+2022-01-08T00:14:11.314 full_node full_node_server        : INFO     Connection closed: 209.6.224.29, node id: fe16dacef1280f99940ff081cb37a89eb7cb46024c6ffeb35c418876946edf12
+2022-01-08T00:14:11.315 full_node chia.full_node.full_node: INFO     peer disconnected {'host': '209.6.224.29', 'port': 8444}
+2022-01-08T00:14:15.689 full_node chia.full_node.full_node: INFO     AUTOTEST3_PR9746 Added blocks 223712 to 223744
+2022-01-08T00:14:20.516 full_node full_node_server        : INFO     Connected with full_node {'host': '46.197.221.43', 'port': 8444}
+2022-01-08T00:14:20.527 full_node full_node_server        : INFO     Connection closed: 46.197.221.43, node id: f2816bb8c3e866cf7ec16421bae381da7e7a52d061dd21628523f6727e7f00bf
+2022-01-08T00:14:20.529 full_node chia.full_node.full_node: INFO     peer disconnected {'host': '46.197.221.43', 'port': 8444}
+2022-01-08T00:14:21.768 full_node chia.full_node.full_node: INFO     AUTOTEST3_PR9746 Added blocks 223744 to 223776
+2022-01-08T00:14:23.406 full_node full_node_server        : INFO     Connected with full_node {'host': '82.20.248.30', 'port': 8444}
+2022-01-08T00:14:23.608 full_node full_node_server        : INFO     Connection closed: 82.20.248.30, node id: 21647844726340998ac73cf5c3a535de07a14eecbf86d328441852cbe9f27993
+2022-01-08T00:14:23.612 full_node chia.full_node.full_node: INFO     peer disconnected {'host': '82.20.248.30', 'port': 8444}
+2022-01-08T00:14:27.213 full_node full_node_server        : INFO     Connection closed: 178.223.105.238, node id: f6dad1aa6547429e3e8c3bd7b6843aee3b739de5751064453abb9fb1d840d4b2
+2022-01-08T00:14:27.215 full_node chia.full_node.full_node: INFO     peer disconnected {'host': '178.223.105.238', 'port': 8444}
+2022-01-08T00:14:27.221 full_node chia.full_node.full_node: INFO     AUTOTEST3_PR9746 Added blocks 223776 to 223808
+2022-01-08T00:14:27.635 full_node full_node_server        : INFO     Connected with full_node {'host': '113.131.24.132', 'port': 8444}
+2022-01-08T00:14:27.649 full_node full_node_server        : INFO     Connection closed: 113.131.24.132, node id: 4f034e507e12e7852761e7d75707b4a150ad04e94ab9bda1d78f56b721d4651e
+2022-01-08T00:14:27.652 full_node chia.full_node.full_node: INFO     peer disconnected {'host': '113.131.24.132', 'port': 8444}
+2022-01-08T00:14:30.329 full_node full_node_server        : INFO     Cannot connect to host 213.91.134.163:8444 ssl:<ssl.SSLContext object at 0xffffb69cb340> [Connect call failed ('213.91.134.163', 8444)]
+2022-01-08T00:14:32.823 full_node chia.full_node.full_node: INFO     AUTOTEST3_PR9746 Added blocks 223808 to 223840
+2022-01-08T00:14:35.605 full_node full_node_server        : INFO     Connected with full_node {'host': '108.162.144.91', 'port': 8444}
+2022-01-08T00:14:35.611 full_node full_node_server        : INFO     Connection closed: 108.162.144.91, node id: f0441665b70da9d073560bd135fdfc48004307bf6cfdf10e5885f3afb8504f5e
+2022-01-08T00:14:35.612 full_node chia.full_node.full_node: INFO     peer disconnected {'host': '108.162.144.91', 'port': 8444}
+2022-01-08T00:14:37.983 full_node full_node_server        : INFO     Connected with full_node {'host': '101.100.173.224', 'port': 8444}
+2022-01-08T00:14:38.103 full_node full_node_server        : INFO     Connection closed: 101.100.173.224, node id: b5b366244bf5272e7b37574ce1d7d1787b4f0a28e0044bb78b04bd6e559c12f0
+2022-01-08T00:14:38.104 full_node chia.full_node.full_node: INFO     peer disconnected {'host': '101.100.173.224', 'port': 8444}
+2022-01-08T00:14:39.002 full_node chia.full_node.full_node: INFO     AUTOTEST3_PR9746 Added blocks 223840 to 223872
+2022-01-08T00:14:40.400 full_node full_node_server        : INFO     Connection closed: 81.107.206.37, node id: 128f3c726927f636e854637d90b76ac253bc06b43a3b3ffcf99605b4a69d38e7
+2022-01-08T00:14:40.401 full_node chia.full_node.full_node: INFO     peer disconnected {'host': '81.107.206.37', 'port': 8444}
+2022-01-08T00:14:43.600 full_node full_node_server        : INFO     Connected with full_node {'host': '74.140.173.53', 'port': 8444}
+2022-01-08T00:14:43.684 full_node full_node_server        : INFO     Connection closed: 74.140.173.53, node id: 66ee480997688b71782cf84e2f04322f836e4e9e8fbfa90781270eb2c287b153
+2022-01-08T00:14:43.686 full_node chia.full_node.full_node: INFO     peer disconnected {'host': '74.140.173.53', 'port': 8444}
+2022-01-08T00:14:44.541 full_node full_node_server        : INFO     Cannot connect to host 76.64.176.136:8444 ssl:<ssl.SSLContext object at 0xffff9730c4c0> [Connect call failed ('76.64.176.136', 8444)]
+2022-01-08T00:14:52.146 full_node full_node_server        : INFO     Cannot connect to host 151.252.90.122:8444 ssl:<ssl.SSLContext object at 0xffffae25e040> [Connect call failed ('151.252.90.122', 8444)]
+2022-01-08T00:14:52.386 full_node chia.full_node.full_node: INFO     AUTOTEST3_PR9746 Added blocks 223872 to 223904
+2022-01-08T00:14:57.194 full_node full_node_server        : INFO     Connected with full_node {'host': '46.189.140.73', 'port': 8444}
+2022-01-08T00:14:57.201 full_node full_node_server        : INFO     Connection closed: 46.189.140.73, node id: ace9d4ac76b579cdbe0d7a057050da3c6577cb88de00b70f5392ed2fd1000a83
+2022-01-08T00:14:57.202 full_node chia.full_node.full_node: INFO     peer disconnected {'host': '46.189.140.73', 'port': 8444}
+2022-01-08T00:14:58.009 full_node chia.full_node.full_node: INFO     AUTOTEST3_PR9746 Added blocks 223904 to 223936
+2022-01-08T00:15:00.820 full_node full_node_server        : INFO     Connected with full_node {'host': '209.145.58.57', 'port': 8444}
+2022-01-08T00:15:01.063 full_node full_node_server        : INFO     Connection closed: 209.145.58.57, node id: 968afbb5232863e24dc3c0050402de6b9a16583e7b8451cf3a61297d03c6dc4e
+2022-01-08T00:15:01.066 full_node chia.full_node.full_node: INFO     peer disconnected {'host': '209.145.58.57', 'port': 8444}
+2022-01-08T00:15:01.926 full_node full_node_server        : INFO     Connected with full_node {'host': '50.5.232.122', 'port': 8444}
+2022-01-08T00:15:01.931 full_node full_node_server        : INFO     Connection closed: 50.5.232.122, node id: cc717708df2caa5aca215b18155febb775bbd513f46c555b081095008f6795b3
+2022-01-08T00:15:01.934 full_node chia.full_node.full_node: INFO     peer disconnected {'host': '50.5.232.122', 'port': 8444}
+2022-01-08T00:15:02.753 full_node full_node_server        : INFO     Connected with full_node {'host': '91.112.21.218', 'port': 8444}
+2022-01-08T00:15:02.778 full_node full_node_server        : INFO     Connection closed: 91.112.21.218, node id: e16a1d831d53be94eaca4017653a0874a1e158ca6e724117aae15ada27f72bac
+2022-01-08T00:15:02.784 full_node chia.full_node.full_node: INFO     peer disconnected {'host': '91.112.21.218', 'port': 8444}
+2022-01-08T00:15:04.143 full_node full_node_server        : INFO     Cannot connect to host 46.142.227.203:8444 ssl:<ssl.SSLContext object at 0xffffb69cb2c0> [Connect call failed ('46.142.227.203', 8444)]
+2022-01-08T00:15:04.559 full_node chia.full_node.full_node: INFO     AUTOTEST3_PR9746 Added blocks 223936 to 223968
+2022-01-08T00:15:07.868 full_node full_node_server        : INFO     Cannot connect to host 117.21.218.130:8444 ssl:<ssl.SSLContext object at 0xffffb630d740> [Connect call failed ('117.21.218.130', 8444)]
+2022-01-08T00:15:10.889 full_node chia.full_node.full_node: INFO     AUTOTEST3_PR9746 Added blocks 223968 to 224000
+2022-01-08T00:15:11.398 full_node full_node_server        : INFO     Connected with full_node {'host': '149.115.96.13', 'port': 8444}
+2022-01-08T00:15:11.407 full_node full_node_server        : INFO     Connection closed: 149.115.96.13, node id: cc7601d063995c2a9876de843dc432c4872cb28b2377c7dcf5ce1f694e1029b6
+2022-01-08T00:15:11.409 full_node chia.full_node.full_node: INFO     peer disconnected {'host': '149.115.96.13', 'port': 8444}
+2022-01-08T00:15:16.550 full_node full_node_server        : INFO     Connected with full_node {'host': '82.158.204.178', 'port': 8444}
+2022-01-08T00:15:16.556 full_node full_node_server        : INFO     Connection closed: 82.158.204.178, node id: 79b499b48b782e2a6b8e7fbc96ca765d4b2589e6075d7d3f8bfc0a289968885c
+2022-01-08T00:15:16.557 full_node chia.full_node.full_node: INFO     peer disconnected {'host': '82.158.204.178', 'port': 8444}
+2022-01-08T00:15:17.821 full_node chia.full_node.full_node: INFO     AUTOTEST3_PR9746 Added blocks 224000 to 224032
+2022-01-08T00:15:19.157 full_node full_node_server        : INFO     Connected with full_node {'host': '94.177.32.54', 'port': 8444}
+2022-01-08T00:15:19.175 full_node full_node_server        : INFO     Connection closed: 94.177.32.54, node id: d411e04096ad9767c6f2505bc7ea866b8ad998328740e3c1b7e0d93fdd4a1da7
+2022-01-08T00:15:19.178 full_node chia.full_node.full_node: INFO     peer disconnected {'host': '94.177.32.54', 'port': 8444}
+2022-01-08T00:15:23.779 full_node chia.full_node.full_node: INFO     AUTOTEST3_PR9746 Added blocks 224032 to 224064
+2022-01-08T00:15:30.790 full_node chia.full_node.full_node: INFO     AUTOTEST3_PR9746 Added blocks 224064 to 224096
+2022-01-08T00:15:31.652 full_node full_node_server        : INFO     Connected with full_node {'host': '210.50.163.168', 'port': 8444}
+2022-01-08T00:15:33.511 full_node full_node_server        : INFO     Connected with full_node {'host': '73.169.240.181', 'port': 8444}
+2022-01-08T00:15:33.981 full_node full_node_server        : INFO     Connection closed: 73.169.240.181, node id: 91cd6e22da5658f824b423d29d35f60fa2736c12ba629f84aa52910bfb6e277e
+2022-01-08T00:15:33.983 full_node chia.full_node.full_node: INFO     peer disconnected {'host': '73.169.240.181', 'port': 8444}
+2022-01-08T00:15:35.470 full_node full_node_server        : INFO     Connected with full_node {'host': '76.110.155.148', 'port': 8444}
+2022-01-08T00:15:37.420 full_node full_node_server        : INFO     Connected with full_node {'host': '221.144.32.154', 'port': 8444}
+2022-01-08T00:15:37.426 full_node full_node_server        : INFO     Connection closed: 221.144.32.154, node id: 18bb2958167d35a63e6b659f6e52dcd8ea2c2950aa329be51fa5f6b3905eec87
+2022-01-08T00:15:37.428 full_node chia.full_node.full_node: INFO     peer disconnected {'host': '221.144.32.154', 'port': 8444}
+2022-01-08T00:15:37.479 full_node chia.full_node.full_node: INFO     AUTOTEST3_PR9746 Added blocks 224096 to 224128
+2022-01-08T00:15:41.645 full_node full_node_server        : INFO     Connected with full_node {'host': '77.243.103.48', 'port': 8444}
+2022-01-08T00:15:41.655 full_node full_node_server        : INFO     Connection closed: 77.243.103.48, node id: 91113de2413beb13a27759563caa1538ad75818b8ca82af0d25662e0ecd1a487
+2022-01-08T00:15:41.658 full_node chia.full_node.full_node: INFO     peer disconnected {'host': '77.243.103.48', 'port': 8444}
+2022-01-08T00:15:42.884 full_node chia.full_node.full_node: INFO     AUTOTEST3_PR9746 Added blocks 224128 to 224160
+2022-01-08T00:15:48.324 full_node chia.full_node.full_node: INFO     AUTOTEST3_PR9746 Added blocks 224160 to 224192
+2022-01-08T00:15:52.153 full_node full_node_server        : INFO     Connected with full_node {'host': '64.99.226.125', 'port': 8444}
+2022-01-08T00:15:52.159 full_node full_node_server        : INFO     Connection closed: 64.99.226.125, node id: 41d3fb1f4d05b710eb188edb9bce8503143dfbb59237cacaee2a1ddffae1f244
+2022-01-08T00:15:52.161 full_node chia.full_node.full_node: INFO     peer disconnected {'host': '64.99.226.125', 'port': 8444}
+2022-01-08T00:15:53.812 full_node chia.full_node.full_node: INFO     AUTOTEST3_PR9746 Added blocks 224192 to 224224
+2022-01-08T00:15:55.597 full_node full_node_server        : INFO     Connected with full_node {'host': '74.192.217.7', 'port': 8444}
+2022-01-08T00:15:55.604 full_node full_node_server        : INFO     Connection closed: 74.192.217.7, node id: 28b8728a33035aaf612fd80c9ebd667243d10f57d63b25d5563d1bb4deca95ae
+2022-01-08T00:15:55.606 full_node chia.full_node.full_node: INFO     peer disconnected {'host': '74.192.217.7', 'port': 8444}
+2022-01-08T00:15:56.546 full_node full_node_server        : INFO     Cannot connect to host 2a01:5ec0:b000:da8e:182a:25ce:1947:8549:8444 ssl:<ssl.SSLContext object at 0xffffaf1b2cc0> [Network is unreachable]
+2022-01-08T00:16:00.133 full_node chia.full_node.full_node: INFO     AUTOTEST3_PR9746 Added blocks 224224 to 224256
+2022-01-08T00:16:01.764 full_node full_node_server        : INFO     Connected with full_node {'host': '47.17.245.67', 'port': 8444}
+2022-01-08T00:16:01.769 full_node full_node_server        : INFO     Connection closed: 47.17.245.67, node id: 02157dc79ace99d0e22151b41592ea081cc0a7ab277454ac8556202a20e5b5a8
+2022-01-08T00:16:01.771 full_node chia.full_node.full_node: INFO     peer disconnected {'host': '47.17.245.67', 'port': 8444}
+2022-01-08T00:16:09.387 full_node chia.full_node.full_node: INFO     AUTOTEST3_PR9746 Added blocks 224256 to 224288
+2022-01-08T00:16:09.778 full_node full_node_server        : INFO     Connected with full_node {'host': '76.220.59.4', 'port': 8444}
+2022-01-08T00:16:09.783 full_node full_node_server        : INFO     Connection closed: 76.220.59.4, node id: 4d265de8233eea530dcbcc52cfb7a3a7edbda5bd25d412ec573a1520f2ea5260
+2022-01-08T00:16:09.785 full_node chia.full_node.full_node: INFO     peer disconnected {'host': '76.220.59.4', 'port': 8444}
+2022-01-08T00:16:14.931 full_node chia.full_node.full_node: INFO     AUTOTEST3_PR9746 Added blocks 224288 to 224320
+2022-01-08T00:16:16.235 full_node full_node_server        : INFO     Cannot connect to host 2409:8a62:7419:10a0:15ff:7d94:310a:a4ee:8444 ssl:<ssl.SSLContext object at 0xffffa268e1c0> [Network is unreachable]
+2022-01-08T00:16:19.854 full_node full_node_server        : INFO     Connected with full_node {'host': '74.108.12.139', 'port': 8444}
+2022-01-08T00:16:19.861 full_node full_node_server        : INFO     Connection closed: 74.108.12.139, node id: 992a6789bc3f1291b8902749434bbc898c200071ec3466c12a797b83201f0fdc
+2022-01-08T00:16:19.862 full_node chia.full_node.full_node: INFO     peer disconnected {'host': '74.108.12.139', 'port': 8444}
+2022-01-08T00:16:20.645 full_node chia.full_node.full_node: INFO     AUTOTEST3_PR9746 Added blocks 224320 to 224352
+2022-01-08T00:16:24.904 full_node full_node_server        : INFO     Connected with full_node {'host': '73.86.167.182', 'port': 8444}
+2022-01-08T00:16:26.522 full_node chia.full_node.full_node: INFO     AUTOTEST3_PR9746 Added blocks 224352 to 224384
+2022-01-08T00:16:32.893 full_node chia.full_node.full_node: INFO     AUTOTEST3_PR9746 Added blocks 224384 to 224416
+2022-01-08T00:16:37.291 full_node full_node_server        : INFO     Connected with full_node {'host': '217.120.160.99', 'port': 8444}
+2022-01-08T00:16:37.299 full_node full_node_server        : INFO     Connection closed: 217.120.160.99, node id: 580db2cfd354af40c8ec98281b925c272555afc9080e691cea95f8fb83863dfe
+2022-01-08T00:16:37.301 full_node chia.full_node.full_node: INFO     peer disconnected {'host': '217.120.160.99', 'port': 8444}
+2022-01-08T00:16:39.120 full_node chia.full_node.full_node: INFO     AUTOTEST3_PR9746 Added blocks 224416 to 224448
+2022-01-08T00:16:44.950 full_node chia.full_node.full_node: INFO     AUTOTEST3_PR9746 Added blocks 224448 to 224480
+2022-01-08T00:16:50.088 full_node chia.full_node.full_node: INFO     AUTOTEST3_PR9746 Added blocks 224480 to 224512
+2022-01-08T00:16:55.288 full_node chia.full_node.full_node: INFO     AUTOTEST3_PR9746 Added blocks 224512 to 224544
+2022-01-08T00:17:03.044 full_node chia.full_node.full_node: INFO     AUTOTEST3_PR9746 Added blocks 224544 to 224576
+2022-01-08T00:17:04.930 full_node full_node_server        : INFO     Connected with full_node {'host': '130.43.176.169', 'port': 8444}
+2022-01-08T00:17:04.942 full_node full_node_server        : INFO     Connection closed: 130.43.176.169, node id: d93d0527cfd99ef736268d4667e0d38bd34ae8f8f4d37e41c128266d787ae45f
+2022-01-08T00:17:04.944 full_node chia.full_node.full_node: INFO     peer disconnected {'host': '130.43.176.169', 'port': 8444}
+2022-01-08T00:17:08.419 full_node chia.full_node.full_node: INFO     AUTOTEST3_PR9746 Added blocks 224576 to 224608
+2022-01-08T00:17:14.306 full_node chia.full_node.full_node: INFO     AUTOTEST3_PR9746 Added blocks 224608 to 224640
+2022-01-08T00:17:24.697 full_node chia.full_node.full_node: INFO     AUTOTEST3_PR9746 Added blocks 224640 to 224672
+2022-01-08T00:17:26.240 full_node full_node_server        : INFO     Connected with full_node {'host': '100.8.203.47', 'port': 8444}
+2022-01-08T00:17:26.249 full_node full_node_server        : INFO     Connection closed: 100.8.203.47, node id: 70ab35ebef7ed7aff98112e716c9284fcf8cfd8a2cb00119208e085844483c40
+2022-01-08T00:17:26.251 full_node chia.full_node.full_node: INFO     peer disconnected {'host': '100.8.203.47', 'port': 8444}
+2022-01-08T00:17:30.201 full_node full_node_server        : INFO     Connected with full_node {'host': '119.136.24.186', 'port': 8444}
+2022-01-08T00:17:30.208 full_node full_node_server        : INFO     Connection closed: 119.136.24.186, node id: 2606bf772e06fd164464041ca014620ce61324304e6840f0d04a07f3b92574e8
+2022-01-08T00:17:30.209 full_node chia.full_node.full_node: INFO     peer disconnected {'host': '119.136.24.186', 'port': 8444}
+2022-01-08T00:17:30.799 full_node chia.full_node.full_node: INFO     AUTOTEST3_PR9746 Added blocks 224672 to 224704
+2022-01-08T00:17:36.492 full_node chia.full_node.full_node: INFO     AUTOTEST3_PR9746 Added blocks 224704 to 224736
+2022-01-08T00:17:41.051 full_node full_node_server        : INFO     Connected with full_node {'host': '77.239.245.2', 'port': 8444}
+2022-01-08T00:17:41.056 full_node full_node_server        : INFO     Connection closed: 77.239.245.2, node id: 9c0a4123fcc22b0a29376f7bfc3ac3583b2641c563970654c9c44d68126d426e
+2022-01-08T00:17:41.058 full_node chia.full_node.full_node: INFO     peer disconnected {'host': '77.239.245.2', 'port': 8444}
+2022-01-08T00:17:42.279 full_node chia.full_node.full_node: INFO     AUTOTEST3_PR9746 Added blocks 224736 to 224768
+2022-01-08T00:17:48.050 full_node chia.full_node.full_node: INFO     AUTOTEST3_PR9746 Added blocks 224768 to 224800
+2022-01-08T00:17:48.735 full_node full_node_server        : INFO     Cannot connect to host 240e:37a:3c0a:3700:e472:196b:2b70:6c97:8444 ssl:<ssl.SSLContext object at 0xffff97145d40> [Network is unreachable]
+2022-01-08T00:17:54.057 full_node full_node_server        : INFO     Cannot connect to host 58.9.152.141:8444 ssl:<ssl.SSLContext object at 0xffffae25e140> [Connect call failed ('58.9.152.141', 8444)]
+2022-01-08T00:17:56.455 full_node chia.full_node.full_node: INFO     AUTOTEST3_PR9746 Added blocks 224800 to 224832
+2022-01-08T00:18:00.912 full_node full_node_server        : INFO     Connected with full_node {'host': '176.36.183.44', 'port': 8444}
+2022-01-08T00:18:01.020 full_node full_node_server        : INFO     Connection closed: 176.36.183.44, node id: 10eebf65d8a9ba4f4934185848be516a55f9e99bc6445418ca8f52cb6fcab71c
+2022-01-08T00:18:01.022 full_node chia.full_node.full_node: INFO     peer disconnected {'host': '176.36.183.44', 'port': 8444}
+2022-01-08T00:18:03.122 full_node chia.full_node.full_node: INFO     AUTOTEST3_PR9746 Added blocks 224832 to 224864
+2022-01-08T00:18:05.117 full_node full_node_server        : INFO     Connected with full_node {'host': '107.167.85.122', 'port': 8444}
+2022-01-08T00:18:05.125 full_node full_node_server        : INFO     Connection closed: 107.167.85.122, node id: 8d7dab5b26a5dc946430728cbaf19929609ef04d0df3ee53308c28827b56de89
+2022-01-08T00:18:05.126 full_node chia.full_node.full_node: INFO     peer disconnected {'host': '107.167.85.122', 'port': 8444}
+2022-01-08T00:18:12.156 full_node full_node_server        : INFO     Connected with full_node {'host': '37.46.174.12', 'port': 8444}
+2022-01-08T00:18:12.163 full_node full_node_server        : INFO     Connection closed: 37.46.174.12, node id: c4ba43601cb4d5632b881bbba36d43ef96b6b6d3a73ad3336a177da4a132f79b
+2022-01-08T00:18:12.165 full_node chia.full_node.full_node: INFO     peer disconnected {'host': '37.46.174.12', 'port': 8444}
+2022-01-08T00:18:14.021 full_node chia.full_node.full_node: INFO     AUTOTEST3_PR9746 Added blocks 224864 to 224896
+2022-01-08T00:18:20.362 full_node full_node_server        : INFO     Connected with full_node {'host': '144.172.168.28', 'port': 8444}
+2022-01-08T00:18:21.904 full_node chia.full_node.full_node: INFO     AUTOTEST3_PR9746 Added blocks 224896 to 224928
+2022-01-08T00:18:26.106 full_node full_node_server        : INFO     Connected with full_node {'host': '47.234.254.124', 'port': 8444}
+2022-01-08T00:18:26.115 full_node full_node_server        : INFO     Connection closed: 47.234.254.124, node id: 4ef5f3f2296135d3ad36ce9d92627ca01a45345b8b301a5572852a897ece7ebf
+2022-01-08T00:18:26.117 full_node chia.full_node.full_node: INFO     peer disconnected {'host': '47.234.254.124', 'port': 8444}
+2022-01-08T00:18:28.846 full_node full_node_server        : INFO     Connected with full_node {'host': '213.132.76.216', 'port': 8444}
+2022-01-08T00:18:28.854 full_node full_node_server        : INFO     Connection closed: 213.132.76.216, node id: 8fe61c0c8ad190155165750537ca14dd24842fa962e8c28adc6254c8cca2bd84
+2022-01-08T00:18:28.855 full_node chia.full_node.full_node: INFO     peer disconnected {'host': '213.132.76.216', 'port': 8444}
+2022-01-08T00:18:29.192 full_node chia.full_node.full_node: INFO     AUTOTEST3_PR9746 Added blocks 224928 to 224960
+2022-01-08T00:18:34.601 full_node full_node_server        : INFO     Connected with full_node {'host': '218.87.154.56', 'port': 8444}
+2022-01-08T00:18:34.745 full_node full_node_server        : INFO     Connection closed: 218.87.154.56, node id: e1010e5b2bf447b6b0ba693f42bfd1bb5f75ca7f208ebb0e51a8fd5b71e75454
+2022-01-08T00:18:34.747 full_node chia.full_node.full_node: INFO     peer disconnected {'host': '218.87.154.56', 'port': 8444}
+2022-01-08T00:18:36.127 full_node chia.full_node.full_node: INFO     AUTOTEST3_PR9746 Added blocks 224960 to 224992
+2022-01-08T00:18:38.859 full_node full_node_server        : INFO     Connected with full_node {'host': '220.133.93.178', 'port': 8444}
+2022-01-08T00:18:38.865 full_node full_node_server        : INFO     Connection closed: 220.133.93.178, node id: 1b63f85465128c1047b902af13b45ba7c7b147e27245b333d82a0d7fcedfd8a9
+2022-01-08T00:18:38.866 full_node chia.full_node.full_node: INFO     peer disconnected {'host': '220.133.93.178', 'port': 8444}
+2022-01-08T00:18:46.797 full_node chia.full_node.full_node: INFO     AUTOTEST3_PR9746 Added blocks 224992 to 225024
+2022-01-08T00:18:51.372 full_node full_node_server        : INFO     Connected with full_node {'host': '93.103.94.40', 'port': 8444}
+2022-01-08T00:18:51.380 full_node full_node_server        : INFO     Connection closed: 93.103.94.40, node id: 42e226b5608902d0d1b21b46d0d0d6a815d8df87655c351a899383330463f1d1
+2022-01-08T00:18:51.382 full_node chia.full_node.full_node: INFO     peer disconnected {'host': '93.103.94.40', 'port': 8444}
+2022-01-08T00:18:58.282 full_node chia.full_node.full_node: INFO     AUTOTEST3_PR9746 Added blocks 225024 to 225056
+2022-01-08T00:19:02.013 full_node full_node_server        : INFO     Connected with full_node {'host': '185.83.112.27', 'port': 8444}
+2022-01-08T00:19:02.019 full_node full_node_server        : INFO     Connection closed: 185.83.112.27, node id: 0e631fec4d088a5c2f0c5bd3f10455dbb4b464a5fadfdbf7fc980fb8fc901279
+2022-01-08T00:19:02.020 full_node chia.full_node.full_node: INFO     peer disconnected {'host': '185.83.112.27', 'port': 8444}
+2022-01-08T00:19:04.569 full_node chia.full_node.full_node: INFO     AUTOTEST3_PR9746 Added blocks 225056 to 225088
+2022-01-08T00:19:06.232 full_node full_node_server        : INFO     Cannot connect to host 2.236.53.154:8444 ssl:<ssl.SSLContext object at 0xffff965d7140> [Connect call failed ('2.236.53.154', 8444)]
+2022-01-08T00:19:10.494 full_node chia.full_node.full_node: INFO     AUTOTEST3_PR9746 Added blocks 225088 to 225120
+2022-01-08T00:19:11.571 full_node full_node_server        : INFO     Cannot connect to host 203.218.212.19:8444 ssl:<ssl.SSLContext object at 0xffffb630dbc0> [Connect call failed ('203.218.212.19', 8444)]
+2022-01-08T00:19:16.051 full_node chia.full_node.full_node: INFO     AUTOTEST3_PR9746 Added blocks 225120 to 225152
+2022-01-08T00:19:16.807 full_node full_node_server        : INFO     Connected with full_node {'host': '78.96.184.76', 'port': 8444}
+2022-01-08T00:19:16.815 full_node full_node_server        : INFO     Connection closed: 78.96.184.76, node id: e687501f1cbc0f996581bdb4dbc2f60f1e3a5f10659f77dc96d4dcdb13868ab7
+2022-01-08T00:19:16.818 full_node chia.full_node.full_node: INFO     peer disconnected {'host': '78.96.184.76', 'port': 8444}
+2022-01-08T00:19:22.297 full_node chia.full_node.full_node: INFO     AUTOTEST3_PR9746 Added blocks 225152 to 225184
+2022-01-08T00:19:24.391 full_node full_node_server        : INFO     Cannot connect to host 2601:281:cd00:7300:5923:a381:c1aa:802e:8444 ssl:<ssl.SSLContext object at 0xffffa26a97c0> [Network is unreachable]
+2022-01-08T00:19:27.945 full_node chia.full_node.full_node: INFO     AUTOTEST3_PR9746 Added blocks 225184 to 225216
+2022-01-08T00:19:33.800 full_node chia.full_node.full_node: INFO     AUTOTEST3_PR9746 Added blocks 225216 to 225248
+2022-01-08T00:19:34.521 full_node full_node_server        : INFO     Connected with full_node {'host': '72.220.0.197', 'port': 8444}
+2022-01-08T00:19:34.542 full_node full_node_server        : INFO     Connection closed: 72.220.0.197, node id: 46399b90abc81c441f10376def1e38c9fcde17781c77191ee1847731903fd4ec
+2022-01-08T00:19:34.543 full_node chia.full_node.full_node: INFO     peer disconnected {'host': '72.220.0.197', 'port': 8444}
+2022-01-08T00:19:38.968 full_node chia.full_node.full_node: INFO     AUTOTEST3_PR9746 Added blocks 225248 to 225280
+2022-01-08T00:19:46.241 full_node chia.full_node.full_node: INFO     AUTOTEST3_PR9746 Added blocks 225280 to 225312
+2022-01-08T00:19:48.298 full_node full_node_server        : INFO     Connected with full_node {'host': '109.255.117.244', 'port': 8444}
+2022-01-08T00:19:48.314 full_node full_node_server        : INFO     Connection closed: 109.255.117.244, node id: 15271dd46cb86f47a287a51f577b22f00ec29824aac724d57ffd31058b614839
+2022-01-08T00:19:48.316 full_node chia.full_node.full_node: INFO     peer disconnected {'host': '109.255.117.244', 'port': 8444}
+2022-01-08T00:19:51.569 full_node chia.full_node.full_node: INFO     AUTOTEST3_PR9746 Added blocks 225312 to 225344
+2022-01-08T00:19:58.083 full_node full_node_server        : INFO     Connected with full_node {'host': '65.190.54.125', 'port': 8444}
+2022-01-08T00:19:58.090 full_node full_node_server        : INFO     Connection closed: 65.190.54.125, node id: e5233259218fe09bb4bc4392084bb434d46bd0e39cb8ece203f77467e6d1944d
+2022-01-08T00:19:58.092 full_node chia.full_node.full_node: INFO     peer disconnected {'host': '65.190.54.125', 'port': 8444}
+2022-01-08T00:19:58.142 full_node chia.full_node.full_node: INFO     AUTOTEST3_PR9746 Added blocks 225344 to 225376
+2022-01-08T00:20:04.034 full_node chia.full_node.full_node: INFO     AUTOTEST3_PR9746 Added blocks 225376 to 225408
+2022-01-08T00:20:06.870 full_node full_node_server        : INFO     Connected with full_node {'host': '94.181.174.5', 'port': 8444}
+2022-01-08T00:20:07.064 full_node full_node_server        : INFO     Connection closed: 94.181.174.5, node id: c99157e183865cd0b6d6ab8e883b021d6337687a6cbd499f17cb30b500edda97
+2022-01-08T00:20:07.065 full_node chia.full_node.full_node: INFO     peer disconnected {'host': '94.181.174.5', 'port': 8444}
+2022-01-08T00:20:13.114 full_node chia.full_node.full_node: INFO     AUTOTEST3_PR9746 Added blocks 225408 to 225440
+2022-01-08T00:20:17.473 full_node full_node_server        : INFO     Connected with full_node {'host': '82.5.88.125', 'port': 8444}
+2022-01-08T00:20:17.480 full_node full_node_server        : INFO     Connection closed: 82.5.88.125, node id: 4535bd485a34ccb7c9a2c6c32ec3d4f41df9475907d044dd26457c0f3487a9b8
+2022-01-08T00:20:17.482 full_node chia.full_node.full_node: INFO     peer disconnected {'host': '82.5.88.125', 'port': 8444}
+2022-01-08T00:20:18.772 full_node chia.full_node.full_node: INFO     AUTOTEST3_PR9746 Added blocks 225440 to 225472
+2022-01-08T00:20:24.544 full_node chia.full_node.full_node: INFO     AUTOTEST3_PR9746 Added blocks 225472 to 225504
+2022-01-08T00:20:30.015 full_node chia.full_node.full_node: INFO     AUTOTEST3_PR9746 Added blocks 225504 to 225536
+2022-01-08T00:20:33.014 full_node full_node_server        : INFO     Connected with full_node {'host': '172.88.66.210', 'port': 8444}
+2022-01-08T00:20:33.031 full_node full_node_server        : INFO     Connection closed: 172.88.66.210, node id: e696fd72bd153dfe6b4912869c4219997d9335e2a553eb1a96111fcaedbb6748
+2022-01-08T00:20:33.039 full_node chia.full_node.full_node: INFO     peer disconnected {'host': '172.88.66.210', 'port': 8444}
+2022-01-08T00:20:36.850 full_node chia.full_node.full_node: INFO     AUTOTEST3_PR9746 Added blocks 225536 to 225568
+2022-01-08T00:20:44.406 full_node chia.full_node.full_node: INFO     AUTOTEST3_PR9746 Added blocks 225568 to 225600
+2022-01-08T00:20:51.096 full_node full_node_server        : INFO     Connected with full_node {'host': '186.223.73.79', 'port': 8444}
+2022-01-08T00:20:51.111 full_node full_node_server        : INFO     Connection closed: 186.223.73.79, node id: 3ae8133ea6f6ba50225068c129c6f77b34e8e3cfbd04450cc1efad8d547d1d6b
+2022-01-08T00:20:51.112 full_node chia.full_node.full_node: INFO     peer disconnected {'host': '186.223.73.79', 'port': 8444}
+2022-01-08T00:20:52.250 full_node chia.full_node.full_node: INFO     AUTOTEST3_PR9746 Added blocks 225600 to 225632
+2022-01-08T00:20:58.073 full_node chia.full_node.full_node: INFO     AUTOTEST3_PR9746 Added blocks 225632 to 225664
+2022-01-08T00:21:04.239 full_node chia.full_node.full_node: INFO     AUTOTEST3_PR9746 Added blocks 225664 to 225696
+2022-01-08T00:21:08.683 full_node full_node_server        : INFO     Connected with full_node {'host': '93.65.185.238', 'port': 8444}
+2022-01-08T00:21:14.329 full_node full_node_server        : INFO     Connected with full_node {'host': '60.67.99.49', 'port': 8444}
+2022-01-08T00:21:14.552 full_node full_node_server        : INFO     Connection closed: 60.67.99.49, node id: 3757e8954f73985cf48edc64213050340545d139a1b6b37bb38f8a30684cd00f
+2022-01-08T00:21:14.554 full_node chia.full_node.full_node: INFO     peer disconnected {'host': '60.67.99.49', 'port': 8444}
+2022-01-08T00:21:24.891 full_node full_node_server        : INFO     Connected with full_node {'host': '114.230.222.124', 'port': 8444}
+2022-01-08T00:21:24.901 full_node full_node_server        : INFO     Connection closed: 114.230.222.124, node id: cea14453810717b61a5bd5312e24ca76faabfd54cf7252ba586056a00b91a5fc
+2022-01-08T00:21:24.902 full_node chia.full_node.full_node: INFO     peer disconnected {'host': '114.230.222.124', 'port': 8444}
+2022-01-08T00:21:29.096 full_node full_node_server        : INFO     Connected with full_node {'host': '77.248.95.215', 'port': 8444}
+2022-01-08T00:21:29.103 full_node full_node_server        : INFO     Connection closed: 77.248.95.215, node id: 05f7ea456d866f5d513287c6438779914810d488d0234a1d65d358ea9d885d03
+2022-01-08T00:21:29.104 full_node chia.full_node.full_node: INFO     peer disconnected {'host': '77.248.95.215', 'port': 8444}
+2022-01-08T00:21:31.175 full_node chia.full_node.full_node: WARNING  TEST Block pre-validation time: 26.93 seconds
+2022-01-08T00:21:34.935 full_node full_node_server        : INFO     Connected with full_node {'host': '76.109.43.72', 'port': 8444}
+2022-01-08T00:21:34.940 full_node full_node_server        : INFO     Connection closed: 76.109.43.72, node id: 4413ebf6d2ff461b6d8eddb3b949ba6ea116ddf00d29815f40a06f1e90c66ed6
+2022-01-08T00:21:34.941 full_node chia.full_node.full_node: INFO     peer disconnected {'host': '76.109.43.72', 'port': 8444}
+2022-01-08T00:21:45.074 full_node chia.full_node.full_node: INFO     AUTOTEST3_PR9746 Added blocks 225696 to 225728
+2022-01-08T00:21:45.577 full_node full_node_server        : INFO     Connected with full_node {'host': '24.113.247.169', 'port': 8444}
+2022-01-08T00:21:45.627 full_node full_node_server        : INFO     Connection closed: 24.113.247.169, node id: 2f7cc06f3f23e702101f97fe8a81ec233cb16382e7b3d948000a4827ade5ddd2
+2022-01-08T00:21:45.629 full_node chia.full_node.full_node: INFO     peer disconnected {'host': '24.113.247.169', 'port': 8444}
+2022-01-08T00:21:50.098 full_node full_node_server        : INFO     Cannot connect to host 182.114.70.226:8444 ssl:<ssl.SSLContext object at 0xffffb4c93ec0> [Connect call failed ('182.114.70.226', 8444)]
+2022-01-08T00:22:00.497 full_node full_node_server        : INFO     Cannot connect to host 79.197.154.22:8444 ssl:<ssl.SSLContext object at 0xffff96da5640> [Connect call failed ('79.197.154.22', 8444)]
+2022-01-08T00:22:06.050 full_node full_node_server        : INFO     Connected with full_node {'host': '79.140.180.146', 'port': 8444}
+2022-01-08T00:22:06.066 full_node full_node_server        : INFO     Connection closed: 79.140.180.146, node id: f8e4fbe725fbb17846573c58fc8846ee97344f0d7162872f028d6f9390ed7797
+2022-01-08T00:22:06.078 full_node chia.full_node.full_node: INFO     peer disconnected {'host': '79.140.180.146', 'port': 8444}
+2022-01-08T00:22:14.035 full_node full_node_server        : INFO     Cannot connect to host 212.59.227.21:8444 ssl:<ssl.SSLContext object at 0xffffa082c8c0> [Connect call failed ('212.59.227.21', 8444)]
+2022-01-08T00:22:16.848 full_node full_node_server        : INFO     Connected with full_node {'host': '76.65.106.166', 'port': 8444}
+2022-01-08T00:22:16.854 full_node full_node_server        : INFO     Connection closed: 76.65.106.166, node id: 76bcfcab81577cace6bbb1c7112720f6dd7bfd9abc2056766f3a03be6879743b
+2022-01-08T00:22:16.856 full_node chia.full_node.full_node: INFO     peer disconnected {'host': '76.65.106.166', 'port': 8444}
+2022-01-08T00:22:19.137 full_node chia.full_node.full_node: WARNING  TEST Block pre-validation time: 34.01 seconds
+2022-01-08T00:22:21.507 full_node full_node_server        : INFO     Cannot connect to host 2400:4153:40e1:5200:dc2d:f4d2:8252:abb5:8444 ssl:<ssl.SSLContext object at 0xffffa082ca40> [Network is unreachable]
+2022-01-08T00:22:27.488 full_node full_node_server        : INFO     Connected with full_node {'host': '173.188.130.131', 'port': 8444}
+2022-01-08T00:22:27.497 full_node full_node_server        : INFO     Connection closed: 173.188.130.131, node id: 4f3d06759e1ba73aed949b3c00759dca04f14eb19632893c57bd0d1614c84948
+2022-01-08T00:22:27.498 full_node chia.full_node.full_node: INFO     peer disconnected {'host': '173.188.130.131', 'port': 8444}
+2022-01-08T00:22:32.707 full_node full_node_server        : INFO     Connected with full_node {'host': '108.56.148.42', 'port': 8444}
+2022-01-08T00:22:32.714 full_node full_node_server        : INFO     Connection closed: 108.56.148.42, node id: b043de15c95f85198091d4f5e24cded39158c859bf1b3da65af8a51581aef8d0
+2022-01-08T00:22:32.716 full_node chia.full_node.full_node: INFO     peer disconnected {'host': '108.56.148.42', 'port': 8444}
+2022-01-08T00:22:41.973 full_node chia.full_node.full_node: INFO     AUTOTEST3_PR9746 Added blocks 225728 to 225760
+2022-01-08T00:22:53.639 full_node full_node_server        : INFO     Connected with full_node {'host': '213.248.20.69', 'port': 8444}
+2022-01-08T00:22:53.657 full_node full_node_server        : INFO     Connection closed: 213.248.20.69, node id: 68368e0b7d6de23eac372bca94fc61c2e656d18ed88cd0db57f70769b7a02365
+2022-01-08T00:22:53.658 full_node chia.full_node.full_node: INFO     peer disconnected {'host': '213.248.20.69', 'port': 8444}
+2022-01-08T00:22:59.590 full_node full_node_server        : INFO     Connected with full_node {'host': '218.80.109.130', 'port': 8444}
+2022-01-08T00:22:59.605 full_node full_node_server        : INFO     Connection closed: 218.80.109.130, node id: 31d374d435cc2d02c51672acce61caf11c6d60d26260409bdb6073806f1bd730
+2022-01-08T00:22:59.608 full_node chia.full_node.full_node: INFO     peer disconnected {'host': '218.80.109.130', 'port': 8444}
+2022-01-08T00:23:04.265 full_node full_node_server        : INFO     Connected with full_node {'host': '85.142.165.110', 'port': 8444}
+2022-01-08T00:23:09.948 full_node full_node_server        : INFO     Connected with full_node {'host': '188.177.27.110', 'port': 8444}
+2022-01-08T00:23:09.954 full_node full_node_server        : INFO     Connection closed: 188.177.27.110, node id: 82a9ea546b0c0df417d3a01768dafc5b93733874de2701784fe36df25a08d5c1
+2022-01-08T00:23:09.956 full_node chia.full_node.full_node: INFO     peer disconnected {'host': '188.177.27.110', 'port': 8444}
+2022-01-08T00:23:16.647 full_node full_node_server        : INFO     Connected with full_node {'host': '1.209.97.253', 'port': 8444}
+2022-01-08T00:23:16.654 full_node full_node_server        : INFO     Connection closed: 1.209.97.253, node id: 0e8f48840f5be1930704dbac6fc45711ab1b3c560bfa00fea2f16c57747a621c
+2022-01-08T00:23:16.655 full_node chia.full_node.full_node: INFO     peer disconnected {'host': '1.209.97.253', 'port': 8444}
+2022-01-08T00:23:22.742 full_node full_node_server        : INFO     Connected with full_node {'host': '121.158.110.150', 'port': 8444}
+2022-01-08T00:23:22.754 full_node full_node_server        : INFO     Connection closed: 121.158.110.150, node id: 1d90930b24ed59493a276a56fe41d565ee5604f6df663a6f4f81f8fcd86e3449
+2022-01-08T00:23:22.757 full_node chia.full_node.full_node: INFO     peer disconnected {'host': '121.158.110.150', 'port': 8444}
+2022-01-08T00:23:25.972 full_node chia.full_node.full_node: WARNING  TEST Block pre-validation time: 43.91 seconds
+2022-01-08T00:23:27.642 full_node full_node_server        : INFO     Cannot connect to host 85.203.32.26:8444 ssl:<ssl.SSLContext object at 0xffffb630d340> [Connect call failed ('85.203.32.26', 8444)]
+2022-01-08T00:23:41.843 full_node full_node_server        : INFO     Connected with full_node {'host': '114.230.221.23', 'port': 8444}
+2022-01-08T00:23:41.852 full_node full_node_server        : INFO     Connection closed: 114.230.221.23, node id: 2da27d00cd15db2a822d0212e241fe70d58e362ff630e7be584e904e37521073
+2022-01-08T00:23:41.853 full_node chia.full_node.full_node: INFO     peer disconnected {'host': '114.230.221.23', 'port': 8444}
+2022-01-08T00:23:45.572 full_node full_node_server        : INFO     Cannot connect to host 46.49.20.103:8444 ssl:<ssl.SSLContext object at 0xffffb5a2ee40> [Connect call failed ('46.49.20.103', 8444)]
+2022-01-08T00:23:51.567 full_node chia.full_node.full_node: INFO     AUTOTEST3_PR9746 Added blocks 225760 to 225792
+2022-01-08T00:23:59.527 full_node full_node_server        : INFO     Connected with full_node {'host': '198.2.89.87', 'port': 8444}
+2022-01-08T00:23:59.534 full_node full_node_server        : INFO     Connection closed: 198.2.89.87, node id: b73f286f1328fe331b3b532d0982d240688968ef4dcf2d1b09895f5e938b9619
+2022-01-08T00:23:59.538 full_node chia.full_node.full_node: INFO     peer disconnected {'host': '198.2.89.87', 'port': 8444}
+2022-01-08T00:24:11.518 full_node full_node_server        : INFO     Connected with full_node {'host': '69.246.125.74', 'port': 8444}
+2022-01-08T00:24:11.528 full_node full_node_server        : INFO     Connection closed: 69.246.125.74, node id: ed91e7163a977995b948022bf80578e846ec06c646e800f133767af812acc58b
+2022-01-08T00:24:11.529 full_node chia.full_node.full_node: INFO     peer disconnected {'host': '69.246.125.74', 'port': 8444}
+2022-01-08T00:24:17.049 full_node full_node_server        : INFO     Connected with full_node {'host': '82.64.94.50', 'port': 8444}
+2022-01-08T00:24:17.055 full_node full_node_server        : INFO     Connection closed: 82.64.94.50, node id: 6e4c46034cc2430ac31afb092930ae0f745a403d050094112d770c91e4143f7e
+2022-01-08T00:24:17.056 full_node chia.full_node.full_node: INFO     peer disconnected {'host': '82.64.94.50', 'port': 8444}
+2022-01-08T00:24:37.275 full_node full_node_server        : INFO     Connected with full_node {'host': '46.45.218.190', 'port': 8444}
+2022-01-08T00:24:37.280 full_node full_node_server        : INFO     Connection closed: 46.45.218.190, node id: d5f040d0a33ff091b6b31714137ffb8de3fc1ec2cc1c9e297e803db7d8333979
+2022-01-08T00:24:37.283 full_node chia.full_node.full_node: INFO     peer disconnected {'host': '46.45.218.190', 'port': 8444}
+2022-01-08T00:24:48.377 full_node chia.full_node.full_node: WARNING  TEST Block pre-validation time: 56.70 seconds
+2022-01-08T00:24:50.784 full_node full_node_server        : INFO     Connected with full_node {'host': '191.182.1.88', 'port': 8444}
+2022-01-08T00:24:50.792 full_node full_node_server        : INFO     Connection closed: 191.182.1.88, node id: bd3ff624e7d82665524438c42ba4520049f4a57b1608bb6aa91706533353739e
+2022-01-08T00:24:50.794 full_node chia.full_node.full_node: INFO     peer disconnected {'host': '191.182.1.88', 'port': 8444}
+2022-01-08T00:25:08.567 full_node full_node_server        : INFO     Connected with full_node {'host': '186.150.55.176', 'port': 8444}
+2022-01-08T00:25:17.851 full_node chia.full_node.full_node: INFO     AUTOTEST3_PR9746 Added blocks 225792 to 225824
+2022-01-08T00:25:29.554 full_node full_node_server        : INFO     Connected with full_node {'host': '1.116.62.241', 'port': 8444}
+2022-01-08T00:25:29.571 full_node full_node_server        : INFO     Connection closed: 1.116.62.241, node id: 518be4b3fa6aad0450ad7f35ec82278b25950e9e2d9a6070431ab424b40160b9
+2022-01-08T00:25:29.573 full_node chia.full_node.full_node: INFO     peer disconnected {'host': '1.116.62.241', 'port': 8444}
+2022-01-08T00:25:42.348 full_node full_node_server        : INFO     Connected with full_node {'host': '47.188.71.123', 'port': 8444}
+2022-01-08T00:25:42.357 full_node full_node_server        : INFO     Connection closed: 47.188.71.123, node id: 820423446ff73b73dc02fb3306875615a97efeb00ceb0510f2c7ef7e365f1f50
+2022-01-08T00:25:42.359 full_node chia.full_node.full_node: INFO     peer disconnected {'host': '47.188.71.123', 'port': 8444}
+2022-01-08T00:26:02.971 full_node chia.full_node.full_node: WARNING  TEST Block pre-validation time: 45.01 seconds
+2022-01-08T00:26:03.178 full_node full_node_server        : INFO     Connected with full_node {'host': '90.164.138.12', 'port': 8444}
+2022-01-08T00:26:03.296 full_node full_node_server        : INFO     Connection closed: 90.164.138.12, node id: 61cd0ef913f7fa1b3f7a5fec2a3d88bf297255dfccfdcd9323966983c7033918
+2022-01-08T00:26:03.298 full_node chia.full_node.full_node: INFO     peer disconnected {'host': '90.164.138.12', 'port': 8444}
+2022-01-08T00:26:14.516 full_node full_node_server        : INFO     Cannot connect to host 84.115.236.169:8444 ssl:<ssl.SSLContext object at 0xffffb435f6c0> [Connect call failed ('84.115.236.169', 8444)]
+2022-01-08T00:26:15.785 full_node full_node_server        : INFO     Connected with full_node {'host': '178.249.18.200', 'port': 8444}
+2022-01-08T00:26:15.791 full_node full_node_server        : INFO     Connection closed: 178.249.18.200, node id: 381438bcde245ccae7219ee4765250a0070259687d7ebc04850c07a7e57f126f
+2022-01-08T00:26:15.792 full_node chia.full_node.full_node: INFO     peer disconnected {'host': '178.249.18.200', 'port': 8444}
+2022-01-08T00:26:23.040 full_node full_node_server        : INFO     Connected with full_node {'host': '50.64.169.1', 'port': 8444}
+2022-01-08T00:26:23.048 full_node full_node_server        : INFO     Connection closed: 50.64.169.1, node id: e2d1d0a42db883df1aba4998c2179d8a1ba628bb623ca6c190263a8daba2cf5e
+2022-01-08T00:26:23.050 full_node chia.full_node.full_node: INFO     peer disconnected {'host': '50.64.169.1', 'port': 8444}
+2022-01-08T00:26:34.289 full_node chia.full_node.full_node: INFO     AUTOTEST3_PR9746 Added blocks 225824 to 225856
+2022-01-08T00:26:43.484 full_node full_node_server        : INFO     Connected with full_node {'host': '114.225.50.178', 'port': 8444}
+2022-01-08T00:26:43.490 full_node full_node_server        : INFO     Connection closed: 114.225.50.178, node id: 2aa83bafe4c2b983e23cdcb955dd01cc0be8aedc8216dff535c53946673002b1
+2022-01-08T00:26:43.492 full_node chia.full_node.full_node: INFO     peer disconnected {'host': '114.225.50.178', 'port': 8444}
+2022-01-08T00:26:49.744 full_node full_node_server        : INFO     Connected with full_node {'host': '100.4.192.212', 'port': 8444}
+2022-01-08T00:26:49.753 full_node full_node_server        : INFO     Connection closed: 100.4.192.212, node id: 79ac944bd2cf0caf55bfb328aaf568411333209f6e8daeb8e2544c0ba4cb75ca
+2022-01-08T00:26:49.766 full_node chia.full_node.full_node: INFO     peer disconnected {'host': '100.4.192.212', 'port': 8444}
+2022-01-08T00:27:03.249 full_node full_node_server        : INFO     Connected with full_node {'host': '162.213.116.204', 'port': 8444}
+2022-01-08T00:27:03.257 full_node full_node_server        : INFO     Connection closed: 162.213.116.204, node id: e4d52383620e6e71b48412c4b0aead8d23c38748da0e45eee2150f39c35dd0e4
+2022-01-08T00:27:03.260 full_node chia.full_node.full_node: INFO     peer disconnected {'host': '162.213.116.204', 'port': 8444}
+2022-01-08T00:27:16.418 full_node full_node_server        : INFO     Connected with full_node {'host': '82.31.2.58', 'port': 8444}
+2022-01-08T00:27:26.034 full_node full_node_server        : INFO     Connected with full_node {'host': '89.177.158.95', 'port': 8444}
+2022-01-08T00:27:26.040 full_node full_node_server        : INFO     Connection closed: 89.177.158.95, node id: feed5dd83d01841f592a02fac83e4b514e20d00d074df60ebeb6e3e36bad5368
+2022-01-08T00:27:26.042 full_node chia.full_node.full_node: INFO     peer disconnected {'host': '89.177.158.95', 'port': 8444}
+2022-01-08T00:27:30.510 full_node chia.full_node.full_node: WARNING  TEST Block pre-validation time: 56.12 seconds
+2022-01-08T00:28:04.427 full_node full_node_server        : INFO     Connected with full_node {'host': '69.243.240.121', 'port': 8444}
+2022-01-08T00:28:04.497 full_node full_node_server        : INFO     Connection closed: 69.243.240.121, node id: 00203cde47bb067db8ef9c2808b55810b0101d366a8137291ca7ade3bd39af5a
+2022-01-08T00:28:04.499 full_node chia.full_node.full_node: INFO     peer disconnected {'host': '69.243.240.121', 'port': 8444}
+2022-01-08T00:28:18.829 full_node full_node_server        : INFO     Cannot connect to host 165.173.4.143:8444 ssl:<ssl.SSLContext object at 0xffffb435f140> [Connect call failed ('165.173.4.143', 8444)]
+2022-01-08T00:28:22.006 full_node chia.full_node.full_node: INFO     AUTOTEST3_PR9746 Added blocks 225856 to 225888
+2022-01-08T00:28:34.264 full_node full_node_server        : INFO     Connected with full_node {'host': '92.242.70.188', 'port': 8444}
+2022-01-08T00:28:34.482 full_node full_node_server        : INFO     Connection closed: 92.242.70.188, node id: 980733f65279b55fbedd90db2d82534934e2e3684ec0fd3335b8702b78dd8143
+2022-01-08T00:28:34.483 full_node chia.full_node.full_node: INFO     peer disconnected {'host': '92.242.70.188', 'port': 8444}
+2022-01-08T00:28:52.915 full_node chia.full_node.full_node: WARNING  TEST Block pre-validation time: 30.76 seconds
+2022-01-08T00:29:01.625 full_node full_node_server        : INFO     Connected with full_node {'host': '80.108.196.254', 'port': 8444}
+2022-01-08T00:29:01.634 full_node full_node_server        : INFO     Connection closed: 80.108.196.254, node id: e3e8b4a049c365f924a2252816b9a8b5c0c8505fbf0ab8237aa681bbb3247923
+2022-01-08T00:29:01.636 full_node chia.full_node.full_node: INFO     peer disconnected {'host': '80.108.196.254', 'port': 8444}
+2022-01-08T00:29:09.696 full_node full_node_server        : INFO     Cannot connect to host 195.137.226.122:8444 ssl:<ssl.SSLContext object at 0xffff97500140> [Connect call failed ('195.137.226.122', 8444)]
+2022-01-08T00:29:15.593 full_node chia.full_node.full_node: INFO     AUTOTEST3_PR9746 Added blocks 225888 to 225920
+2022-01-08T00:29:35.986 full_node full_node_server        : INFO     Connected with full_node {'host': '154.5.17.35', 'port': 8444}
+2022-01-08T00:29:42.816 full_node full_node_server        : INFO     Cannot connect to host 109.193.62.164:8444 ssl:<ssl.SSLContext object at 0xffffa00cc540> [Connect call failed ('109.193.62.164', 8444)]
+2022-01-08T00:29:46.101 full_node chia.full_node.full_node: WARNING  TEST Block pre-validation time: 30.42 seconds
+2022-01-08T00:29:51.494 full_node full_node_server        : INFO     Connected with full_node {'host': '90.150.180.68', 'port': 8444}
+2022-01-08T00:29:51.506 full_node full_node_server        : INFO     Connection closed: 90.150.180.68, node id: 7aa5e814f722130ad1c4cdcfbb94115d2e02007d5907b570e17e612905f16544
+2022-01-08T00:29:51.507 full_node chia.full_node.full_node: INFO     peer disconnected {'host': '90.150.180.68', 'port': 8444}
+2022-01-08T00:30:00.308 full_node chia.full_node.full_node: INFO     AUTOTEST3_PR9746 Added blocks 225920 to 225952
+2022-01-08T00:30:09.013 full_node full_node_server        : INFO     Connected with full_node {'host': '181.73.47.40', 'port': 8444}
+2022-01-08T00:30:09.019 full_node full_node_server        : INFO     Connection closed: 181.73.47.40, node id: c4262872abc3f83e6dd8ef7f331171d00f5cc7de4ae9198a715e3a4f72de95a5
+2022-01-08T00:30:09.026 full_node chia.full_node.full_node: INFO     peer disconnected {'host': '181.73.47.40', 'port': 8444}
+2022-01-08T00:30:25.419 full_node full_node_server        : INFO     Connected with full_node {'host': '192.182.154.162', 'port': 8444}
+2022-01-08T00:30:25.428 full_node full_node_server        : INFO     Connection closed: 192.182.154.162, node id: d494bbff767f0d4c09c1dc1969e8d763e99368b9d50a9e3834a9603496f3f068
+2022-01-08T00:30:25.429 full_node chia.full_node.full_node: INFO     peer disconnected {'host': '192.182.154.162', 'port': 8444}
+2022-01-08T00:30:32.315 full_node chia.full_node.full_node: WARNING  TEST Block pre-validation time: 31.94 seconds
+2022-01-08T00:30:51.275 full_node full_node_server        : INFO     Connected with full_node {'host': '210.86.171.78', 'port': 8444}
+2022-01-08T00:30:51.284 full_node full_node_server        : INFO     Connection closed: 210.86.171.78, node id: 5a7f598e6c29a953fca09f1177f70845fafe45866ef3d4de2a080e9d336d2104
+2022-01-08T00:30:51.286 full_node chia.full_node.full_node: INFO     peer disconnected {'host': '210.86.171.78', 'port': 8444}
+2022-01-08T00:30:51.668 full_node chia.full_node.full_node: INFO     AUTOTEST3_PR9746 Added blocks 225952 to 225984
+2022-01-08T00:31:26.251 full_node full_node_server        : INFO     Connected with full_node {'host': '210.5.41.29', 'port': 8444}
+2022-01-08T00:31:26.257 full_node full_node_server        : INFO     Connection closed: 210.5.41.29, node id: 97345875aae92020d75de7f672c02d3b74893b9ba0396c6bb117ba41faa509ea
+2022-01-08T00:31:26.259 full_node chia.full_node.full_node: INFO     peer disconnected {'host': '210.5.41.29', 'port': 8444}
+2022-01-08T00:31:36.356 full_node chia.full_node.full_node: WARNING  TEST Block pre-validation time: 44.60 seconds
+2022-01-08T00:31:53.105 full_node full_node_server        : INFO     Connected with full_node {'host': '84.107.200.198', 'port': 8444}
+2022-01-08T00:31:53.113 full_node full_node_server        : INFO     Connection closed: 84.107.200.198, node id: 654796a795c22ac65a19925ea89448099554aafee36961dea4ddde85a202317c
+2022-01-08T00:31:53.115 full_node chia.full_node.full_node: INFO     peer disconnected {'host': '84.107.200.198', 'port': 8444}
+2022-01-08T00:32:08.116 full_node chia.full_node.full_node: INFO     AUTOTEST3_PR9746 Added blocks 225984 to 226016
+2022-01-08T00:32:10.212 full_node full_node_server        : INFO     Connected with full_node {'host': '82.30.13.108', 'port': 8444}
+2022-01-08T00:32:10.547 full_node full_node_server        : INFO     Connection closed: 82.30.13.108, node id: 11d960b3cee7dcea17c6e3be88357f3aac26a2c40a60ae018309847c781639b9
+2022-01-08T00:32:10.549 full_node chia.full_node.full_node: INFO     peer disconnected {'host': '82.30.13.108', 'port': 8444}
+2022-01-08T00:32:17.902 full_node full_node_server        : INFO     Connected with full_node {'host': '46.126.210.168', 'port': 8444}
+2022-01-08T00:32:17.908 full_node full_node_server        : INFO     Connection closed: 46.126.210.168, node id: 135c106711b91ca501d1cdcfe9434963dc8d9e5fa99e91a164f5d5f472cd3ebd
+2022-01-08T00:32:17.921 full_node chia.full_node.full_node: INFO     peer disconnected {'host': '46.126.210.168', 'port': 8444}
+2022-01-08T00:32:40.369 full_node chia.full_node.full_node: WARNING  TEST Block pre-validation time: 32.12 seconds
+2022-01-08T00:32:51.105 full_node full_node_server        : INFO     Connected with full_node {'host': '82.154.130.60', 'port': 8444}
+2022-01-08T00:32:51.203 full_node full_node_server        : INFO     Connection closed: 82.154.130.60, node id: eae1f208e10ead4af9963c25ab7a23f1e34dd4741210c692f4873e76009b410b
+2022-01-08T00:32:51.204 full_node chia.full_node.full_node: INFO     peer disconnected {'host': '82.154.130.60', 'port': 8444}
+2022-01-08T00:32:59.641 full_node full_node_server        : INFO     Connected with full_node {'host': '172.8.16.53', 'port': 8444}
+2022-01-08T00:32:59.649 full_node full_node_server        : INFO     Connection closed: 172.8.16.53, node id: 67e593b8fefb9e9c40a4a13642c35ba66b584a1ed240ab2049ffc2b3c9bb4115
+2022-01-08T00:32:59.651 full_node chia.full_node.full_node: INFO     peer disconnected {'host': '172.8.16.53', 'port': 8444}
+2022-01-08T00:33:08.113 full_node full_node_server        : INFO     Connected with full_node {'host': '98.27.179.48', 'port': 8444}
+2022-01-08T00:33:08.122 full_node full_node_server        : INFO     Connection closed: 98.27.179.48, node id: 0303258bf97ad3f33a4d662d4069eb85a50f6e1e1961726e9127e595456d818c
+2022-01-08T00:33:08.123 full_node chia.full_node.full_node: INFO     peer disconnected {'host': '98.27.179.48', 'port': 8444}
+2022-01-08T00:33:23.634 full_node chia.full_node.full_node: INFO     AUTOTEST3_PR9746 Added blocks 226016 to 226048
+2022-01-08T00:33:24.916 full_node full_node_server        : INFO     Connected with full_node {'host': '173.59.56.242', 'port': 8444}
+2022-01-08T00:33:24.953 full_node full_node_server        : INFO     Connection closed: 173.59.56.242, node id: daf368f5435cf28d3a4850ca7644afdcded652c60892c21c3d0cbbe84943290b
+2022-01-08T00:33:24.965 full_node chia.full_node.full_node: INFO     peer disconnected {'host': '173.59.56.242', 'port': 8444}
+2022-01-08T00:33:33.236 full_node full_node_server        : INFO     Connected with full_node {'host': '114.230.222.31', 'port': 8444}
+2022-01-08T00:33:33.246 full_node full_node_server        : INFO     Connection closed: 114.230.222.31, node id: d14c87ece56789526692dc6cdf7ca2def44fb318e9706928130199a15ae602e9
+2022-01-08T00:33:33.247 full_node chia.full_node.full_node: INFO     peer disconnected {'host': '114.230.222.31', 'port': 8444}
+2022-01-08T00:34:00.854 full_node full_node_server        : INFO     Connected with full_node {'host': '39.48.59.200', 'port': 8444}
+2022-01-08T00:34:00.872 full_node full_node_server        : INFO     Connection closed: 39.48.59.200, node id: bf38de91ee4daebc307b573b078be3d03202b9bd2c4104017d1b51a2e1c2186d
+2022-01-08T00:34:00.873 full_node chia.full_node.full_node: INFO     peer disconnected {'host': '39.48.59.200', 'port': 8444}
+2022-01-08T00:34:08.925 full_node chia.full_node.full_node: WARNING  TEST Block pre-validation time: 45.20 seconds
+2022-01-08T00:34:09.610 full_node full_node_server        : INFO     Connected with full_node {'host': '114.230.222.155', 'port': 8444}
+2022-01-08T00:34:09.619 full_node full_node_server        : INFO     Connection closed: 114.230.222.155, node id: f9b5d79ae1f259a1b883d41edec242a4f104b432ec672acc7a3e45fb2bee7fbe
+2022-01-08T00:34:09.621 full_node chia.full_node.full_node: INFO     peer disconnected {'host': '114.230.222.155', 'port': 8444}
+2022-01-08T00:34:33.967 full_node full_node_server        : INFO     Connected with full_node {'host': '73.62.135.75', 'port': 8444}
+2022-01-08T00:34:34.062 full_node full_node_server        : INFO     Connection closed: 73.62.135.75, node id: 24f790e1c1884a80e90353cb96385cb69c9287d772248fb15d2fd8c765d6a89b
+2022-01-08T00:34:34.063 full_node chia.full_node.full_node: INFO     peer disconnected {'host': '73.62.135.75', 'port': 8444}
+2022-01-08T00:34:38.514 full_node chia.full_node.full_node: INFO     AUTOTEST3_PR9746 Added blocks 226048 to 226080
+2022-01-08T00:34:42.719 full_node full_node_server        : INFO     Connected with full_node {'host': '203.122.226.29', 'port': 8444}
+2022-01-08T00:34:42.954 full_node full_node_server        : INFO     Connection closed: 203.122.226.29, node id: c3229193c08442b2209518770011dbfe451d4caef08946ae5db4194de57b6e6d
+2022-01-08T00:34:42.966 full_node chia.full_node.full_node: INFO     peer disconnected {'host': '203.122.226.29', 'port': 8444}
+2022-01-08T00:34:57.759 full_node full_node_server        : INFO     Cannot connect to host 31.44.93.198:8444 ssl:<ssl.SSLContext object at 0xffff96b94340> [Connect call failed ('31.44.93.198', 8444)]
+2022-01-08T00:35:06.538 full_node full_node_server        : INFO     Connected with full_node {'host': '109.210.15.35', 'port': 8444}
+2022-01-08T00:35:06.546 full_node full_node_server        : INFO     Connection closed: 109.210.15.35, node id: 18401a43b316c00a59b06d2606e214fc1bf9ecef546171521955fecfae36d3d0
+2022-01-08T00:35:06.548 full_node chia.full_node.full_node: INFO     peer disconnected {'host': '109.210.15.35', 'port': 8444}
+2022-01-08T00:35:09.768 full_node chia.full_node.full_node: WARNING  TEST Block pre-validation time: 31.14 seconds
+2022-01-08T00:35:21.466 full_node chia.full_node.full_node: INFO     AUTOTEST3_PR9746 Added blocks 226080 to 226112
+2022-01-08T00:35:24.539 full_node full_node_server        : INFO     Connected with full_node {'host': '117.176.153.109', 'port': 8444}
+2022-01-08T00:35:24.746 full_node full_node_server        : INFO     Connection closed: 117.176.153.109, node id: 8b3369bbce1e485e921be50405978b61b785709764fbab945ee56ba15f818d2c
+2022-01-08T00:35:24.750 full_node chia.full_node.full_node: INFO     peer disconnected {'host': '117.176.153.109', 'port': 8444}
+2022-01-08T00:35:40.193 full_node full_node_server        : INFO     Connected with full_node {'host': '104.53.223.136', 'port': 8444}
+2022-01-08T00:35:40.199 full_node full_node_server        : INFO     Connection closed: 104.53.223.136, node id: 130d4dab609963f411745cc6f73a64249b69e137a1d3eac493a954ed693916bf
+2022-01-08T00:35:40.201 full_node chia.full_node.full_node: INFO     peer disconnected {'host': '104.53.223.136', 'port': 8444}
+2022-01-08T00:35:41.934 full_node chia.full_node.full_node: WARNING  TEST Block pre-validation time: 20.41 seconds
+2022-01-08T00:35:51.056 full_node chia.full_node.full_node: INFO     AUTOTEST3_PR9746 Added blocks 226112 to 226144
+2022-01-08T00:36:07.515 full_node full_node_server        : INFO     Connected with full_node {'host': '47.107.66.197', 'port': 8444}
+2022-01-08T00:36:07.521 full_node full_node_server        : INFO     Connection closed: 47.107.66.197, node id: 4ab19d64c106294852c7b0e434bb9c73ea26707a68ed4c2c5fb09060606fe143
+2022-01-08T00:36:07.522 full_node chia.full_node.full_node: INFO     peer disconnected {'host': '47.107.66.197', 'port': 8444}
+2022-01-08T00:36:11.320 full_node chia.full_node.full_node: WARNING  TEST Block pre-validation time: 20.22 seconds
+2022-01-08T00:36:19.891 full_node chia.full_node.full_node: INFO     AUTOTEST3_PR9746 Added blocks 226144 to 226176
+2022-01-08T00:36:31.266 full_node full_node_server        : INFO     Cannot connect to host 2607:fea8:3ca1:18a0:fd15:ed52:6a97:68ef:8444 ssl:<ssl.SSLContext object at 0xffffaf705740> [Network is unreachable]
+2022-01-08T00:36:32.843 full_node chia.full_node.full_node: WARNING  TEST Block pre-validation time: 12.91 seconds
+2022-01-08T00:36:40.697 full_node chia.full_node.full_node: INFO     AUTOTEST3_PR9746 Added blocks 226176 to 226208
+2022-01-08T00:36:44.340 full_node full_node_server        : INFO     Connected with full_node {'host': '77.167.181.93', 'port': 8444}
+2022-01-08T00:36:44.543 full_node full_node_server        : INFO     Cannot connect to host 39.190.184.248:8444 ssl:<ssl.SSLContext object at 0xffffa00cc1c0> [Connect call failed ('39.190.184.248', 8444)]
+2022-01-08T00:36:50.023 full_node full_node_server        : INFO     Connected with full_node {'host': '212.125.21.143', 'port': 8444}
+2022-01-08T00:36:50.031 full_node full_node_server        : INFO     Connection closed: 212.125.21.143, node id: 25b3ece2b4e4b1dc90d4855f0743786c51a29773b6ff5aac50bbfa6644e3f2a2
+2022-01-08T00:36:50.032 full_node chia.full_node.full_node: INFO     peer disconnected {'host': '212.125.21.143', 'port': 8444}
+2022-01-08T00:36:51.266 full_node chia.full_node.full_node: WARNING  TEST Block pre-validation time: 10.55 seconds
+2022-01-08T00:36:53.765 full_node chia.full_node.full_node: INFO     AUTOTEST3_PR9746 Added blocks 226208 to 226240
+2022-01-08T00:36:59.104 full_node full_node_server        : INFO     Connected with full_node {'host': '93.208.171.158', 'port': 8444}
+2022-01-08T00:37:04.411 full_node chia.full_node.full_node: INFO     AUTOTEST3_PR9746 Added blocks 226240 to 226272
+2022-01-08T00:37:11.368 full_node full_node_server        : INFO     Cannot connect to host 116.41.9.66:8444 ssl:<ssl.SSLContext object at 0xffff96b948c0> [Connect call failed ('116.41.9.66', 8444)]
+2022-01-08T00:37:14.045 full_node chia.full_node.full_node: INFO     AUTOTEST3_PR9746 Added blocks 226272 to 226304
+2022-01-08T00:37:18.228 full_node full_node_server        : INFO     Connected with full_node {'host': '82.64.24.172', 'port': 8444}
+2022-01-08T00:37:26.216 full_node chia.full_node.full_node: WARNING  TEST Block pre-validation time: 12.16 seconds
+2022-01-08T00:37:27.884 full_node full_node_server        : INFO     Cannot connect to host 2603:9001:300:1194:f932:6c5e:685d:f70c:8444 ssl:<ssl.SSLContext object at 0xffffaf705d40> [Network is unreachable]
+2022-01-08T00:37:29.910 full_node chia.full_node.full_node: INFO     AUTOTEST3_PR9746 Added blocks 226304 to 226336
+2022-01-08T00:37:40.419 full_node chia.full_node.full_node: WARNING  TEST Block pre-validation time: 10.49 seconds
+2022-01-08T00:37:44.267 full_node chia.full_node.full_node: INFO     AUTOTEST3_PR9746 Added blocks 226336 to 226368
+2022-01-08T00:37:49.449 full_node full_node_server        : INFO     Connected with full_node {'host': '94.19.220.201', 'port': 8444}
+2022-01-08T00:37:49.456 full_node full_node_server        : INFO     Connection closed: 94.19.220.201, node id: ef60a07c20b611026ebf3e4af74544cacba88f79ce1963404d78e223e052db68
+2022-01-08T00:37:49.461 full_node chia.full_node.full_node: INFO     peer disconnected {'host': '94.19.220.201', 'port': 8444}
+2022-01-08T00:37:56.729 full_node chia.full_node.full_node: WARNING  TEST Block pre-validation time: 12.44 seconds
+2022-01-08T00:38:01.788 full_node chia.full_node.full_node: INFO     AUTOTEST3_PR9746 Added blocks 226368 to 226400
+2022-01-08T00:38:16.175 full_node chia.full_node.full_node: INFO     AUTOTEST3_PR9746 Added blocks 226400 to 226432
+2022-01-08T00:38:20.785 full_node full_node_server        : INFO     Connected with full_node {'host': '84.1.23.8', 'port': 8444}
+2022-01-08T00:38:20.804 full_node full_node_server        : INFO     Connection closed: 84.1.23.8, node id: 2525ed13682937215b7d36919b92758e85b9aa844ce6a353ef9803022d7fff50
+2022-01-08T00:38:20.806 full_node chia.full_node.full_node: INFO     peer disconnected {'host': '84.1.23.8', 'port': 8444}
+2022-01-08T00:38:25.394 full_node chia.full_node.full_node: INFO     AUTOTEST3_PR9746 Added blocks 226432 to 226464
+2022-01-08T00:38:35.576 full_node full_node_server        : INFO     Connected with full_node {'host': '75.80.53.147', 'port': 8444}
+2022-01-08T00:38:35.584 full_node full_node_server        : INFO     Connection closed: 75.80.53.147, node id: 462da4dc71da567713fc9d16408c2d50dd697399595365488e47c8d2b114052b
+2022-01-08T00:38:35.586 full_node chia.full_node.full_node: INFO     peer disconnected {'host': '75.80.53.147', 'port': 8444}
+2022-01-08T00:38:38.029 full_node chia.full_node.full_node: WARNING  TEST Block pre-validation time: 12.62 seconds
+2022-01-08T00:38:42.483 full_node chia.full_node.full_node: INFO     AUTOTEST3_PR9746 Added blocks 226464 to 226496
+2022-01-08T00:38:46.128 full_node full_node_server        : INFO     Connected with full_node {'host': '187.0.1.201', 'port': 8444}
+2022-01-08T00:38:46.134 full_node full_node_server        : INFO     Connection closed: 187.0.1.201, node id: b7256de93687b4280db849cabedcdc641e0941abadc491e41bb5d8dcf15dc12a
+2022-01-08T00:38:46.146 full_node chia.full_node.full_node: INFO     peer disconnected {'host': '187.0.1.201', 'port': 8444}
+2022-01-08T00:38:58.194 full_node chia.full_node.full_node: WARNING  TEST Block pre-validation time: 15.69 seconds
+2022-01-08T00:39:02.976 full_node chia.full_node.full_node: INFO     AUTOTEST3_PR9746 Added blocks 226496 to 226528
+2022-01-08T00:39:05.731 full_node full_node_server        : INFO     Connection closed: 77.167.181.93, node id: 049f2ae20a1ce72ae9704074a9c7e4ad55a9000933ee50df59ea5b807f59c070
+2022-01-08T00:39:05.733 full_node chia.full_node.full_node: INFO     peer disconnected {'host': '77.167.181.93', 'port': 8444}
+2022-01-08T00:39:06.259 full_node full_node_server        : INFO     Connected with full_node {'host': '88.198.30.146', 'port': 8444}
+2022-01-08T00:39:06.279 full_node full_node_server        : INFO     Connection closed: 88.198.30.146, node id: 1192ac4ebdf2101583fade788316dfd7c54c31c029db2c0da7f58fe49d3db83c
+2022-01-08T00:39:06.283 full_node chia.full_node.full_node: INFO     peer disconnected {'host': '88.198.30.146', 'port': 8444}
+2022-01-08T00:39:20.561 full_node chia.full_node.full_node: WARNING  TEST Block pre-validation time: 17.56 seconds
+2022-01-08T00:39:33.638 full_node full_node_server        : INFO     Connected with full_node {'host': '120.132.126.94', 'port': 8444}
+2022-01-08T00:39:33.754 full_node full_node_server        : INFO     Connection closed: 120.132.126.94, node id: 6cac6572cb048e969c1b23dc20d22bbd2ccdab7ba951e794f82233959f02f2ab
+2022-01-08T00:39:33.755 full_node chia.full_node.full_node: INFO     peer disconnected {'host': '120.132.126.94', 'port': 8444}
+2022-01-08T00:39:46.424 full_node chia.full_node.full_node: INFO     AUTOTEST3_PR9746 Added blocks 226528 to 226560
+2022-01-08T00:39:55.640 full_node full_node_server        : INFO     Cannot connect to host 58.37.146.55:8444 ssl:<ssl.SSLContext object at 0xffffb5515ec0> [Connect call failed ('58.37.146.55', 8444)]
+2022-01-08T00:40:00.171 full_node chia.full_node.full_node: INFO     AUTOTEST3_PR9746 Added blocks 226560 to 226592
+2022-01-08T00:40:14.006 full_node chia.full_node.full_node: INFO     AUTOTEST3_PR9746 Added blocks 226592 to 226624
+2022-01-08T00:40:16.100 full_node full_node_server        : INFO     Connected with full_node {'host': '79.116.7.220', 'port': 8444}
+2022-01-08T00:40:16.114 full_node full_node_server        : INFO     Connection closed: 79.116.7.220, node id: df367b11bfb1f37a26e1bb5f485b6dd39e23743c1ade4746c6e6ba6c54ba1808
+2022-01-08T00:40:16.116 full_node chia.full_node.full_node: INFO     peer disconnected {'host': '79.116.7.220', 'port': 8444}
+2022-01-08T00:40:23.539 full_node chia.full_node.full_node: INFO     AUTOTEST3_PR9746 Added blocks 226624 to 226656
+2022-01-08T00:40:38.845 full_node chia.full_node.full_node: WARNING  TEST Block pre-validation time: 15.29 seconds
+2022-01-08T00:40:39.505 full_node full_node_server        : INFO     Connected with full_node {'host': '114.230.222.121', 'port': 8444}
+2022-01-08T00:40:39.512 full_node full_node_server        : INFO     Connection closed: 114.230.222.121, node id: c200f342ea964a7291f39a72a54703cd089c89f57d30e71a404c76551b60a786
+2022-01-08T00:40:39.514 full_node chia.full_node.full_node: INFO     peer disconnected {'host': '114.230.222.121', 'port': 8444}
+2022-01-08T00:40:44.915 full_node chia.full_node.full_node: INFO     AUTOTEST3_PR9746 Added blocks 226656 to 226688
+2022-01-08T00:40:56.041 full_node chia.full_node.full_node: INFO     AUTOTEST3_PR9746 Added blocks 226688 to 226720
+2022-01-08T00:41:08.448 full_node chia.full_node.full_node: WARNING  TEST Block pre-validation time: 12.39 seconds
+2022-01-08T00:41:13.987 full_node chia.full_node.full_node: INFO     AUTOTEST3_PR9746 Added blocks 226720 to 226752
+2022-01-08T00:41:17.789 full_node full_node_server        : INFO     Cannot connect to host 198.144.50.24:8444 ssl:<ssl.SSLContext object at 0xffffb435a340> [Connect call failed ('198.144.50.24', 8444)]
+2022-01-08T00:41:25.433 full_node chia.full_node.full_node: WARNING  TEST Block pre-validation time: 11.42 seconds
+2022-01-08T00:41:27.903 full_node full_node_server        : INFO     Connected with full_node {'host': '82.73.129.234', 'port': 8444}
+2022-01-08T00:41:27.923 full_node full_node_server        : INFO     Connection closed: 82.73.129.234, node id: cda69e5f0cae813691b6cb6d701c59eb727552dfc1ef4a116b64e9c4e8c93adc
+2022-01-08T00:41:27.925 full_node chia.full_node.full_node: INFO     peer disconnected {'host': '82.73.129.234', 'port': 8444}
+2022-01-08T00:41:31.194 full_node chia.full_node.full_node: INFO     AUTOTEST3_PR9746 Added blocks 226752 to 226784
+2022-01-08T00:41:38.143 full_node full_node_server        : INFO     Connected with full_node {'host': '74.109.117.164', 'port': 8444}
+2022-01-08T00:41:38.311 full_node full_node_server        : INFO     Connection closed: 74.109.117.164, node id: 9b8cb7e64b712ee093e19c2ea20feece724ba93e3b0880224af749700a653b38
+2022-01-08T00:41:38.313 full_node chia.full_node.full_node: INFO     peer disconnected {'host': '74.109.117.164', 'port': 8444}
+2022-01-08T00:41:44.507 full_node chia.full_node.full_node: WARNING  TEST Block pre-validation time: 13.28 seconds
+2022-01-08T00:41:47.556 full_node full_node_server        : INFO     Connected with full_node {'host': '81.182.246.229', 'port': 8444}
+2022-01-08T00:41:47.661 full_node full_node_server        : INFO     Connection closed: 81.182.246.229, node id: 8bc0c723dc3dfff3230041238f7dee71479d338f69243d68ab04b1c4fa840366
+2022-01-08T00:41:47.663 full_node chia.full_node.full_node: INFO     peer disconnected {'host': '81.182.246.229', 'port': 8444}
+2022-01-08T00:41:50.425 full_node chia.full_node.full_node: INFO     AUTOTEST3_PR9746 Added blocks 226784 to 226816
+2022-01-08T00:42:12.033 full_node chia.full_node.full_node: WARNING  TEST Block pre-validation time: 21.58 seconds
+2022-01-08T00:42:25.705 full_node chia.full_node.full_node: INFO     AUTOTEST3_PR9746 Added blocks 226816 to 226848
+2022-01-08T00:42:28.213 full_node full_node_server        : INFO     Connected with full_node {'host': '140.186.128.126', 'port': 8444}
+2022-01-08T00:42:28.229 full_node full_node_server        : INFO     Connection closed: 140.186.128.126, node id: c1b9ac1a200e5e82f3ca7506b67e05b27eba9c8ff512259219b0ac4e39f4d9f2
+2022-01-08T00:42:28.231 full_node chia.full_node.full_node: INFO     peer disconnected {'host': '140.186.128.126', 'port': 8444}
+2022-01-08T00:42:42.528 full_node chia.full_node.full_node: WARNING  TEST Block pre-validation time: 16.77 seconds
+2022-01-08T00:42:50.854 full_node full_node_server        : INFO     Connected with full_node {'host': '24.203.247.55', 'port': 8444}
+2022-01-08T00:42:50.862 full_node full_node_server        : INFO     Connection closed: 24.203.247.55, node id: 9cf7fbde7e1c87faff953272ba90e76a5b8e97a019cfe21c2d8af2d8289dbd92
+2022-01-08T00:42:50.864 full_node chia.full_node.full_node: INFO     peer disconnected {'host': '24.203.247.55', 'port': 8444}
+2022-01-08T00:42:51.437 full_node chia.full_node.full_node: INFO     AUTOTEST3_PR9746 Added blocks 226848 to 226880
+2022-01-08T00:43:07.566 full_node chia.full_node.full_node: WARNING  TEST Block pre-validation time: 16.09 seconds
+2022-01-08T00:43:16.940 full_node chia.full_node.full_node: INFO     AUTOTEST3_PR9746 Added blocks 226880 to 226912
+2022-01-08T00:43:19.852 full_node full_node_server        : INFO     Connected with full_node {'host': '81.165.1.36', 'port': 8444}
+2022-01-08T00:43:19.857 full_node full_node_server        : INFO     Connection closed: 81.165.1.36, node id: 514667f181924f1a248ffb1d3a5d472b320bc224567522d40534e957c6e7c1d7
+2022-01-08T00:43:19.859 full_node chia.full_node.full_node: INFO     peer disconnected {'host': '81.165.1.36', 'port': 8444}
+2022-01-08T00:43:30.303 full_node full_node_server        : INFO     Connected with full_node {'host': '162.195.125.22', 'port': 8444}
+2022-01-08T00:43:30.310 full_node full_node_server        : INFO     Connection closed: 162.195.125.22, node id: 20b2a7e6ff7d5c7efb20f9806429128dcc897634f6f5a9d84a71c0ad9235e0ee
+2022-01-08T00:43:30.311 full_node chia.full_node.full_node: INFO     peer disconnected {'host': '162.195.125.22', 'port': 8444}
+2022-01-08T00:43:33.327 full_node chia.full_node.full_node: WARNING  TEST Block pre-validation time: 16.34 seconds
+2022-01-08T00:43:41.114 full_node chia.full_node.full_node: INFO     AUTOTEST3_PR9746 Added blocks 226912 to 226944
+2022-01-08T00:43:48.410 full_node chia.full_node.full_node: INFO     AUTOTEST3_PR9746 Added blocks 226944 to 226976
+2022-01-08T00:43:50.138 full_node full_node_server        : INFO     Connected with full_node {'host': '72.189.250.90', 'port': 8444}
+2022-01-08T00:43:50.144 full_node full_node_server        : INFO     Connection closed: 72.189.250.90, node id: 50f1b53e7fb5dc3bb560e56221b3492d8b9ea88439c1d81c7eaf229d31c522ad
+2022-01-08T00:43:50.154 full_node chia.full_node.full_node: INFO     peer disconnected {'host': '72.189.250.90', 'port': 8444}
+2022-01-08T00:44:00.515 full_node full_node_server        : INFO     Connected with full_node {'host': '85.222.184.110', 'port': 8444}
+2022-01-08T00:44:00.522 full_node full_node_server        : INFO     Connection closed: 85.222.184.110, node id: 8d2a316c40e767477a1951c9adcc6da1bcf9b8371bff957e54036746d57af4d2
+2022-01-08T00:44:00.524 full_node chia.full_node.full_node: INFO     peer disconnected {'host': '85.222.184.110', 'port': 8444}
+2022-01-08T00:44:03.680 full_node chia.full_node.full_node: INFO     AUTOTEST3_PR9746 Added blocks 226976 to 227008
+2022-01-08T00:44:10.383 full_node full_node_server        : INFO     Connected with full_node {'host': '2.236.100.225', 'port': 8444}
+2022-01-08T00:44:10.391 full_node full_node_server        : INFO     Connection closed: 2.236.100.225, node id: 1ab4dadace9b44914771ef038dc9b891777149696dac2cf8d02fd92705f68417
+2022-01-08T00:44:10.392 full_node chia.full_node.full_node: INFO     peer disconnected {'host': '2.236.100.225', 'port': 8444}
+2022-01-08T00:44:16.243 full_node chia.full_node.full_node: WARNING  TEST Block pre-validation time: 12.54 seconds
+2022-01-08T00:44:20.120 full_node chia.full_node.full_node: INFO     AUTOTEST3_PR9746 Added blocks 227008 to 227040
+2022-01-08T00:44:30.329 full_node chia.full_node.full_node: WARNING  TEST Block pre-validation time: 10.19 seconds
+2022-01-08T00:44:33.252 full_node chia.full_node.full_node: INFO     AUTOTEST3_PR9746 Added blocks 227040 to 227072
+2022-01-08T00:44:44.618 full_node chia.full_node.full_node: INFO     AUTOTEST3_PR9746 Added blocks 227072 to 227104
+2022-01-08T00:44:56.837 full_node chia.full_node.full_node: INFO     AUTOTEST3_PR9746 Added blocks 227104 to 227136
+2022-01-08T00:45:09.584 full_node full_node_server        : INFO     Cannot connect to host 37.221.241.241:8444 ssl:<ssl.SSLContext object at 0xffff9730cb40> [Connect call failed ('37.221.241.241', 8444)]
+2022-01-08T00:45:13.162 full_node chia.full_node.full_node: WARNING  TEST Block pre-validation time: 16.31 seconds
+2022-01-08T00:45:20.144 full_node full_node_server        : INFO     Connected with full_node {'host': '50.35.76.141', 'port': 8444}
+2022-01-08T00:45:20.225 full_node full_node_server        : INFO     Connection closed: 50.35.76.141, node id: f873f6d672ffca67bdbabdfdd1c51911e58accece37a1bf6314df9673fe5b686
+2022-01-08T00:45:20.227 full_node chia.full_node.full_node: INFO     peer disconnected {'host': '50.35.76.141', 'port': 8444}
+2022-01-08T00:45:24.544 full_node chia.full_node.full_node: INFO     AUTOTEST3_PR9746 Added blocks 227136 to 227168
+2022-01-08T00:45:39.584 full_node full_node_server        : INFO     Connected with full_node {'host': '72.225.20.155', 'port': 8444}
+2022-01-08T00:45:39.596 full_node full_node_server        : INFO     Connection closed: 72.225.20.155, node id: f86a79f231d1c3266d174f5f04eb034ca0cf0f78c4ab4b327f0fcc4f843dcf5b
+2022-01-08T00:45:39.600 full_node chia.full_node.full_node: INFO     peer disconnected {'host': '72.225.20.155', 'port': 8444}
+2022-01-08T00:45:45.174 full_node chia.full_node.full_node: WARNING  TEST Block pre-validation time: 20.60 seconds
+2022-01-08T00:45:48.587 full_node full_node_server        : INFO     Cannot connect to host 2001:1713:ea78:46e0:3d17:314f:5918:b296:8444 ssl:<ssl.SSLContext object at 0xffff94bb5e40> [Network is unreachable]
+2022-01-08T00:45:58.742 full_node full_node_server        : INFO     Connected with full_node {'host': '83.167.119.24', 'port': 8444}
+2022-01-08T00:45:58.829 full_node full_node_server        : INFO     Connection closed: 83.167.119.24, node id: 530e12d606f5f5a7cfbe72a576a4f6200651dd18638303921b402eac7e0dc97a
+2022-01-08T00:45:58.831 full_node chia.full_node.full_node: INFO     peer disconnected {'host': '83.167.119.24', 'port': 8444}
+2022-01-08T00:46:08.379 full_node full_node_server        : INFO     Connected with full_node {'host': '91.223.227.78', 'port': 8444}
+2022-01-08T00:46:08.387 full_node full_node_server        : INFO     Connection closed: 91.223.227.78, node id: 1247f08de7d92f73a7bb2b845de28853a78cc87fbd5502067e8fa7f89eeb17a1
+2022-01-08T00:46:08.389 full_node chia.full_node.full_node: INFO     peer disconnected {'host': '91.223.227.78', 'port': 8444}
+2022-01-08T00:46:13.059 full_node chia.full_node.full_node: INFO     AUTOTEST3_PR9746 Added blocks 227168 to 227200
+2022-01-08T00:46:22.973 full_node chia.full_node.full_node: INFO     AUTOTEST3_PR9746 Added blocks 227200 to 227232
+2022-01-08T00:46:36.132 full_node chia.full_node.full_node: INFO     AUTOTEST3_PR9746 Added blocks 227232 to 227264
+2022-01-08T00:46:38.239 full_node full_node_server        : INFO     Connected with full_node {'host': '70.186.65.225', 'port': 8444}
+2022-01-08T00:46:38.249 full_node full_node_server        : INFO     Connection closed: 70.186.65.225, node id: 4c290797244a36f7a92a40816b59b92247104c488a0eef648c168af1ed59f714
+2022-01-08T00:46:38.261 full_node chia.full_node.full_node: INFO     peer disconnected {'host': '70.186.65.225', 'port': 8444}
+2022-01-08T00:46:44.185 full_node chia.full_node.full_node: INFO     AUTOTEST3_PR9746 Added blocks 227264 to 227296
+2022-01-08T00:46:52.463 full_node chia.full_node.full_node: INFO     AUTOTEST3_PR9746 Added blocks 227296 to 227328
+2022-01-08T00:46:58.035 full_node full_node_server        : INFO     Connected with full_node {'host': '107.4.210.40', 'port': 8444}
+2022-01-08T00:46:58.042 full_node full_node_server        : INFO     Connection closed: 107.4.210.40, node id: b48f655aa124621d9599173a5481791116ab2eedd8f8dff306e586b82aacdacc
+2022-01-08T00:46:58.043 full_node chia.full_node.full_node: INFO     peer disconnected {'host': '107.4.210.40', 'port': 8444}
+2022-01-08T00:47:03.277 full_node chia.full_node.full_node: INFO     AUTOTEST3_PR9746 Added blocks 227328 to 227360
+2022-01-08T00:47:07.124 full_node full_node_server        : INFO     Cannot connect to host 89.138.47.162:8444 ssl:<ssl.SSLContext object at 0xffff967ec3c0> [Connect call failed ('89.138.47.162', 8444)]
+2022-01-08T00:47:12.366 full_node chia.full_node.full_node: INFO     AUTOTEST3_PR9746 Added blocks 227360 to 227392
+2022-01-08T00:47:17.790 full_node full_node_server        : INFO     Connected with full_node {'host': '100.33.119.250', 'port': 8444}
+2022-01-08T00:47:17.798 full_node full_node_server        : INFO     Connection closed: 100.33.119.250, node id: 454af2227f669c1aa1ec17842e509e186c685229c67ff727acc628978d2e5ed8
+2022-01-08T00:47:17.804 full_node chia.full_node.full_node: INFO     peer disconnected {'host': '100.33.119.250', 'port': 8444}
+2022-01-08T00:47:20.581 full_node chia.full_node.full_node: INFO     AUTOTEST3_PR9746 Added blocks 227392 to 227424
+2022-01-08T00:47:27.244 full_node full_node_server        : INFO     Connected with full_node {'host': '185.126.108.23', 'port': 8444}
+2022-01-08T00:47:27.255 full_node full_node_server        : INFO     Connection closed: 185.126.108.23, node id: 1e4cce25486da2ac61f565e2910a87b124eefec034c89df17b23fe71c1a46ed2
+2022-01-08T00:47:27.257 full_node chia.full_node.full_node: INFO     peer disconnected {'host': '185.126.108.23', 'port': 8444}
+2022-01-08T00:47:32.556 full_node chia.full_node.full_node: INFO     AUTOTEST3_PR9746 Added blocks 227424 to 227456
+2022-01-08T00:47:44.311 full_node chia.full_node.full_node: INFO     AUTOTEST3_PR9746 Added blocks 227456 to 227488
+2022-01-08T00:47:54.340 full_node chia.full_node.full_node: WARNING  TEST Block pre-validation time: 10.01 seconds
+2022-01-08T00:47:57.526 full_node chia.full_node.full_node: INFO     AUTOTEST3_PR9746 Added blocks 227488 to 227520
+2022-01-08T00:48:05.391 full_node chia.full_node.full_node: INFO     AUTOTEST3_PR9746 Added blocks 227520 to 227552
+2022-01-08T00:48:11.873 full_node chia.full_node.full_node: INFO     AUTOTEST3_PR9746 Added blocks 227552 to 227584
+2022-01-08T00:48:22.350 full_node chia.full_node.full_node: INFO     AUTOTEST3_PR9746 Added blocks 227584 to 227616
+2022-01-08T00:48:32.350 full_node chia.full_node.full_node: INFO     AUTOTEST3_PR9746 Added blocks 227616 to 227648
+2022-01-08T00:48:38.847 full_node chia.full_node.full_node: INFO     AUTOTEST3_PR9746 Added blocks 227648 to 227680
+2022-01-08T00:48:45.549 full_node full_node_server        : INFO     Connected with full_node {'host': '5.128.204.25', 'port': 8444}
+2022-01-08T00:48:45.559 full_node full_node_server        : INFO     Connection closed: 5.128.204.25, node id: 3e8fb6513390d4fddd72ca55a89c7a483ccb16c4d0a07078be8c0245dd97d2af
+2022-01-08T00:48:45.560 full_node chia.full_node.full_node: INFO     peer disconnected {'host': '5.128.204.25', 'port': 8444}
+2022-01-08T00:48:45.965 full_node chia.full_node.full_node: INFO     AUTOTEST3_PR9746 Added blocks 227680 to 227712
+2022-01-08T00:48:56.230 full_node chia.full_node.full_node: WARNING  TEST Block pre-validation time: 10.26 seconds
+2022-01-08T00:48:59.426 full_node chia.full_node.full_node: INFO     AUTOTEST3_PR9746 Added blocks 227712 to 227744
+2022-01-08T00:49:04.806 full_node full_node_server        : INFO     Cannot connect to host 183.250.154.155:8444 ssl:<ssl.SSLContext object at 0xffff967eca40> [Connect call failed ('183.250.154.155', 8444)]
+2022-01-08T00:49:11.984 full_node chia.full_node.full_node: INFO     AUTOTEST3_PR9746 Added blocks 227744 to 227776
+2022-01-08T00:49:22.393 full_node chia.full_node.full_node: INFO     AUTOTEST3_PR9746 Added blocks 227776 to 227808
+2022-01-08T00:49:31.221 full_node chia.full_node.full_node: INFO     AUTOTEST3_PR9746 Added blocks 227808 to 227840
+2022-01-08T00:49:33.748 full_node full_node_server        : INFO     Cannot connect to host 2601:89:c700:2b0:6de4:aa58:2ab5:c6d8:8444 ssl:<ssl.SSLContext object at 0xffff947d0440> [Network is unreachable]
+2022-01-08T00:49:38.462 full_node chia.full_node.full_node: INFO     AUTOTEST3_PR9746 Added blocks 227840 to 227872
+2022-01-08T00:49:47.077 full_node chia.full_node.full_node: INFO     AUTOTEST3_PR9746 Added blocks 227872 to 227904
+2022-01-08T00:49:55.233 full_node chia.full_node.full_node: INFO     AUTOTEST3_PR9746 Added blocks 227904 to 227936
+2022-01-08T00:50:06.250 full_node chia.full_node.full_node: INFO     AUTOTEST3_PR9746 Added blocks 227936 to 227968
+2022-01-08T00:50:14.222 full_node chia.full_node.full_node: INFO     AUTOTEST3_PR9746 Added blocks 227968 to 228000
+2022-01-08T00:50:22.255 daemon chia.daemon.server         : INFO     sending term signal to chia_full_node
+2022-01-08T00:50:22.258 full_node full_node               : INFO     got signal 15
+2022-01-08T00:50:22.259 full_node full_node               : INFO     Cancelling reconnect task
+2022-01-08T00:50:22.260 full_node full_node               : INFO     Closing connections
+2022-01-08T00:50:22.382 full_node full_node               : INFO     Calling service stop callback
+2022-01-08T00:50:22.383 full_node full_node               : INFO     Closing RPC server
+2022-01-08T00:50:22.384 full_node full_node               : INFO     Waiting for socket to be closed (if opened)
+2022-01-08T00:50:22.385 full_node full_node               : INFO     Waiting for ChiaServer to be closed
+2022-01-08T00:50:22.404 full_node full_node_server        : INFO     Connection closed: 192.168.1.163, node id: 5349dd24c8414974025118cc358c7bcd66c942e2b2fd8f9472b2c646c59aa576
+2022-01-08T00:50:22.406 full_node chia.full_node.full_node: INFO     peer disconnected {'host': '192.168.1.163', 'port': 8449}
+2022-01-08T00:50:22.522 full_node chia.full_node.full_node: INFO     AUTOTEST3_PR9746 Added blocks 228000 to 228032
+2022-01-08T00:50:22.700 full_node full_node_server        : INFO     Connection closed: 37.140.44.30, node id: d644209f472bbb2515c9dfe58c4e5487df2b4a9372ee0a115a98923277b2047d
+2022-01-08T00:50:22.701 full_node chia.full_node.full_node: INFO     peer disconnected {'host': '37.140.44.30', 'port': 8444}
+2022-01-08T00:50:22.706 full_node chia.full_node.full_node: ERROR    sync from fork point failed err: cannot schedule new futures after shutdown
+2022-01-08T00:50:23.383 full_node full_node_server        : INFO     Connection closed: 49.176.164.121, node id: ffc69aced3508aeb28d394b4ca796ba7b149fa13fb32299ce0cc81830c66087a
+2022-01-08T00:50:23.385 full_node chia.full_node.full_node: INFO     peer disconnected {'host': '49.176.164.121', 'port': 8444}
+2022-01-08T00:50:23.721 full_node full_node_server        : INFO     Connection closed: 210.50.163.168, node id: a757ca5e2cbe6fb932172654202c74538931511a2809eb7498e9cb7c5f3cd5ba
+2022-01-08T00:50:23.723 full_node chia.full_node.full_node: INFO     peer disconnected {'host': '210.50.163.168', 'port': 8444}
+2022-01-08T00:50:23.896 full_node full_node_server        : INFO     Connection closed: 76.110.155.148, node id: 6f3b65ade40a4229ab2f408bf35fda197c516b249573eec21a1b56414ceb3fa4
+2022-01-08T00:50:23.898 full_node chia.full_node.full_node: INFO     peer disconnected {'host': '76.110.155.148', 'port': 8444}
+2022-01-08T00:50:24.040 full_node full_node_server        : INFO     Connection closed: 73.86.167.182, node id: ea01bba092bee255a0e597380c0cb473d69e207102fe5a24a22600993f0ced6c
+2022-01-08T00:50:24.042 full_node chia.full_node.full_node: INFO     peer disconnected {'host': '73.86.167.182', 'port': 8444}
+2022-01-08T00:50:24.182 full_node full_node_server        : INFO     Connection closed: 144.172.168.28, node id: 9af148c2b788033bd3e72f809b029f65b304a1c2bb428497799e8eba2de3beb6
+2022-01-08T00:50:24.184 full_node chia.full_node.full_node: INFO     peer disconnected {'host': '144.172.168.28', 'port': 8444}
+2022-01-08T00:50:24.258 full_node full_node_server        : INFO     Connection closed: 93.65.185.238, node id: 1b07a23fcb82a03d48596841021ff34e29c0214635ba6862dae6fc6ab727620c
+2022-01-08T00:50:24.259 full_node chia.full_node.full_node: INFO     peer disconnected {'host': '93.65.185.238', 'port': 8444}
+2022-01-08T00:50:24.324 full_node full_node_server        : INFO     Connection closed: 85.142.165.110, node id: c110a39a788db202dfaa9ecbe48faa0d79ed448755d35f6a8fe4d4ebca7e16ad
+2022-01-08T00:50:24.326 full_node chia.full_node.full_node: INFO     peer disconnected {'host': '85.142.165.110', 'port': 8444}
+2022-01-08T00:50:25.215 full_node full_node_server        : INFO     Connection closed: 186.150.55.176, node id: 690a8824aba7b30fcd32794d3a3e737e8cadcd61144deef29745f2f30457a905
+2022-01-08T00:50:25.217 full_node chia.full_node.full_node: INFO     peer disconnected {'host': '186.150.55.176', 'port': 8444}
+2022-01-08T00:50:25.285 full_node full_node_server        : INFO     Connection closed: 82.31.2.58, node id: bafa778a7114691507836d28661dc64f200cefd54a823d0d25605088b4a9eca1
+2022-01-08T00:50:25.286 full_node chia.full_node.full_node: INFO     peer disconnected {'host': '82.31.2.58', 'port': 8444}
+2022-01-08T00:50:25.467 full_node full_node_server        : INFO     Connection closed: 154.5.17.35, node id: 4e2ba7a0b77aeff1f72c8f725beeeaaf37b1da1bd14c3d9c585972dc6394b42f
+2022-01-08T00:50:25.469 full_node chia.full_node.full_node: INFO     peer disconnected {'host': '154.5.17.35', 'port': 8444}
+2022-01-08T00:50:25.521 full_node full_node_server        : INFO     Connection closed: 93.208.171.158, node id: 34a07068651c91611baa64c6119f42ca72b4c4e21e8cbaf44325c3b7171f62ef
+2022-01-08T00:50:25.523 full_node chia.full_node.full_node: INFO     peer disconnected {'host': '93.208.171.158', 'port': 8444}
+2022-01-08T00:50:25.586 full_node full_node_server        : INFO     Connection closed: 82.64.24.172, node id: 9d7f0c7fc2c08bf69095c56ba579924ee0c00b99909804723ff258f88b82da4e
+2022-01-08T00:50:25.587 full_node chia.full_node.full_node: INFO     peer disconnected {'host': '82.64.24.172', 'port': 8444}
+2022-01-08T00:50:25.589 full_node full_node               : INFO     Waiting for RPC server
+2022-01-08T00:50:25.590 full_node full_node               : INFO     Closed RPC server
+2022-01-08T00:50:25.591 full_node full_node               : INFO     Waiting for service _await_closed callback
+2022-01-08T00:50:25.750 full_node full_node               : INFO     Service full_node at port 8444 fully closed
+2022-01-08T00:50:29.772 daemon chia.daemon.server         : INFO     process chia_full_node returned 0
+2022-01-08T00:50:29.774 daemon chia.daemon.server         : INFO     chia daemon exiting in 5 seconds
+2022-01-08T00:50:29.784 daemon chia.daemon.server         : INFO     Daemon WebSocketServer closed
