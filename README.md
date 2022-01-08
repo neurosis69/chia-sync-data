@@ -1,6 +1,33 @@
 # chia-sync-data - some interesting results so far 
 
 ## PR9746
+
+### Compare Best Sync Times: 1.2.11 vs PR9746
+
+SYSTEM|DB-Device|SCENARIO|TESTCASE|1.2.11<br>(hh24:mi:ss)|PR9746<br>(hh24:mi:ss)
+---|---|---|---|---|---
+i7-11700K|NVME-SSD|DUSTSTORM1|AUTOTEST1|00:39:27|00:24:25
+i7-11700K|NVME-SSD|DUSTSTORM1|AUTOTEST5|00:39:17|00:23:48
+i7-11700K|NVME-SSD|DUSTSTORM1|AUTOTEST45|00:28:34|00:22:10
+i7-11700K|NVME-SSD|TRANSACTION_START|AUTOTEST1|00:04:06|00:03:09
+i7-11700K|NVME-SSD|TRANSACTION_START|AUTOTEST5|00:03:58|00:03:06
+i7-11700K|NVME-SSD|TRANSACTION_START|AUTOTEST45|n/a|00:02:58
+i7-11700K|RAMDISK|FULLSYNC|AUTOTEST1|n/a|n/a
+i7-11700K|RAMDISK|FULLSYNC|AUTOTEST5|n/a|n/a
+i7-11700K|RAMDISK|FULLSYNC|AUTOTEST45|17:09:39|13:57:50
+Rpi4-8G|USB3-SSD|DUSTSTORM1|AUTOTEST1|06:15:11|06:00:33
+Rpi4-8G|USB3-SSD|DUSTSTORM1|AUTOTEST5|05:08:47|04:13:02
+Rpi4-8G|USB3-SSD|DUSTSTORM1|AUTOTEST45|04:32:57|n/a
+Rpi4-8G|USB3-SSD|TRANSACTION_START|AUTOTEST1|00:40:42|00:40:32
+Rpi4-8G|USB3-SSD|TRANSACTION_START|AUTOTEST5|00:33:43|00:29:11
+Rpi4-8G|USB3-SSD|TRANSACTION_START|AUTOTEST45|00:29:48|00:25:52
+
+Testcase|Info
+---|---
+AUTOTEST1|No changes as of 1.2.11
+AUTOTEST5|Droped all coin_record Indexes +<br> used all cpu cores for consensus/blockchain.py
+AUTOTEST45|Droped all coin_record Indexes +<br> all cpu cores for consensus/blockchain.py +<br> increased coin_records lru_cache * 100 +<br> changed sqlite pragmas: locking_mode, synchronous, journal_mode, cache_spill, uncommitted 
+
 #### i7-11700K
 SCENARIO|TESTCASE|DB-Device|Sync Time<br>(HH24:MI:SS)</br>|From Height|To Height|Data
 ---|---|---|---|---|---|---
