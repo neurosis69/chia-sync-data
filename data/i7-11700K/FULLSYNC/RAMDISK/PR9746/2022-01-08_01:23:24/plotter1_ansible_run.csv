@@ -1,0 +1,2 @@
+HOSTNAME,SCENARIO,TESTCASE,START_RUN,LOG_INITIATE_SYNC,LOG_START_SYNC,LOG_DUST_START_SYNC,LOG_DUST_STOP_SYNC,SQLITE_DB_SIZE_BYTES,DESCRIPTION
+plotter1,FULLSYNC,AUTOTEST45_PR9746,2022-01-08T01:23:35,2022-01-08T01:23:39,2022-01-08T01:25:00,2022-01-08T02:59:32,2022-01-08T16:57:22,31942770688,"Only full blocks height + peak index; locking_mode=exclusive, synchronous=OFF, journal_mode=off, increase coin_records lru cache * 100, cache_spill=false, uncommited=true, max blockchain consensus threads, PR9746"
