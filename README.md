@@ -1,5 +1,7 @@
 # chia-sync-data - some interesting results so far 
 
+***Be careful when comparing FULLSYNC scenario, because they usually sync until different peaks. Use synced blocks/h or blocks/m as metric instead.***
+
 ## PR9746
 
 ### Compare Best Sync Times: 1.2.11 vs PR9746
