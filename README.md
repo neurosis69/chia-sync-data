@@ -1,5 +1,7 @@
 # chia-sync-data - some interesting results so far 
 
+All tests are done using my [ansible sync test repo](https://github.com/neurosis69/chia-sync-test).
+
 ***Be careful when comparing FULLSYNC scenario, because they usually sync until different peaks. Use synced blocks/h or blocks/m as metric instead.***
 
 ## PR9746
