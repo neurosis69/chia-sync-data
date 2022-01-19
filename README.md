@@ -8,7 +8,7 @@ All tests are done using my [ansible sync test repo](https://github.com/neurosis
 
 ### Compare Best Sync Times: 1.2.11 vs PR9746 vs PR7646_2
 
-SYSTEM|DB-Device|SCENARIO|TESTCASE|1.2.11<br>(hh:mi:ss)|1.2.11<br>blocks<br>per<br>minute|PR9746<br>(hh:mi:ss)|PR9746<br>blocks<br>per<br>minute|% Diff|PR9746_2<br>(hh:mi:ss)|PR9746_2 <br>blocks<br>per<br>minute|% Diff
+SYSTEM|DB-Device|SCENARIO|TESTCASE|1.2.11<br>(hh:mi:ss)|1.2.11<br>blocks<br>per<br>minute|PR9746<br>(hh:mi:ss)|PR9746<br>blocks<br>per<br>minute|% Diff<br>from<br>1.2.11|PR9746_2<br>(hh:mi:ss)|PR9746_2 <br>blocks<br>per<br>minute|% Diff<br>from<br>1.2.11
 ---|---|---|---|---|---|---|---|---|---|---|---
 i7-11700K|NVME-SSD|DUSTSTORM1|AUTOTEST1|00:39:27|253.08|00:24:25|408.90|-38.11%||
 i7-11700K|NVME-SSD|DUSTSTORM1|AUTOTEST5|00:39:17|254.15|00:23:48|419.50|-39.41%||
