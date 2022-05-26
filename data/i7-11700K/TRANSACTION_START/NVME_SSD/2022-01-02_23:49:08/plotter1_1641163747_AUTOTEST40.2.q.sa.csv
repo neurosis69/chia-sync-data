@@ -1,2 +1,0 @@
-# hostname,interval,timestamp,runq-sz,plist-sz,ldavg-1,ldavg-5,ldavg-15,blocked
-plotter1,60,2022-01-02 23:57:02,2,832,4.89,5.53,5.30,9

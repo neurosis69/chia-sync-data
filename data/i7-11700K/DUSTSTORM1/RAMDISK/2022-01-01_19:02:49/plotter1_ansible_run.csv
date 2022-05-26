@@ -1,4 +1,0 @@
-HOSTNAME,SCENARIO,TESTCASE,START_RUN,LOG_INITIATE_SYNC,LOG_START_SYNC,LOG_DUST_START_SYNC,LOG_DUST_STOP_SYNC,SQLITE_DB_SIZE_BYTES,DESCRIPTION
-plotter1,DUSTSTORM1,AUTOTEST37,2022-01-01T19:03:03,2022-01-01T19:03:12,2022-01-01T19:05:49,2022-01-01T19:06:11,2022-01-01T19:51:43,22397583360,"Only full blocks height + peak index, plus num_workers for block chain consensus equals core_count, not threads"
-plotter1,DUSTSTORM1,AUTOTEST38,2022-01-01T19:51:52,2022-01-01T19:52:02,2022-01-01T19:53:37,2022-01-01T19:53:57,2022-01-01T20:42:35,22397583360,"Only full blocks height + peak index, locking_mode=exclusive, synchronous=OFF, journal_mode=off, increase coin_records lru cache * 100"
-plotter1,DUSTSTORM1,AUTOTEST39,2022-01-01T20:42:50,2022-01-01T20:43:00,2022-01-01T20:46:00,2022-01-01T20:46:32,2022-01-01T21:26:06,22396534784,"Only full blocks height + peak index, locking_mode=exclusive, synchronous=OFF, journal_mode=off, uncommited=true, increase coin_records lru cache * 100"
