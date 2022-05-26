@@ -1,106 +1,17 @@
-# chia-sync-data - some interesting results so far 
+# chia-sync-data
 
 All tests are done using my [ansible sync test repo](https://github.com/neurosis69/chia-sync-test).
 
-***Be careful when comparing FULLSYNC scenario, because they usually sync until different peaks. Use synced blocks/h or blocks/m as metric instead.***
+***Be careful when comparing FULLSYNC scenarios, they usually sync until different peaks. Use synced blocks/h or blocks/m as metric instead.***
 
-## PR9746
-
-### Compare Best Sync Times: 1.2.11 vs PR9746
-
-SYSTEM|DB-Device|SCENARIO|TESTCASE|1.2.11<br>(hh:mi:ss)|1.2.11<br>blocks<br>per<br>minute|PR9746<br>(hh:mi:ss)|PR9746<br>blocks<br>per<br>minute|% Diff
----|---|---|---|---|---|---|---|---
-i7-11700K|NVME-SSD|DUSTSTORM1|AUTOTEST1|00:39:27|253.08|00:24:25|408.90|-38.11%
-i7-11700K|NVME-SSD|DUSTSTORM1|AUTOTEST5|00:39:17|254.15|00:23:48|419.50|-39.41%
-i7-11700K|NVME-SSD|DUSTSTORM1|AUTOTEST45|00:28:34|349.50|00:22:10|450.41|-22.40%
-i7-11700K|NVME-SSD|TRANSACTION_START|AUTOTEST1|00:04:06|561.95|00:03:09|731.43|-23.17%
-i7-11700K|NVME-SSD|TRANSACTION_START|AUTOTEST5|00:03:58|580.84|00:03:06|743.23|-21.85%
-i7-11700K|NVME-SSD|TRANSACTION_START|AUTOTEST45|n/a|n/a|00:02:58|776.63|n/a
-i7-11700K|RAMDISK|FULLSYNC|AUTOTEST1|18:07:08|1289.38|15:28:10|1502.63|-14.62%
-i7-11700K|RAMDISK|FULLSYNC|AUTOTEST5|n/a|n/a|14:55:36|1561.15|n/a
-i7-11700K|RAMDISK|FULLSYNC|AUTOTEST45|17:09:39|1328.44|13:57:50|1659.71|-18.63%
-||||||||
-Rpi4-8G|USB3-SSD|DUSTSTORM1|AUTOTEST1|06:15:11|26.61|06:00:33|27.69|-3.90%
-Rpi4-8G|USB3-SSD|DUSTSTORM1|AUTOTEST5|05:08:47|32.33|04:13:02|39.46|-18.05%
-Rpi4-8G|USB3-SSD|DUSTSTORM1|AUTOTEST45|04:32:57|36.58|03:37:04|46.00|-20.47%
-Rpi4-8G|USB3-SSD|DUSTSTORM2|AUTOTEST1|04:43:51|41.37|04:36:17|42.51|-2.67%
-Rpi4-8G|USB3-SSD|DUSTSTORM2|AUTOTEST5|04:25:25|44.25|03:16:58|59.62|-25.79%
-Rpi4-8G|USB3-SSD|DUSTSTORM2|AUTOTEST45|03:50:28|50.96|02:56:17|66.62|-23.51%
-Rpi4-8G|USB3-SSD|TRANSACTION_START|AUTOTEST1|00:40:42|56.61|00:40:32|56.84|-0.41%
-Rpi4-8G|USB3-SSD|TRANSACTION_START|AUTOTEST5|00:33:43|68.33|00:29:11|78.95|-13.45%
-Rpi4-8G|USB3-SSD|TRANSACTION_START|AUTOTEST45|00:29:48|77.32|00:25:52|89.07|-13.20%
-
-Testcase|Info
----|---
-AUTOTEST1|No changes as of 1.2.11
-AUTOTEST5|Droped all coin_record Indexes +<br> used all cpu cores for consensus/blockchain.py
-AUTOTEST45|Droped all coin_record Indexes +<br> all cpu cores for consensus/blockchain.py +<br> increased coin_records lru_cache * 100 +<br> changed sqlite pragmas: locking_mode, synchronous, journal_mode, cache_spill, uncommitted 
-
-#### i7-11700K
-SCENARIO|TESTCASE|DB-Device|Sync Time<br>(HH:MI:SS)</br>|From Height|To Height|Data
----|---|---|---|---|---|---
-DUSTSTORM1|AUTOTEST1_PR9746|NVME-SSD|00:24:25|1070016|1080000|*no-data-available*
-DUSTSTORM1|AUTOTEST1_PR9746|NVME-SSD|00:34:39|1070016|1080000|*no-data-available*
-DUSTSTORM1|AUTOTEST1_PR9746|NVME-SSD|00:25:48|1070016|1080000|*no-data-available*
-DUSTSTORM1|AUTOTEST5_PR9746|NVME-SSD|00:23:48|1070016|1080000|*no-data-available*
-DUSTSTORM1|AUTOTEST5_PR9746|NVME-SSD|00:24:52|1070016|1080000|*no-data-available*
-DUSTSTORM1|AUTOTEST5_PR9746|NVME-SSD|00:28:46|1070016|1080000|*no-data-available*
-DUSTSTORM1|AUTOTEST45_PR9746|NVME-SSD|00:22:10|1070016|1080000|[data](https://github.com/neurosis69/chia-sync-data/tree/main/data/i7-11700K/DUSTSTORM1/NVME_SSD/PR9746/2022-01-07_23:32:22)
-TRANSACTION_START|AUTOTEST1_PR9746|NVME-SSD|00:03:11|225696|228000|[data](https://github.com/neurosis69/chia-sync-data/tree/main/data/i7-11700K/TRANSACTION_START/NVME_SSD/PR9746/2022-01-08_00:23:54)
-TRANSACTION_START|AUTOTEST1_PR9746|NVME-SSD|00:03:09|225696|228000|[data](https://github.com/neurosis69/chia-sync-data/tree/main/data/i7-11700K/TRANSACTION_START/NVME_SSD/PR9746/2022-01-08_00:23:54)
-TRANSACTION_START|AUTOTEST5_PR9746|NVME-SSD|00:03:09|225696|228000|[data](https://github.com/neurosis69/chia-sync-data/tree/main/data/i7-11700K/TRANSACTION_START/NVME_SSD/PR9746/2022-01-08_00:47:44)
-TRANSACTION_START|AUTOTEST5_PR9746|NVME-SSD|00:03:06|225696|228000|[data](https://github.com/neurosis69/chia-sync-data/tree/main/data/i7-11700K/TRANSACTION_START/NVME_SSD/PR9746/2022-01-08_00:47:44)
-TRANSACTION_START|AUTOTEST45_PR9746|NVME-SSD|00:03:13|225696|228000|[data](https://github.com/neurosis69/chia-sync-data/tree/main/data/i7-11700K/TRANSACTION_START/NVME_SSD/PR9746/2022-01-08_00:47:44)
-TRANSACTION_START|AUTOTEST45_PR9746|NVME-SSD|00:02:58|225696|228000|[data](https://github.com/neurosis69/chia-sync-data/tree/main/data/i7-11700K/TRANSACTION_START/NVME_SSD/PR9746/2022-01-08_00:47:44)
-FULLSYNC|AUTOTEST1_PR9746|RAMDISK|15:28:10|0|1394688|[data](https://github.com/neurosis69/chia-sync-data/tree/main/data/i7-11700K/FULLSYNC/RAMDISK/PR9746/2022-01-08_22:34:42)
-FULLSYNC|AUTOTEST5_PR9746|RAMDISK|14:55:36|0|1398176|[data](https://github.com/neurosis69/chia-sync-data/tree/main/data/i7-11700K/FULLSYNC/RAMDISK/PR9746/2022-01-08_22:34:42)
-FULLSYNC|AUTOTEST45_PR9746|RAMDISK|13:57:50|0|1390560|[data](https://github.com/neurosis69/chia-sync-data/tree/main/data/i7-11700K/FULLSYNC/RAMDISK/PR9746/2022-01-08_01:23:24)
-  
-#### Rpi4-8G
-SCENARIO|TESTCASE|DB-Device|Sync Time<br>(HH:MI:SS)</br>|From Height|To Height|Data
----|---|---|---|---|---|---
-TRANSACTION_START|AUTOTEST5_PR9746|USB3-SSD|00:29:11|225696|228000|[data](https://github.com/neurosis69/chia-sync-data/tree/main/data/Rpi4-8G/TRANSACTION_START/USB3_SSD/PR9746/2022-01-08_00:06:06)
-TRANSACTION_START|AUTOTEST1_PR9746|USB3-SSD|00:40:32|225696|228000|[data](https://github.com/neurosis69/chia-sync-data/tree/main/data/Rpi4-8G/TRANSACTION_START/USB3_SSD/PR9746/2022-01-08_00:06:06)
-TRANSACTION_START|AUTOTEST45_PR9746|USB3-SSD|00:25:52|225696|228000|[data](https://github.com/neurosis69/chia-sync-data/tree/main/data/Rpi4-8G/TRANSACTION_START/USB3_SSD/PR9746/2022-01-08_00:06:06)
-DUSTSTORM1|AUTOTEST1_PR9746|USB3-SSD|06:00:33|1070016|1080000|[data](https://github.com/neurosis69/chia-sync-data/tree/main/data/Rpi4-8G/DUSTSTORM1/USB3_SSD/PR9746/2022-01-08_09:59:22)
-DUSTSTORM1|AUTOTEST5_PR9746|USB3-SSD|04:13:02|1070016|1080000|[data](https://github.com/neurosis69/chia-sync-data/tree/main/data/Rpi4-8G/DUSTSTORM1/USB3_SSD/PR9746/2022-01-08_09:59:22)
-DUSTSTORM1|AUTOTEST45_PR9746|USB3-SSD|03:37:04|1070016|1080000|[data](https://github.com/neurosis69/chia-sync-data/tree/main/data/Rpi4-8G/DUSTSTORM1/USB3_SSD/PR9746/2022-01-08_22:31:56)
-DUSTSTORM2|AUTOTEST1_PR9746|USB3-SSD|04:36:17|1304608|1316352|[data](https://github.com/neurosis69/chia-sync-data/tree/main/data/Rpi4-8G/DUSTSTORM2/USB3_SSD/PR9746/2022-01-09_15:36:01)
-DUSTSTORM2|AUTOTEST5_PR9746|USB3-SSD|03:16:58|1304608|1316352|[data](https://github.com/neurosis69/chia-sync-data/tree/main/data/Rpi4-8G/DUSTSTORM2/USB3_SSD/PR9746/2022-01-09_15:36:01)
-DUSTSTORM2|AUTOTEST45_PR9746|USB3-SSD|02:56:17|1304608|1316352|[data](https://github.com/neurosis69/chia-sync-data/tree/main/data/Rpi4-8G/DUSTSTORM2/USB3_SSD/PR9746/2022-01-09_15:36:01)
-
-## 1.2.11
+## 1.3.5
 #### i7-11700K
 
 SCENARIO|TESTCASE|DB-Device|Sync Time<br>(HH:MI:SS)</br>|From Height|To Height|Data
 ---|---|---|---|---|---|---
-FULLSYNC|AUTOTEST1|RAMDISK|18:07:08|0|1401728|[data](https://github.com/neurosis69/chia-sync-data/tree/main/data/i7-11700K/FULLSYNC/RAMDISK/2022-01-10_10:57:52)
-FULLSYNC|AUTOTEST45|RAMDISK|17:09:39|0|1367833|[data](https://github.com/neurosis69/chia-sync-data/tree/main/data/i7-11700K/FULLSYNC/RAMDISK/2022-01-03_01:17:28)
-DUSTSTORM1|AUTOTEST1|NVME-SSD|00:39:27|1070016|1080000|[data](https://github.com/neurosis69/chia-sync-data/tree/main/data/i7-11700K/DUSTSTORM1/NVME_SSD/2021-12-30_11:51:07)
-DUSTSTORM1|AUTOTEST3|NVME-SSD|00:39:02|1070016|1080000|[data](https://github.com/neurosis69/chia-sync-data/tree/main/data/i7-11700K/DUSTSTORM1/NVME_SSD/2021-12-30_11:51:07)
-DUSTSTORM1|AUTOTEST5|NVME-SSD|00:39:17|1070016|1080000|[data](https://github.com/neurosis69/chia-sync-data/tree/main/data/i7-11700K/DUSTSTORM1/NVME_SSD/2021-12-30_11:51:07)
-DUSTSTORM1|AUTOTEST7|NVME-SSD|00:37:09|1070016|1080000|[data](https://github.com/neurosis69/chia-sync-data/tree/main/data/i7-11700K/DUSTSTORM1/NVME_SSD/2021-12-30_11:51:07)
-DUSTSTORM1|AUTOTEST7|RAMDISK|00:36:27|1070016|1080000|[data](https://github.com/neurosis69/chia-sync-data/tree/main/data/i7-11700K/DUSTSTORM1/RAMDISK/2022-01-01_01:58:25)
-DUSTSTORM2|AUTOTEST45|NVME-SSD|00:28:34|1304608|1316352|[data](https://github.com/neurosis69/chia-sync-data/tree/main/data/i7-11700K/DUSTSTORM2/NVME_SSD/2022-01-04_14:36:34)
-TRANSACTION_START|AUTOTEST1|NVME-SSD|00:04:06|225696|228000|*no-data-available*
-TRANSACTION_START|AUTOTEST3|NVME-SSD|00:03:59|225696|228000|*no-data-available*
-TRANSACTION_START|AUTOTEST5|NVME-SSD|00:03:58|225696|228000|*no-data-available*
-TRANSACTION_START|AUTOTEST7|NVME-SSD|00:04:02|225696|228000|*no-data-available*
+
 
 #### Rpi4-8G
 
 SCENARIO|TESTCASE|DB-Device|Sync Time<br>(HH:MI:SS)</br>|From Height|To Height|Data
 ---|---|---|---|---|---|---
-TRANSACTION_START|AUTOTEST1|USB3-SSD|00:40:42|225696|228000|[data](https://github.com/neurosis69/chia-sync-data/tree/main/data/Rpi4-8G/TRANSACTION_START/USB3_SSD/2022-01-03_10:24:11)
-TRANSACTION_START|AUTOTEST3|USB3-SSD|00:38:47|225696|228000|[data](https://github.com/neurosis69/chia-sync-data/tree/main/data/Rpi4-8G/TRANSACTION_START/USB3_SSD/2022-01-03_10:24:11)
-TRANSACTION_START|AUTOTEST5|USB3-SSD|00:33:43|225696|228000|[data](https://github.com/neurosis69/chia-sync-data/tree/main/data/Rpi4-8G/TRANSACTION_START/USB3_SSD/2022-01-03_10:24:11)
-TRANSACTION_START|AUTOTEST7|USB3-SSD|00:37:40|225696|228000|[data](https://github.com/neurosis69/chia-sync-data/tree/main/data/Rpi4-8G/TRANSACTION_START/USB3_SSD/2022-01-03_10:24:11)
-TRANSACTION_START|AUTOTEST45|USB3-SSD|00:29:48|225696|228000|[data](https://github.com/neurosis69/chia-sync-data/tree/main/data/Rpi4-8G/TRANSACTION_START/USB3_SSD/2022-01-03_10:24:11)
-DUSTSTORM1|AUTOTEST1|USB3-SSD|06:15:11|1070016|1080000|[data](https://github.com/neurosis69/chia-sync-data/tree/main/data/Rpi4-8G/DUSTSTORM1/USB3_SSD/2021-12-28_19:36:02)
-DUSTSTORM1|AUTOTEST3|USB3-SSD|05:30:11|1070016|1080000|[data](https://github.com/neurosis69/chia-sync-data/tree/main/data/Rpi4-8G/DUSTSTORM1/USB3_SSD/2021-12-28_19:36:02)
-DUSTSTORM1|AUTOTEST5|USB3-SSD|05:08:47|1070016|1080000|[data](https://github.com/neurosis69/chia-sync-data/tree/main/data/Rpi4-8G/DUSTSTORM1/USB3_SSD/2021-12-28_19:36:02)
-DUSTSTORM1|AUTOTEST7|USB3-SSD|05:16:56|1070016|1080000|[data](https://github.com/neurosis69/chia-sync-data/tree/main/data/Rpi4-8G/DUSTSTORM1/USB3_SSD/2021-12-28_19:36:02)
-DUSTSTORM1|AUTOTEST45|USB3-SSD|04:32:57|1070016|1080000|[data](https://github.com/neurosis69/chia-sync-data/tree/main/data/Rpi4-8G/DUSTSTORM1/USB3_SSD/2022-01-03_02:40:56)
-DUSTSTORM2|AUTOTEST1|USB3-SSD|04:43:51|1304608|1316352|[data](https://github.com/neurosis69/chia-sync-data/tree/main/data/Rpi4-8G/DUSTSTORM2/USB3_SSD/2022-01-10_14:40:05)
-DUSTSTORM2|AUTOTEST5|USB3-SSD|04:25:25|1304608|1316352|[data](https://github.com/neurosis69/chia-sync-data/tree/main/data/Rpi4-8G/DUSTSTORM2/USB3_SSD/2022-01-10_14:40:05)
-DUSTSTORM2|AUTOTEST45|USB3-SSD|03:50:28|1304608|1316352|[data](https://github.com/neurosis69/chia-sync-data/tree/main/data/Rpi4-8G/DUSTSTORM2/USB3_SSD/2022-01-10_14:40:05)
