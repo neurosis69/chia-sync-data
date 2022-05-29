@@ -3,9 +3,9 @@
 All tests are done using my [ansible sync test repo](https://github.com/neurosis69/chia-sync-test).
 
 ## 1.3.5 Synctest (tools/test_full_sync.py)
-#### i7-11700K - NVME-SSD, 500 block length, 100% filled
+#### i7-11700K - NVME-SSD, 500 block length, 100% filled, avg over 5 runs
 
-TESTCASE|Sync Time(s)</br>avg over 5 runs|diff(s)| +/- %|Information
+TESTCASE|Sync Time(s)|diff(s)| +/- %|Information
 ---|---|---|---|---
 AUTOTEST31|129.9s|7.52s|5.19%|synchronous=off + Drop Indexs + 32700 bind + _set_spent + batch coin insert + 100M cache_size
 AUTOTEST28|130.29s|7.13s|5.19%|Drop Indexes + Change update stmt _set_spent
@@ -37,8 +37,8 @@ AUTOTEST14|138.03s|-0.61s|-0.44%|sqlite3 compile options:</br> SQLITE_LIKE_DOESN
 AUTOTEST16|138.06s|-0.64s|-0.47%|sqlite3 compile options:</br> SQLITE_OMIT_PROGRESS_CALLBACK
 AUTOTEST19|139.00s|-1.58s|-1.15%|sqlite3 compile options:</br> Use all tested sqlite3 compile options
 
-#### Rpi4-8G - SATA-SSD, 500 block length, 100% filled
-TESTCASE|Sync Time(s)</br>avg over 2 runs|diff(s)| +/- %|Information
+#### Rpi4-8G - SATA-SSD, 500 block length, 100% filled, avg over 2 runs
+TESTCASE|Sync Time(s)|diff(s)| +/- %|Information
 ---|---|---|---|---
 AUTOTEST21|1624.59s|181.8s|10.06%|Journal_mode=off + synchronous=off + Drop Indexes +</br> 32700 bind + _set_spent update + 500M cache_size 
 AUTOTEST22|1650.75s|155.6s|8.61%|Journal_mode=off + synchronous=off + Drop Indexes
