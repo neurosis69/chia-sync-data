@@ -26,7 +26,7 @@ DEFAULT|137.42s|0s|0%|main branch
 AUTOTEST2|137.52s|-0.1s|-0.07%|synchronous=off
 AUTOTEST13|137.53s|-0.11s|-0.08%|sqlite3 compile options:</br> SQLITE_DEFAULT_MEMSTATUS
 AUTOTEST7|137.57s|-0.15s|-0.11%|mmap_size=2G
-AUTOTEST17|137.69s|-0.27s|-0.20%|sqlite3 compile options:</br> 
+AUTOTEST17|137.69s|-0.27s|-0.20%|sqlite3 compile options:</br> SQLITE_OMIT_SHARED_CACHE
 AUTOTEST6|137.72s|-0.3s|-0.22%|Change update stmt _set_spent
 AUTOTEST5|137.75s|-0.33s|-0.24%|Increase SQLITE_MAX_VARIABLE_NUMBER to 32700
 AUTOTEST12|137.84s|-0.42s|-0.31%|sqlite3 compile options:</br> SQLITE_DIRECT_OVERFLOW_READ
