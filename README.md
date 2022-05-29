@@ -3,7 +3,7 @@
 All tests are done using my [ansible sync test repo](https://github.com/neurosis69/chia-sync-test).
 
 ## 1.3.5 Synctest (tools/test_full_sync.py)
-#### i7-11700K - 500 block length, 100% filled
+#### i7-11700K - NVME-SSD, 500 block length, 100% filled
 
 TESTCASE|Sync Time(s)</br>avg over 5 runs|diff(s)| +/- %|Information
 ---|---|---|---|---
