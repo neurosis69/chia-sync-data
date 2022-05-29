@@ -5,6 +5,8 @@ All tests are done using my [ansible sync test repo](https://github.com/neurosis
 ## 1.3.5 Synctest (tools/test_full_sync.py)
 #### i7-11700K - NVME-SSD, 500 block length, 100% filled, avg over 5 runs
 
+**Due to a simulation restriction, all testcases used synchronous=off**
+
 TESTCASE|Sync Time(s)|diff(s)| +/- %|Information
 ---|---|---|---|---
 AUTOTEST31|129.9s|7.52s|5.19%|synchronous=off + Drop Indexs + 32700 bind + _set_spent + batch coin insert + 100M cache_size
@@ -38,6 +40,9 @@ AUTOTEST16|138.06s|-0.64s|-0.47%|sqlite3 compile options:</br> SQLITE_OMIT_PROGR
 AUTOTEST19|139.00s|-1.58s|-1.15%|sqlite3 compile options:</br> Use all tested sqlite3 compile options
 
 #### Rpi4-8G - SATA-SSD, 500 block length, 100% filled, avg over 2 runs
+
+**Due to a simulation restriction, all testcases used synchronous=off**
+
 TESTCASE|Sync Time(s)|diff(s)| +/- %|Information
 ---|---|---|---|---
 AUTOTEST21|1624.59s|181.8s|10.06%|Journal_mode=off + synchronous=off + Drop Indexes +</br> 32700 bind + _set_spent update + 500M cache_size 
