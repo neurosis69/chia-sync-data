@@ -5,7 +5,7 @@ All tests are done using my [ansible sync test repo](https://github.com/neurosis
 ## 1.3.5 Synctest (tools/test_full_sync.py)
 #### i7-11700K - NVME-SSD, 500 block length, 100% filled, avg over 5 runs
 
-**Due to a simulation restriction, all testcases used synchronous=off**
+**Due to a simulation restriction, all testcases used synchronous=off, except where explicitly set**
 
 TESTCASE|Sync Time(s)|diff(s)| +/- %|Information
 ---|---|---|---|---
@@ -41,7 +41,7 @@ AUTOTEST19|139.00s|-1.58s|-1.15%|sqlite3 compile options:</br> Use all tested sq
 
 #### Rpi4-8G - SATA-SSD, 500 block length, 100% filled, avg over 2 runs
 
-**Due to a simulation restriction, all testcases used synchronous=off**
+**Due to a simulation restriction, all testcases used synchronous=off, except where explicitly set**
 
 TESTCASE|Sync Time(s)|diff(s)| +/- %|Information
 ---|---|---|---|---
